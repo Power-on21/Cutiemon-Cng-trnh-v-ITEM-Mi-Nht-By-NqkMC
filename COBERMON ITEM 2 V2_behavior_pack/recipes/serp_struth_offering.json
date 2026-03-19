@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "struth_offering_880dda09"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:pearl_of_justice_offering",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:reshiram_offering1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:struth_offering",
+      "count": 1
+    }
+  }
+}

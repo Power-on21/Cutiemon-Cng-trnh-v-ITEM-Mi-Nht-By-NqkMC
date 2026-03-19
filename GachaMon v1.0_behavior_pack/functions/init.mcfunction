@@ -1,0 +1,11 @@
+scoreboard objectives add gacha_random dummy
+scoreboard objectives add megagacha_random dummy
+scoreboard objectives add capsule_sound dummy
+scoreboard objectives add pokecapsule_random dummy
+scoreboard objectives add supercapsule_random dummy
+scoreboard objectives add ultracapsule_random dummy
+scoreboard objectives add mastercapsule_random dummy
+scoreboard objectives add megacapsule_random dummy
+scoreboard objectives add spawn_random dummy
+scoreboard objectives add wildgacha_random dummy
+scoreboard objectives add select_random dummy

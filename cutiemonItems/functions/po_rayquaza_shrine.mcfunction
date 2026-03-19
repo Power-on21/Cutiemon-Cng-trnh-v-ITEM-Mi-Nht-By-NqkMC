@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:rayquaza_offering,quantity=1..}] run function rayquaza
+execute unless entity @p[hasitem={item=serp:rayquaza_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Rayquaza Offering!"}]}

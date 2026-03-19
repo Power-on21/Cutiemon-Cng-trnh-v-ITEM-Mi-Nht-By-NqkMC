@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:nestball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_yellow"},
+      "e":{"item":"serp:apricorn_green"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:nestball","count":4}
+  }
+}

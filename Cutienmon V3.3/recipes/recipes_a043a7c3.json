@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "serp:super_potion",
+      "data": 0
+    },
+    "input": {
+      "item": "serp:unrefined_superpotion",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_a043a7c3"
+    },
+    "unlock": [
+      {
+        "item": "serp:unrefined_potion"
+      }
+    ]
+  }
+}

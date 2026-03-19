@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": 4, 
+            "entries": [
+                { "type": "item", "name": "serp:palkia_offering1", "weight": 3 },
+                { "type": "item", "name": "serp:palkia_offering2", "weight": 3 },
+                { "type": "item", "name": "serp:dialga_offering1", "weight": 3 },
+                { "type": "item", "name": "serp:dialga_offering2", "weight": 3 },
+                { "type": "item", "name": "serp:zekrom_offering1", "weight": 3 },
+                { "type": "item", "name": "serp:reshiram_offering1", "weight": 3 },
+                { "type": "item", "name": "serp:zekres_offering", "weight": 3 },
+                { "type": "item", "name": "serp:apicot_berry", "weight": 15 },
+                { "type": "item", "name": "serp:ganlon_berry", "weight": 15 },
+                { "type": "item", "name": "serp:haban_berry", "weight": 15 },
+                { "type": "item", "name": "serp:lansat_berry", "weight": 15 },
+                { "type": "item", "name": "serp:liechi_berry", "weight": 15 },
+                { "type": "item", "name": "serp:occa_berry", "weight": 15 },
+                { "type": "item", "name": "serp:passho_berry", "weight": 15 },
+                { "type": "item", "name": "serp:payapa_berry", "weight": 15 },
+                { "type": "item", "name": "serp:petaya_berry", "weight": 15 },
+                { "type": "item", "name": "serp:salac_berry", "weight": 15 },
+                { "type": "item", "name": "serp:wacan_berry", "weight": 15 },
+                { "type": "item", "name": "serp:wepear_berry", "weight": 15 },
+                {
+                    "type": "item",
+                    "name": "gacha:gacha_coin_mega",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "gacha:gacha_coin",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 4 } }],
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 4 } }],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy_l",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy_m",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy_s",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy_xs",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "serp:rare_candy_xl",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "serp:pokeball",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 4 } }],
+                    "weight": 50
+                },
+                {
+                    "type": "item",
+                    "name": "serp:ultraball",
+                    "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }],
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "serp:masterball",
+                    "functions": [{ "function": "set_count", "count": { "min": 0, "max": 1 } }],
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

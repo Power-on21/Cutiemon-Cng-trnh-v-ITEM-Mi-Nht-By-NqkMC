@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:moltres_offering,quantity=1..}] run function moltres
+execute unless entity @p[hasitem={item=serp:moltres_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Moltres Offering!"}]}

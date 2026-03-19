@@ -1,0 +1,835 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "serp:alakazite": {
+      "textures": "textures/items/pamobile/serp_alakazite"
+    },
+    "serp:absolite": {
+      "textures": "textures/items/pamobile/serp_absolite"
+    },
+    "serp:aerodactylite": {
+      "textures": "textures/items/pamobile/serp_aerodactylite"
+    },
+    "serp:apricorn_black": {
+      "textures": "textures/items/pamobile/serp_apricorn_black"
+    },
+    "serp:ampharosite": {
+      "textures": "textures/items/pamobile/serp_ampharosite"
+    },
+    "serp:apricorn_green": {
+      "textures": "textures/items/pamobile/serp_apricorn_green"
+    },
+    "serp:apricorn_pink": {
+      "textures": "textures/items/pamobile/serp_apricorn_pink"
+    },
+    "serp:apricorn_blue": {
+      "textures": "textures/items/pamobile/serp_apricorn_blue"
+    },
+    "serp:apricorn_yellow": {
+      "textures": "textures/items/pamobile/serp_apricorn_yellow"
+    },
+    "serp:apricorn_red": {
+      "textures": "textures/items/pamobile/serp_apricorn_red"
+    },
+    "serp:banettite": {
+      "textures": "textures/items/pamobile/serp_banettite"
+    },
+    "serp:apricorn_white": {
+      "textures": "textures/items/pamobile/serp_apricorn_white"
+    },
+    "serp:beedrillite": {
+      "textures": "textures/items/pamobile/serp_beedrillite"
+    },
+    "serp:badge": {
+      "textures": "textures/items/pamobile/serp_badge"
+    },
+    "serp:beetroot_ponigiri": {
+      "textures": "textures/items/pamobile/serp_beetroot_ponigiri"
+    },
+    "serp:big_malasada": {
+      "textures": "textures/items/pamobile/serp_big_malasada"
+    },
+    "serp:black_glasses": {
+      "textures": "textures/items/pamobile/serp_black_glasses"
+    },
+    "serp:blastoisinite": {
+      "textures": "textures/items/pamobile/serp_blastoisinite"
+    },
+    "serp:black_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_black_cooking_pot_item"
+    },
+    "serp:black_edible_dye": {
+      "textures": "textures/items/pamobile/serp_black_edible_dye"
+    },
+    "serp:berry_jam_ponigiri": {
+      "textures": "textures/items/pamobile/serp_berry_jam_ponigiri"
+    },
+    "serp:blue_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_blue_cooking_pot_item"
+    },
+    "serp:blazikenite": {
+      "textures": "textures/items/pamobile/serp_blazikenite"
+    },
+    "serp:blue_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_blue_mint_leaf"
+    },
+    "serp:blue_edible_dye": {
+      "textures": "textures/items/pamobile/serp_blue_edible_dye"
+    },
+    "serp_blue_mint_seeds": {
+      "textures": "textures/items/serp_blue_mint_seeds"
+    },
+    "serp:candied_apple10": {
+      "textures": "textures/items/pamobile/serp_candied_apple10"
+    },
+    "serp:candied_apple": {
+      "textures": "textures/items/pamobile/serp_candied_apple"
+    },
+    "serp:brown_edible_dye": {
+      "textures": "textures/items/pamobile/serp_brown_edible_dye"
+    },
+    "serp:brown_mushroom_ponigiri": {
+      "textures": "textures/items/pamobile/serp_brown_mushroom_ponigiri"
+    },
+    "serp:candied_apple12": {
+      "textures": "textures/items/pamobile/serp_candied_apple12"
+    },
+    "serp:candied_apple11": {
+      "textures": "textures/items/pamobile/serp_candied_apple11"
+    },
+    "serp:blue_prism": {
+      "textures": "textures/items/pamobile/serp_blue_prism"
+    },
+    "serp:candied_apple14": {
+      "textures": "textures/items/pamobile/serp_candied_apple14"
+    },
+    "serp:candied_apple15": {
+      "textures": "textures/items/pamobile/serp_candied_apple15"
+    },
+    "serp:candied_apple16": {
+      "textures": "textures/items/pamobile/serp_candied_apple16"
+    },
+    "serp:candied_apple5": {
+      "textures": "textures/items/pamobile/serp_candied_apple5"
+    },
+    "serp:candied_apple13": {
+      "textures": "textures/items/pamobile/serp_candied_apple13"
+    },
+    "serp:candied_apple2": {
+      "textures": "textures/items/pamobile/serp_candied_apple2"
+    },
+    "serp:candied_apple4": {
+      "textures": "textures/items/pamobile/serp_candied_apple4"
+    },
+    "serp:candied_apple3": {
+      "textures": "textures/items/pamobile/serp_candied_apple3"
+    },
+    "serp_catch_em_all": {
+      "textures": "textures/items/pamobile/serp_catch_em_all"
+    },
+    "serp:candied_apple7": {
+      "textures": "textures/items/pamobile/serp_candied_apple7"
+    },
+    "serp:candied_apple8": {
+      "textures": "textures/items/pamobile/serp_candied_apple8"
+    },
+    "serp:carrot_ponigiri": {
+      "textures": "textures/items/pamobile/serp_carrot_ponigiri"
+    },
+    "serp:charizardite_x": {
+      "textures": "textures/items/pamobile/serp_charizardite_x"
+    },
+    "serp:candied_apple9": {
+      "textures": "textures/items/pamobile/serp_candied_apple9"
+    },
+    "serp:candied_apple6": {
+      "textures": "textures/items/pamobile/serp_candied_apple6"
+    },
+    "serp_cyan_mint_seeds": {
+      "textures": "textures/items/serp_cyan_mint_seeds"
+    },
+    "serp:common_ticket": {
+      "textures": "textures/items/pamobile/serp_common_ticket"
+    },
+    "serp:charizardite_y": {
+      "textures": "textures/items/pamobile/serp_charizardite_y"
+    },
+    "serp:cyan_edible_dye": {
+      "textures": "textures/items/pamobile/serp_cyan_edible_dye"
+    },
+    "serp:dawn_stone": {
+      "textures": "textures/items/pamobile/serp_dawn_stone"
+    },
+    "serp:cyan_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_cyan_mint_leaf"
+    },
+    "serp:cultivator_spawn_egg": {
+      "textures": "textures/items/pamobile/serp_cultivator_spawn_egg"
+    },
+    "serp:dynamax_band": {
+      "textures": "textures/items/pamobile/serp_dynamax_band"
+    },
+    "serp:dried_kelp_ponigiri": {
+      "textures": "textures/items/pamobile/serp_dried_kelp_ponigiri"
+    },
+    "serp:dusk_stone": {
+      "textures": "textures/items/pamobile/serp_dusk_stone"
+    },
+    "serp:dynamax_band_black": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_black"
+    },
+    "serp:dynamax_band_lime": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_lime"
+    },
+    "serp:dynamax_band_blue": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_blue"
+    },
+    "serp:dynamax_candy_l": {
+      "textures": "textures/items/pamobile/serp_dynamax_candy_l"
+    },
+    "serp:dynamax_band_white": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_white"
+    },
+    "serp:dynamax_band_yellow": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_yellow"
+    },
+    "serp:dynamax_candy": {
+      "textures": "textures/items/pamobile/serp_dynamax_candy"
+    },
+    "serp:dynamax_candy_m": {
+      "textures": "textures/items/pamobile/serp_dynamax_candy_m"
+    },
+    "serp:dynamax_band_red": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_red"
+    },
+    "serp:dynamax_band_purple": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_purple"
+    },
+    "serp:dynamax_band_pink": {
+      "textures": "textures/items/pamobile/serp_dynamax_band_pink"
+    },
+    "serp:fire_stone": {
+      "textures": "textures/items/pamobile/serp_fire_stone"
+    },
+    "serp:egg_ponigiri": {
+      "textures": "textures/items/pamobile/serp_egg_ponigiri"
+    },
+    "serp:dynamax_candy_xl": {
+      "textures": "textures/items/pamobile/serp_dynamax_candy_xl"
+    },
+    "serp:enigma_berry": {
+      "textures": "textures/items/pamobile/serp_enigma_berry"
+    },
+    "serp:epic_ticket": {
+      "textures": "textures/items/pamobile/serp_epic_ticket"
+    },
+    "serp:galarica_nuts": {
+      "textures": "textures/items/pamobile/serp_galarica_nuts"
+    },
+    "serp:galladite": {
+      "textures": "textures/items/pamobile/serp_galladite"
+    },
+    "serp:galarica_nuts_grass_item": {
+      "textures": "textures/items/pamobile/serp_galarica_nuts_grass_item"
+    },
+    "serp:gardevoirite": {
+      "textures": "textures/items/pamobile/serp_gardevoirite"
+    },
+    "serp:gengarite": {
+      "textures": "textures/items/pamobile/serp_gengarite"
+    },
+    "serp:garchompite": {
+      "textures": "textures/items/pamobile/serp_garchompite"
+    },
+    "serp:green_prism": {
+      "textures": "textures/items/pamobile/serp_green_prism"
+    },
+    "serp:gray_edible_dye": {
+      "textures": "textures/items/pamobile/serp_gray_edible_dye"
+    },
+    "serp_gold_helmet": {
+      "textures": [
+        "textures/items/pamobile/serp_gold_helmet"
+      ]
+    },
+    "serp:green_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_green_mint_leaf"
+    },
+    "serp:golden_carrot_ponigiri": {
+      "textures": "textures/items/pamobile/serp_golden_carrot_ponigiri"
+    },
+    "serp_green_mint_seeds": {
+      "textures": "textures/items/serp_green_mint_seeds"
+    },
+    "serp:green_edible_dye": {
+      "textures": "textures/items/pamobile/serp_green_edible_dye"
+    },
+    "serp:greninjite": {
+      "textures": "textures/items/pamobile/serp_greninjite"
+    },
+    "serp:gyaradosite": {
+      "textures": "textures/items/pamobile/serp_gyaradosite"
+    },
+    "serp:hearty_grans": {
+      "textures": "textures/items/pamobile/serp_hearty_grans"
+    },
+    "serp:heracronite": {
+      "textures": "textures/items/pamobile/serp_heracronite"
+    },
+    "serp:jubilife_muffing": {
+      "textures": "textures/items/pamobile/serp_jubilife_muffing"
+    },
+    "serp:hearty_grans_grass_item": {
+      "textures": "textures/items/pamobile/serp_hearty_grans_grass_item"
+    },
+    "serp:kangaskhanite": {
+      "textures": "textures/items/pamobile/serp_kangaskhanite"
+    },
+    "serp:ice_stone": {
+      "textures": "textures/items/pamobile/serp_ice_stone"
+    },
+    "serp:key_stone": {
+      "textures": "textures/items/pamobile/serp_key_stone"
+    },
+    "serp:key_shard": {
+      "textures": "textures/items/pamobile/serp_key_shard"
+    },
+    "serp:light_gray_edible_dye": {
+      "textures": "textures/items/pamobile/serp_light_gray_edible_dye"
+    },
+    "serp:light_blue_edible_dye": {
+      "textures": "textures/items/pamobile/serp_light_blue_edible_dye"
+    },
+    "serp:leaf_stone": {
+      "textures": "textures/items/pamobile/serp_leaf_stone"
+    },
+    "serp:lime_edible_dye": {
+      "textures": "textures/items/pamobile/serp_lime_edible_dye"
+    },
+    "serp:lime_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_lime_cooking_pot_item"
+    },
+    "serp:lucarionite": {
+      "textures": "textures/items/pamobile/serp_lucarionite"
+    },
+    "serp:lumiose_galette": {
+      "textures": "textures/items/pamobile/serp_lumiose_galette"
+    },
+    "serp:magenta_edible_dye": {
+      "textures": "textures/items/pamobile/serp_magenta_edible_dye"
+    },
+    "serp:magma_cookie": {
+      "textures": "textures/items/pamobile/serp_magma_cookie"
+    },
+    "serp:mega_ring_glasses": {
+      "textures": "textures/items/pamobile/serp_mega_ring_glasses"
+    },
+    "serp:mega_ring_blue": {
+      "textures": "textures/items/pamobile/serp_mega_ring_blue"
+    },
+    "serp:mega_ring": {
+      "textures": "textures/items/pamobile/serp_mega_ring"
+    },
+    "serp:mega_ring_lime": {
+      "textures": "textures/items/pamobile/serp_mega_ring_lime"
+    },
+    "serp:mega_ring_purple": {
+      "textures": "textures/items/pamobile/serp_mega_ring_purple"
+    },
+    "serp:mega_ring_red": {
+      "textures": "textures/items/pamobile/serp_mega_ring_red"
+    },
+    "serp:mega_ring_pink": {
+      "textures": "textures/items/pamobile/serp_mega_ring_pink"
+    },
+    "serp:mega_ring_yellow": {
+      "textures": "textures/items/pamobile/serp_mega_ring_yellow"
+    },
+    "serp:minst_grass_placeable": {
+      "textures": "textures/items/pamobile/serp_minst_grass_placeable"
+    },
+    "serp:mega_ring_white": {
+      "textures": "textures/items/pamobile/serp_mega_ring_white"
+    },
+    "serp:mewtwonite_x": {
+      "textures": "textures/items/pamobile/serp_mewtwonite_x"
+    },
+    "serp:mewtwonite_y": {
+      "textures": "textures/items/pamobile/serp_mewtwonite_y"
+    },
+    "serp:mint_active": {
+      "textures": "textures/items/pamobile/serp_mint_active"
+    },
+    "serp:mint_bold": {
+      "textures": "textures/items/pamobile/serp_mint_bold"
+    },
+    "serp:mint_affable": {
+      "textures": "textures/items/pamobile/serp_mint_affable"
+    },
+    "serp:mint_crazy": {
+      "textures": "textures/items/pamobile/serp_mint_crazy"
+    },
+    "serp:mint_agitated": {
+      "textures": "textures/items/pamobile/serp_mint_agitated"
+    },
+    "serp:mint_chereful": {
+      "textures": "textures/items/pamobile/serp_mint_chereful"
+    },
+    "serp:mint_daring": {
+      "textures": "textures/items/pamobile/serp_mint_daring"
+    },
+    "serp:mint_docile": {
+      "textures": "textures/items/pamobile/serp_mint_docile"
+    },
+    "serp:mint_cautious": {
+      "textures": "textures/items/pamobile/serp_mint_cautious"
+    },
+    "serp:mint_kind": {
+      "textures": "textures/items/pamobile/serp_mint_kind"
+    },
+    "serp:mint_gross": {
+      "textures": "textures/items/pamobile/serp_mint_gross"
+    },
+    "serp:mint_mischievous": {
+      "textures": "textures/items/pamobile/serp_mint_mischievous"
+    },
+    "serp:mint_firm": {
+      "textures": "textures/items/pamobile/serp_mint_firm"
+    },
+    "serp:mint_loose": {
+      "textures": "textures/items/pamobile/serp_mint_loose"
+    },
+    "serp:mint_modest": {
+      "textures": "textures/items/pamobile/serp_mint_modest"
+    },
+    "serp:mint_placid": {
+      "textures": "textures/items/pamobile/serp_mint_placid"
+    },
+    "serp:mint_naive": {
+      "textures": "textures/items/pamobile/serp_mint_naive"
+    },
+    "serp:mint_rare": {
+      "textures": "textures/items/pamobile/serp_mint_rare"
+    },
+    "serp:mint_serious": {
+      "textures": "textures/items/pamobile/serp_mint_serious"
+    },
+    "serp:mint_strong": {
+      "textures": "textures/items/pamobile/serp_mint_strong"
+    },
+    "serp:mint_scared": {
+      "textures": "textures/items/pamobile/serp_mint_scared"
+    },
+    "serp:mint_sullen": {
+      "textures": "textures/items/pamobile/serp_mint_sullen"
+    },
+    "serp:mint_serene": {
+      "textures": "textures/items/pamobile/serp_mint_serene"
+    },
+    "serp:mint_tame": {
+      "textures": "textures/items/pamobile/serp_mint_tame"
+    },
+    "serp:mint_timid": {
+      "textures": "textures/items/pamobile/serp_mint_timid"
+    },
+    "serp:moomoo_milk": {
+      "textures": "textures/items/pamobile/serp_moomoo_milk"
+    },
+    "serp:orange_edible_dye": {
+      "textures": "textures/items/pamobile/serp_orange_edible_dye"
+    },
+    "serp_old_red_helmet": {
+      "textures": [
+        "textures/items/pamobile/serp_old_red_helmet"
+      ]
+    },
+    "serp:moon_stone": {
+      "textures": "textures/items/pamobile/serp_moon_stone"
+    },
+    "serp:pewter_crunchies": {
+      "textures": "textures/items/pamobile/serp_pewter_crunchies"
+    },
+    "serp:pidgeotite": {
+      "textures": "textures/items/pamobile/serp_pidgeotite"
+    },
+    "serp:pink_edible_dye": {
+      "textures": "textures/items/pamobile/serp_pink_edible_dye"
+    },
+    "serp_pink_mint_seeds": {
+      "textures": "textures/items/serp_pink_mint_seeds"
+    },
+    "serp:pink_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_pink_cooking_pot_item"
+    },
+    "serp:poisonous_potato_ponigiri": {
+      "textures": "textures/items/pamobile/serp_poisonous_potato_ponigiri"
+    },
+    "serp:ponigiri": {
+      "textures": "textures/items/pamobile/serp_ponigiri"
+    },
+    "serp:pink_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_pink_mint_leaf"
+    },
+    "serp:potato_mochi": {
+      "textures": "textures/items/pamobile/serp_potato_mochi"
+    },
+    "serp:potato_ponigiri": {
+      "textures": "textures/items/pamobile/serp_potato_ponigiri"
+    },
+    "serp:rare_candy_m": {
+      "textures": "textures/items/pamobile/serp_rare_candy_m"
+    },
+    "serp:purple_edible_dye": {
+      "textures": "textures/items/pamobile/serp_purple_edible_dye"
+    },
+    "serp:pumpkin_ponigiri": {
+      "textures": "textures/items/pamobile/serp_pumpkin_ponigiri"
+    },
+    "serp:rare_candy": {
+      "textures": "textures/items/pamobile/serp_rare_candy"
+    },
+    "serp:rare_candy_max": {
+      "textures": "textures/items/pamobile/serp_rare_candy_max"
+    },
+    "serp:rare_candy_l": {
+      "textures": "textures/items/pamobile/serp_rare_candy_l"
+    },
+    "serp:rare_candy_s": {
+      "textures": "textures/items/pamobile/serp_rare_candy_s"
+    },
+    "serp:rare_ticket": {
+      "textures": "textures/items/pamobile/serp_rare_ticket"
+    },
+    "serp:raw_aerodactylite": {
+      "textures": "textures/items/pamobile/serp_raw_aerodactylite"
+    },
+    "serp:rare_candy_xl": {
+      "textures": "textures/items/pamobile/serp_rare_candy_xl"
+    },
+    "serp:rare_candy_xs": {
+      "textures": "textures/items/pamobile/serp_rare_candy_xs"
+    },
+    "serp:raw_alakazite": {
+      "textures": "textures/items/pamobile/serp_raw_alakazite"
+    },
+    "serp:raw_ampharosite": {
+      "textures": "textures/items/pamobile/serp_raw_ampharosite"
+    },
+    "serp:raw_absolite": {
+      "textures": "textures/items/pamobile/serp_raw_absolite"
+    },
+    "serp:raw_banettite": {
+      "textures": "textures/items/pamobile/serp_raw_banettite"
+    },
+    "serp:raw_blazikenite": {
+      "textures": "textures/items/pamobile/serp_raw_blazikenite"
+    },
+    "serp:raw_blastoisinite": {
+      "textures": "textures/items/pamobile/serp_raw_blastoisinite"
+    },
+    "serp:raw_charizardite_x": {
+      "textures": "textures/items/pamobile/serp_raw_charizardite_x"
+    },
+    "serp:raw_charizardite_y": {
+      "textures": "textures/items/pamobile/serp_raw_charizardite_y"
+    },
+    "serp:raw_beedrillite": {
+      "textures": "textures/items/pamobile/serp_raw_beedrillite"
+    },
+    "serp:raw_beef_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_beef_ponigiri"
+    },
+    "serp:raw_blue_prism": {
+      "textures": "textures/items/pamobile/serp_raw_blue_prism"
+    },
+    "serp:raw_cod_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_cod_ponigiri"
+    },
+    "serp:raw_galladite": {
+      "textures": "textures/items/pamobile/serp_raw_galladite"
+    },
+    "serp:raw_chicken_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_chicken_ponigiri"
+    },
+    "serp:raw_garchompite": {
+      "textures": "textures/items/pamobile/serp_raw_garchompite"
+    },
+    "serp:raw_gardevoirite": {
+      "textures": "textures/items/pamobile/serp_raw_gardevoirite"
+    },
+    "serp:raw_green_prism": {
+      "textures": "textures/items/pamobile/serp_raw_green_prism"
+    },
+    "serp:raw_gengarite": {
+      "textures": "textures/items/pamobile/serp_raw_gengarite"
+    },
+    "serp:raw_greninjite": {
+      "textures": "textures/items/pamobile/serp_raw_greninjite"
+    },
+    "serp:raw_gyaradosite": {
+      "textures": "textures/items/pamobile/serp_raw_gyaradosite"
+    },
+    "serp:raw_lucarionite": {
+      "textures": "textures/items/pamobile/serp_raw_lucarionite"
+    },
+    "serp:raw_mutton_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_mutton_ponigiri"
+    },
+    "serp:raw_heracronite": {
+      "textures": "textures/items/pamobile/serp_raw_heracronite"
+    },
+    "serp:raw_mewtwonite_x": {
+      "textures": "textures/items/pamobile/serp_raw_mewtwonite_x"
+    },
+    "serp:raw_kangaskhanite": {
+      "textures": "textures/items/pamobile/serp_raw_kangaskhanite"
+    },
+    "serp:raw_mewtwonite_y": {
+      "textures": "textures/items/pamobile/serp_raw_mewtwonite_y"
+    },
+    "serp:raw_pidgeotite": {
+      "textures": "textures/items/pamobile/serp_raw_pidgeotite"
+    },
+    "serp:raw_sablenite": {
+      "textures": "textures/items/pamobile/serp_raw_sablenite"
+    },
+    "serp:raw_scizorite": {
+      "textures": "textures/items/pamobile/serp_raw_scizorite"
+    },
+    "serp:raw_rabbit_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_rabbit_ponigiri"
+    },
+    "serp:raw_sceptilite": {
+      "textures": "textures/items/pamobile/serp_raw_sceptilite"
+    },
+    "serp:raw_slowbronite": {
+      "textures": "textures/items/pamobile/serp_raw_slowbronite"
+    },
+    "serp:raw_red_prism": {
+      "textures": "textures/items/pamobile/serp_raw_red_prism"
+    },
+    "serp:raw_salamencite": {
+      "textures": "textures/items/pamobile/serp_raw_salamencite"
+    },
+    "serp:raw_porkchop_ponigiri": {
+      "textures": "textures/items/pamobile/serp_raw_porkchop_ponigiri"
+    },
+    "serp:raw_venusaurite": {
+      "textures": "textures/items/pamobile/serp_raw_venusaurite"
+    },
+    "serp_red_mint_seeds": {
+      "textures": "textures/items/serp_red_mint_seeds"
+    },
+    "serp:raw_swampertite": {
+      "textures": "textures/items/pamobile/serp_raw_swampertite"
+    },
+    "serp:red_edible_dye": {
+      "textures": "textures/items/pamobile/serp_red_edible_dye"
+    },
+    "serp:red_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_red_mint_leaf"
+    },
+    "serp:raw_steelixite": {
+      "textures": "textures/items/pamobile/serp_raw_steelixite"
+    },
+    "serp:red_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_red_cooking_pot_item"
+    },
+    "serp:red_mushroom_ponigiri": {
+      "textures": "textures/items/pamobile/serp_red_mushroom_ponigiri"
+    },
+    "serp:red_prism": {
+      "textures": "textures/items/pamobile/serp_red_prism"
+    },
+    "serp:rotomphone": {
+      "textures": "textures/items/pamobile/serp_rotomphone"
+    },
+    "serp:rotomphone_black": {
+      "textures": "textures/items/pamobile/serp_rotomphone_black"
+    },
+    "serp:rotomphone_blue": {
+      "textures": "textures/items/pamobile/serp_rotomphone_blue"
+    },
+    "serp:rotomphone_lime": {
+      "textures": "textures/items/pamobile/serp_rotomphone_lime"
+    },
+    "serp:rotomphone_pink": {
+      "textures": "textures/items/pamobile/serp_rotomphone_pink"
+    },
+    "serp:rotomphone_red": {
+      "textures": "textures/items/pamobile/serp_rotomphone_red"
+    },
+    "serp:rotomphone_white": {
+      "textures": "textures/items/pamobile/serp_rotomphone_white"
+    },
+    "serp:rotomphone_purple": {
+      "textures": "textures/items/pamobile/serp_rotomphone_purple"
+    },
+    "serp:rotten_flesh_ponigiri": {
+      "textures": "textures/items/pamobile/serp_rotten_flesh_ponigiri"
+    },
+    "serp:sablenite": {
+      "textures": "textures/items/pamobile/serp_sablenite"
+    },
+    "serp:rotomphone_yellow": {
+      "textures": "textures/items/pamobile/serp_rotomphone_yellow"
+    },
+    "serp:salamencite": {
+      "textures": "textures/items/pamobile/serp_salamencite"
+    },
+    "serp:sceptilite": {
+      "textures": "textures/items/pamobile/serp_sceptilite"
+    },
+    "serp:scizorite": {
+      "textures": "textures/items/pamobile/serp_scizorite"
+    },
+    "serp:salmon_ponigiri": {
+      "textures": "textures/items/pamobile/serp_salmon_ponigiri"
+    },
+    "serp:shiny_stone": {
+      "textures": "textures/items/pamobile/serp_shiny_stone"
+    },
+    "serp:slowbronite": {
+      "textures": "textures/items/pamobile/serp_slowbronite"
+    },
+    "serp:slowpoke_tail": {
+      "textures": "textures/items/pamobile/serp_slowpoke_tail"
+    },
+    "serp:smoked_tail_curry": {
+      "textures": "textures/items/pamobile/serp_smoked_tail_curry"
+    },
+    "serp:slowpoke_tail_ponigiri": {
+      "textures": "textures/items/pamobile/serp_slowpoke_tail_ponigiri"
+    },
+    "serp:steelixite": {
+      "textures": "textures/items/pamobile/serp_steelixite"
+    },
+    "serp:sugar_block": {
+      "textures": "textures/items/pamobile/serp_sugar_block"
+    },
+    "serp:thunder_stone": {
+      "textures": "textures/items/pamobile/serp_thunder_stone"
+    },
+    "serp:swampertite": {
+      "textures": "textures/items/pamobile/serp_swampertite"
+    },
+    "serp:sun_stone": {
+      "textures": "textures/items/pamobile/serp_sun_stone"
+    },
+    "serp:uncommon_ticket": {
+      "textures": "textures/items/pamobile/serp_uncommon_ticket"
+    },
+    "serp:unrefined_hyperpotion": {
+      "textures": "textures/items/pamobile/serp_unrefined_hyperpotion"
+    },
+    "serp:unrefined_superpotion": {
+      "textures": "textures/items/pamobile/serp_unrefined_superpotion"
+    },
+    "serp:water_stone": {
+      "textures": "textures/items/pamobile/serp_water_stone"
+    },
+    "serp:venusaurite": {
+      "textures": "textures/items/pamobile/serp_venusaurite"
+    },
+    "serp:white_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_white_cooking_pot_item"
+    },
+    "serp:unrefined_potion": {
+      "textures": "textures/items/pamobile/serp_unrefined_potion"
+    },
+    "serp:white_edible_dye": {
+      "textures": "textures/items/pamobile/serp_white_edible_dye"
+    },
+    "serp_wishing_shard_drill": {
+      "textures": "textures/items/pamobile/serp_wishing_shard_drill"
+    },
+    "serp_white_mint_seeds": {
+      "textures": "textures/items/serp_white_mint_seeds"
+    },
+    "serp:wishing_star": {
+      "textures": "textures/items/pamobile/serp_wishing_star"
+    },
+    "serp:yellow_cooking_pot_item": {
+      "textures": "textures/items/pamobile/serp_yellow_cooking_pot_item"
+    },
+    "serp:white_mint_leaf": {
+      "textures": "textures/items/pamobile/serp_white_mint_leaf"
+    },
+    "serp:wishing_shard": {
+      "textures": "textures/items/pamobile/serp_wishing_shard"
+    },
+    "serp:yellow_edible_dye": {
+      "textures": "textures/items/pamobile/serp_yellow_edible_dye"
+    }
+  }
+}

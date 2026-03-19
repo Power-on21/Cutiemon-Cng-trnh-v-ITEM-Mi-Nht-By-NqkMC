@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_firm_1058b160"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:green_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:pink_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_firm",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:ice_stone

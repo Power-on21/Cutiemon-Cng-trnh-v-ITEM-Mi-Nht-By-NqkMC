@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "premierball",
+        "metalness_emissive_roughness_subsurface": "pokeball_mers"
+    }
+}

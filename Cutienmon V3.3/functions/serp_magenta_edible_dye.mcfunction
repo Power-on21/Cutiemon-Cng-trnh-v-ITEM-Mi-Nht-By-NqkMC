@@ -1,0 +1,1 @@
+give @s serp:magenta_edible_dye

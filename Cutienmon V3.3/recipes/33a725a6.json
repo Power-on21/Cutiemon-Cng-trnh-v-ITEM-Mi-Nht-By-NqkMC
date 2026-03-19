@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_0d0afed1"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "ABC",
+      "D  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:moomoo_milk",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:melon_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:big_malasada",
+      "count": 1
+    }
+  }
+}

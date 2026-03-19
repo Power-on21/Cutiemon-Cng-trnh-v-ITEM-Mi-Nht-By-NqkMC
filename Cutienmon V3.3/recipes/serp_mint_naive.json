@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_naive_fe3f7678"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:green_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:white_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_naive",
+      "count": 1
+    }
+  }
+}

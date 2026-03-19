@@ -1,0 +1,226 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dunsparce.quiet": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.8": [0, 0.5, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"body": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.8": [1, 1.1, 1],
+						"1.6": [1, 1, 1]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.8": [0, -15, 0],
+						"1.6": [0, 15, 0]
+					},
+					"position": {
+						"0.0": [1, 0, 0],
+						"0.8": [-1, 0, 0],
+						"1.6": [1, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.dunsparce.walk": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"dunsparce": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, -5],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 5],
+						"0.8": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.4": [0, 3, 0],
+						"0.8": [0, 1, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, 7, 1],
+						"0.4": [0, 7.5, 1],
+						"0.8": [0, 7, 1]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.6": [-60, 0, 0],
+						"0.8": [-45, 0, 0]
+					},
+					"position": [0, 7, 0]
+				},
+				"right_wing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1": [0, 0, -40],
+						"0.2": [0, 0, 0],
+						"0.3": [0, 0, -40],
+						"0.4": [0, 0, 0],
+						"0.5": [0, 0, -40],
+						"0.6": [0, 0, 0],
+						"0.7": [0, 0, -40],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"left_wing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1": [0, 0, 40],
+						"0.2": [0, 0, 0],
+						"0.3": [0, 0, 40],
+						"0.4": [0, 0, 0],
+						"0.5": [0, 0, 40],
+						"0.6": [0, 0, 0],
+						"0.7": [0, 0, 40],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [-70, 0, 0],
+						"0.4": [-90, 0, 0],
+						"0.8": [-70, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 2, -2],
+						"0.6": [0, 1, -3],
+						"0.8": [0, 2, -2]
+					}
+				}
+			}
+		},
+		"animation.dunsparce.sitting": {
+			"loop": true,
+			"bones": {
+				"dunsparce": {
+					"position": [2, 0, 2]
+				},
+				"body": {
+					"rotation": [0, -50, 0],
+					"position": [1, 0, 0]
+				},
+				"right_wing": {
+					"rotation": [0, 0, -90]
+				},
+				"left_wing": {
+					"rotation": [0, 0, 90]
+				},
+				"tail": {
+					"rotation": [0, -90, -20],
+					"position": [-4, 0, -3]
+				}
+			}
+		},
+		"animation.dunsparce.jump": {
+			"loop": true,
+			"bones": {
+				"dunsparce": {
+					"position": [0, 1, -2]
+				},
+				"head": {
+					"position": [0, 5, 2]
+				},
+				"body": {
+					"rotation": [-45, 0, 0],
+					"position": [0, 5, 1]
+				},
+				"right_wing": {
+					"rotation": [0, 0, -40]
+				},
+				"left_wing": {
+					"rotation": [0, 0, 40]
+				},
+				"tail": {
+					"rotation": [-20, 0, 0]
+				}
+			}
+		},
+		"animation.attackdunsparce.new": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 1, 0],
+					"scale": 1.2
+				},
+				"body": {
+					"rotation": [30, 0, 0],
+					"position": [0, 1, 0]
+				},
+				"tail": {
+					"rotation": [50, 0, 0],
+					"position": [0, 5, -2]
+				}
+			}
+		},
+		"animation.dunsparce.swimming": {
+			"loop": true,
+			"bones": {
+				"dunsparce": {
+					"rotation": [0, 0, -180],
+					"position": [0, 2, 0]
+				},
+				"tail": {
+					"rotation": [30, 0, 0],
+					"position": [0, 1, 0]
+				}
+			}
+		},
+		"animation.dunsparce.health_bar": {
+			"loop": true,
+			"bones": {
+				"health_hover": {
+					"rotation": ["q.camera_rotation(0)", "q.camera_rotation(1)-q.body_y_rotation", 0],
+					"position": [0, 18, 0],
+					"scale": "query.is_in_ui?0:1.5"
+				},
+				"bar_green": {
+					"scale": ["query.health/query.max_health*1", 1, 1]
+				},
+				"bar_black": {
+					"scale": ["(1)+(query.health/query.max_health*-1)", 1, 1]
+				}
+			}
+		},
+		"animation.dunsparce.attack": {
+			"loop": true,
+			"bones": {
+				"dunsparce": {
+					"position": [0, 9, 0]
+				},
+				"head": {
+					"position": [0, 0, 2]
+				},
+				"body": {
+					"rotation": [-60, 0, 0]
+				},
+				"right_wing": {
+					"rotation": [45, 0, -90]
+				},
+				"left_wing": {
+					"rotation": [45, 0, 90]
+				},
+				"tail": {
+					"rotation": [-135, 0, 0],
+					"position": [0, -7, -2]
+				}
+			}
+		}
+	}
+}

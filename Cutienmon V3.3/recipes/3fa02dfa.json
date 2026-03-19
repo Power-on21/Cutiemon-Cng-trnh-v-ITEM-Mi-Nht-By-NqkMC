@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_50a413aa"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_slowbronite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:slowbronite",
+      "count": 1
+    }
+  }
+}

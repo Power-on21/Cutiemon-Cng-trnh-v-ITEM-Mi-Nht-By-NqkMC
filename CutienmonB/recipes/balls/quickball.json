@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:quickball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "eie",
+      " a "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_cyan"},
+      "e":{"item":"serp:apricorn_yellow"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:quickball","count":4}
+  }
+}

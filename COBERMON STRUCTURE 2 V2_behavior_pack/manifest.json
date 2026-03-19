@@ -1,0 +1,43 @@
+    {
+    "format_version": 2,
+    "header": {
+        "description": "Hãy Chơi Vui Vẻ by DrexMC",
+        "name": "COBERMON STRUCTURE 2 V2",
+        "uuid": "a88c15d2-261d-4174-8de6-a625ad396f9a",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 19, 70]
+    },
+    "modules": [
+        {
+        "description": "Hãy Chơi Vui Vẻ by DrexMC",
+        "type": "data",
+        "uuid": "b88120ee-faa2-4964-9313-fb107e5c573d",
+        "version": [0, 0, 1]
+        },
+        {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d3ff53bf-d5cc-4222-b912-a1bffa3d9725",
+      "entry": "scripts/Main.js",
+      "version": [0, 1, 0]
+    }
+    ],
+    "dependencies": [
+      {
+      "uuid": "0b2855be-b235-47df-95e5-23977a85dbd0",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}

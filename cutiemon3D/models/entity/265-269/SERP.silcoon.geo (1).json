@@ -1,0 +1,119 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.serpsilcoon",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0.5, -5], "size": [10, 7, 10], "uv": [0, 0]},
+						{"origin": [-5.5, 1, -4.5], "size": [1, 6, 9], "uv": [28, 21]},
+						{"origin": [4.5, 1, -4.5], "size": [1, 6, 9], "uv": [28, 21], "mirror": true},
+						{"origin": [-4.5, 1, -5.5], "size": [9, 6, 1], "uv": [0, 30]},
+						{"origin": [-4.5, 1, 4.5], "size": [9, 6, 1], "uv": [0, 30]},
+						{"origin": [-4.5, 0, -4.5], "size": [9, 1, 9], "uv": [0, 19]},
+						{"origin": [-4.5, 7, -4.5], "size": [9, 1, 9], "uv": [0, 19]},
+						{"origin": [-6, 8, -1], "size": [3, 8, 0], "pivot": [-3, 8, -1], "rotation": [-40, 0, -30], "uv": [40, 21]},
+						{"origin": [-5.5, 1, -5], "size": [3, 6, 0], "pivot": [-5, 2, -5], "rotation": [5, -60, -120], "uv": [40, 21]},
+						{"origin": [3.5, 1, -5], "size": [3, 6, 0], "pivot": [5, 2, -5], "rotation": [65, 45, -180], "uv": [40, 21], "mirror": true},
+						{"origin": [3.5, 1, 5], "size": [3, 6, 0], "pivot": [5, 2, 5], "rotation": [-115, 45, 0], "uv": [40, 21], "mirror": true},
+						{"origin": [-6.5, 1, 5], "size": [3, 6, 0], "pivot": [-5, 2, 5], "rotation": [-115, -45, 0], "uv": [40, 21]},
+						{"origin": [-1.5, 8, 3], "size": [3, 8, 0], "pivot": [0, 8, 3], "rotation": [120, 0, -180], "uv": [40, 21]},
+						{"origin": [3, 7, -1], "size": [3, 8, 0], "pivot": [3, 8, -1], "rotation": [-20, 0, 60], "uv": [40, 21], "mirror": true},
+						{"origin": [3, 3, 3], "size": [3, 8, 0], "pivot": [5.5, 5, -1], "rotation": [0, 45, 90], "uv": [40, 21], "mirror": true}
+					]
+				},
+				{
+					"name": "open_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "uv": [0, 39]}
+					]
+				},
+				{
+					"name": "closed_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "uv": [0, 42]}
+					]
+				},
+				{
+					"name": "angry_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "uv": [0, 45]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.serpsilcoon_aura",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0.5, -5], "size": [10, 7, 10], "inflate": 0.25, "uv": [0, 0]},
+						{"origin": [-5.5, 1, -4.5], "size": [1, 6, 9], "inflate": 0.25, "uv": [28, 21]},
+						{"origin": [4.5, 1, -4.5], "size": [1, 6, 9], "inflate": 0.25, "uv": [28, 21], "mirror": true},
+						{"origin": [-4.5, 1, -5.5], "size": [9, 6, 1], "inflate": 0.25, "uv": [0, 30]},
+						{"origin": [-4.5, 1, 4.5], "size": [9, 6, 1], "inflate": 0.25, "uv": [0, 30]},
+						{"origin": [-4.5, 0, -4.5], "size": [9, 1, 9], "inflate": 0.25, "uv": [0, 19]},
+						{"origin": [-4.5, 7, -4.5], "size": [9, 1, 9], "inflate": 0.25, "uv": [0, 19]},
+						{"origin": [-6, 8, -1], "size": [3, 8, 0], "inflate": 0.25, "pivot": [-3, 8, -1], "rotation": [-40, 0, -30], "uv": [40, 21]},
+						{"origin": [-5.5, 1, -5], "size": [3, 6, 0], "inflate": 0.25, "pivot": [-5, 2, -5], "rotation": [5, -60, -120], "uv": [40, 21]},
+						{"origin": [3.5, 1, -5], "size": [3, 6, 0], "inflate": 0.25, "pivot": [5, 2, -5], "rotation": [65, 45, -180], "uv": [40, 21], "mirror": true},
+						{"origin": [3.5, 1, 5], "size": [3, 6, 0], "inflate": 0.25, "pivot": [5, 2, 5], "rotation": [-115, 45, 0], "uv": [40, 21], "mirror": true},
+						{"origin": [-6.5, 1, 5], "size": [3, 6, 0], "inflate": 0.25, "pivot": [-5, 2, 5], "rotation": [-115, -45, 0], "uv": [40, 21]},
+						{"origin": [-1.5, 8, 3], "size": [3, 8, 0], "inflate": 0.25, "pivot": [0, 8, 3], "rotation": [120, 0, -180], "uv": [40, 21]},
+						{"origin": [3, 7, -1], "size": [3, 8, 0], "inflate": 0.25, "pivot": [3, 8, -1], "rotation": [-20, 0, 60], "uv": [40, 21], "mirror": true},
+						{"origin": [3, 3, 3], "size": [3, 8, 0], "inflate": 0.25, "pivot": [5.5, 5, -1], "rotation": [0, 45, 90], "uv": [40, 21], "mirror": true}
+					]
+				},
+				{
+					"name": "open_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "inflate": 0.25, "uv": [0, 39]}
+					]
+				},
+				{
+					"name": "closed_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "inflate": 0.25, "uv": [0, 42]}
+					]
+				},
+				{
+					"name": "angry_eyes",
+					"parent": "silcoon",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 2.5, -5.6], "size": [10, 3, 0], "inflate": 0.25, "uv": [0, 45]}
+					]
+				}
+			]
+		}
+	]
+}

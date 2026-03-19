@@ -1,0 +1,52 @@
+{
+  "format_version":"1.21.20",
+  "minecraft:processor_list":{
+    "description":{
+      "identifier":"serp:hider"
+    },
+    "processors":[
+      {
+        "processor_type":"minecraft:rule",
+        "rules":[
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:stone_bricks","probability":0.2},"output_state":{"name":"minecraft:mossy_stone_bricks"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:stone_bricks","probability":0.2},"output_state":{"name":"minecraft:cracked_stone_bricks"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:stone_bricks","probability":0.1},"output_state":{"name":"minecraft:cobblestone"}}
+        ]
+      },
+      {
+        "processor_type":"minecraft:rule",
+        "rules":[
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:dirt","probability":0.3},"output_state":{"name":"minecraft:grass_path"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:dirt","probability":0.1},"output_state":{"name":"minecraft:grass"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:dirt","probability":0.1},"output_state":{"name":"minecraft:coarse_dirt"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:dirt","probability":0.1},"output_state":{"name":"minecraft:cobblestone"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:dirt","probability":0.1},"output_state":{"name":"minecraft:leaves"}}
+        ]
+      },
+      {
+        "processor_type":"minecraft:rule",
+        "rules":[
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:cartography_table"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:fletching_table"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:smithing_table"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:enchanting_table"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:furnace"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:blast_furnace"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:smoker"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:brewing_stand"}},
+{"input_predicate":{"predicate_type":"minecraft:random_block_match","block":"minecraft:crafting_table","probability":0.1},"output_state":{"name":"minecraft:lectern"}}
+        ]
+      },
+      {
+        "processor_type":"minecraft:capped","limit":2,
+        "delegate":{
+          "processor_type":"minecraft:rule",
+          "rules":[
+{"input_predicate":{"predicate_type":"minecraft:block_match","block":"minecraft:chest"},"output_state":{"name":"minecraft:chest"},"block_entity_modifier":{"type":"minecraft:append_loot","loot_table":"loot_tables/chests/pokevillage_house.json"}},
+{"input_predicate":{"predicate_type":"minecraft:block_match","block":"minecraft:gravel"},"output_state":{"name":"minecraft:suspicious_gravel"},"block_entity_modifier":{"type":"minecraft:append_loot","loot_table":"loot_tables/chests/pokevillage_game_corner.json"}}
+          ]
+        }
+      }
+    ]
+  }
+}

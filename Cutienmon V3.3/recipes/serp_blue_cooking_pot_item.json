@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "blue_cooking_pot_item_97d66ae7"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "C C",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glass_pane",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:apricorn_blue",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:blue_cooking_pot_item",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:malicious_armor"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      "d d",
+      "dsd",
+      "ddd"
+    ],
+    "key":{
+      "d":{"item":"minecraft:iron_ingot"},
+      "s":{"item":"minecraft:coal"}
+    },
+    "result":{"item":"serp:malicious_armor"}
+  }
+}

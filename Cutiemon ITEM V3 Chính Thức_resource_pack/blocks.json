@@ -1,0 +1,11 @@
+{
+  "serp:trieu_hoi_hoopa": {
+    "textures": "serp_trieu_hoi_hoopa",
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

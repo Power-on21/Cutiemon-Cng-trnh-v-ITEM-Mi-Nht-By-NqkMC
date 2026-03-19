@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "entei_treat_offering_78518bd3"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EEE"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:liechi_berry",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:lansat_berry",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:occa_berry",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:box_treat_offering",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:razz_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:entei_treat_offering",
+      "count": 1
+    }
+  }
+}

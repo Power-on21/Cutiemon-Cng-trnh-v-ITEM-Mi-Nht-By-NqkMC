@@ -1,0 +1,138 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.serp_gold_helmet",
+        "texture_width": 64.0,
+        "texture_height": 64.0,
+        "visible_bounds_height": 5.0,
+        "visible_bounds_offset": [
+          0.0,
+          1.5,
+          0.0
+        ],
+        "visible_bounds_width": 3.0
+      },
+      "bones": [
+        {
+          "name": "Head",
+          "pivot": [
+            0,
+            24,
+            0
+          ],
+          "rotation": [
+            -6,
+            5,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "pivot": [
+                0,
+                28,
+                0
+              ],
+              "rotation": [
+                5.019,
+                -4.98093,
+                -0.43688
+              ],
+              "uv": [
+                32,
+                48
+              ]
+            },
+            {
+              "origin": [
+                -4,
+                24,
+                -4
+              ],
+              "size": [
+                8,
+                8,
+                8
+              ],
+              "inflate": 0.5,
+              "pivot": [
+                0,
+                27,
+                0
+              ],
+              "rotation": [
+                5.019,
+                -4.98093,
+                -0.43688
+              ],
+              "uv": [
+                32,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "name": "head2",
+          "parent": "Head",
+          "pivot": [
+            0,
+            31,
+            1
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -4.46228,
+                29.4602,
+                -2.8
+              ],
+              "size": [
+                8.92456,
+                3.41206,
+                8.92455
+              ],
+              "inflate": 0.51,
+              "uv": [
+                0,
+                16
+              ]
+            },
+            {
+              "origin": [
+                -3.85875,
+                29.4602,
+                -5.8
+              ],
+              "size": [
+                7.7175,
+                0,
+                3.3075
+              ],
+              "uv": [
+                31,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

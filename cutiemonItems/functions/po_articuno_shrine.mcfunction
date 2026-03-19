@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:articuno_offering,quantity=1..}] run function articuno
+execute unless entity @p[hasitem={item=serp:articuno_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Articuno Offering!"}]}

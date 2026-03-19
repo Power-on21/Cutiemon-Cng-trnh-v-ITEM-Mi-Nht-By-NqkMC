@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:lugia_offering"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      " d ",
+      " c ",
+      " s "
+    ],
+    "key":{
+      "d":{"item":"serp:articuno_offering"},
+      "c":{"item":"serp:zapdos_offering"},
+      "s":{"item":"serp:moltres_offering"}
+    },
+    "result":{"item":"po:lugia_offering"}
+  }
+}

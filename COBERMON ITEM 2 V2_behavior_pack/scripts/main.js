@@ -1,0 +1,1 @@
+import "./chests_trigger";

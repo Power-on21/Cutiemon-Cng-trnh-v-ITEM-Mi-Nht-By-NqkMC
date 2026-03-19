@@ -1,0 +1,19 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:pokeball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "aia",
+      " a "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_red"},
+      "i":{"item":"minecraft:copper_ingot"}
+    },
+    "result":{"item":"serp:pokeball","count":4}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_f68af4d0"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:dynamax_band",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:purple_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:dynamax_band_purple",
+      "count": 1
+    }
+  }
+}

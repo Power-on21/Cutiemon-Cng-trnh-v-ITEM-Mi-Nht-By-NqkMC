@@ -1,0 +1,1 @@
+give @s serp:gacha_machine_magenta

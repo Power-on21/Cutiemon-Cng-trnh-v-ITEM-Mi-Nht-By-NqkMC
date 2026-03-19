@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotomphone_white_c34ea44b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:rotomphone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:white_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:rotomphone_white",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "megagacha_machine_6e2b14cb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCB",
+      "DDD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glass_pane",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:key_stone",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:megagacha_machine",
+      "count": 1
+    }
+  }
+}

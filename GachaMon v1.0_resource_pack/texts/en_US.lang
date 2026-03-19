@@ -1,0 +1,266 @@
+pa:itemGroup.name.egachapon=§eMáy Gachapon
+item.gacha:gacha_coin.name=Đồng xu Gachapon
+item.gacha:gacha_coin=Đồng xu Gachapon
+item.gacha:gacha_coin_mega.name=Đồng xu Mega Gachapon
+item.gacha:gacha_coin_mega=Đồng xu Mega Gachapon
+item.gacha:masterball_capsule.name=Viên nhộng Masterball
+item.gacha:masterball_capsule=Viên nhộng Masterball
+item.gacha:mega_capsule.name=Viên nhộng Mega
+item.gacha:mega_capsule=Viên nhộng Mega
+item.gacha:pokeball_capsule.name=Viên nhộng Pokeball
+item.gacha:pokeball_capsule=Viên nhộng Pokeball
+item.gacha:superball_capsule.name=Viên nhộng Superball
+item.gacha:superball_capsule=Viên nhộng Superball
+item.gacha:ultraball_capsule.name=Viên nhộng Ultraball
+item.gacha:ultraball_capsule=Viên nhộng Ultraball
+item.gacha:wild_capsule.name=Viên nhộng Hoang dã
+item.gacha:wild_capsule=Viên nhộng Hoang dã
+tile.serp:gacha_machine.name=Máy Gachapon
+tile.serp:gacha_machine=Máy Gachapon
+tile.serp:gacha_machine_black.name=Máy Gachapon Đen
+tile.serp:gacha_machine_black=Máy Gachapon Đen
+tile.serp:gacha_machine_blue.name=Máy Gachapon Xanh dương
+tile.serp:gacha_machine_blue=Máy Gachapon Xanh dương
+tile.serp:gacha_machine_brown.name=Máy Gachapon Nâu
+tile.serp:gacha_machine_brown=Máy Gachapon Nâu
+tile.serp:gacha_machine_cyan.name=Máy Gachapon Lục lam
+tile.serp:gacha_machine_cyan=Máy Gachapon Lục lam
+tile.serp:gacha_machine_gray.name=Máy Gachapon Xám
+tile.serp:gacha_machine_gray=Máy Gachapon Xám
+tile.serp:gacha_machine_green.name=Máy Gachapon Xanh lá
+tile.serp:gacha_machine_green=Máy Gachapon Xanh lá
+tile.serp:gacha_machine_light_blue.name=Máy Gachapon Xanh nhạt
+tile.serp:gacha_machine_light_blue=Máy Gachapon Xanh nhạt
+tile.serp:gacha_machine_light_gray.name=Máy Gachapon Xám nhạt
+tile.serp:gacha_machine_light_gray=Máy Gachapon Xám nhạt
+tile.serp:gacha_machine_lime.name=Máy Gachapon Xanh mạ
+tile.serp:gacha_machine_lime=Máy Gachapon Xanh mạ
+tile.serp:gacha_machine_magenta.name=Máy Gachapon Hồng sẫm
+tile.serp:gacha_machine_magenta=Máy Gachapon Hồng sẫm
+tile.serp:gacha_machine_orange.name=Máy Gachapon Cam
+tile.serp:gacha_machine_orange=Máy Gachapon Cam
+tile.serp:gacha_machine_pink.name=Máy Gachapon Hồng
+tile.serp:gacha_machine_pink=Máy Gachapon Hồng
+tile.serp:gacha_machine_purple.name=Máy Gachapon Tím
+tile.serp:gacha_machine_purple=Máy Gachapon Tím
+tile.serp:gacha_machine_red.name=Máy Gachapon Đỏ
+tile.serp:gacha_machine_red=Máy Gachapon Đỏ
+tile.serp:gacha_machine_white.name=Máy Gachapon Trắng
+tile.serp:gacha_machine_white=Máy Gachapon Trắng
+tile.serp:gacha_machine_yellow.name=Máy Gachapon Vàng
+tile.serp:gacha_machine_yellow=Máy Gachapon Vàng
+tile.serp:megagacha_machine.name=Máy Mega Gachapon
+tile.serp:megagacha_machine=Máy Mega Gachapon
+tile.serp:megagacha_machine_black.name=Máy Mega Gachapon Đen
+tile.serp:megagacha_machine_black=Máy Mega Gachapon Đen
+tile.serp:wildgacha_machine.name=Máy Gachapon Hoang dã
+tile.serp:wildgacha_machine=Máy Gachapon Hoang dã
+## Comments can be added anywhere on a valid line by starting with '##'
+##
+## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
+## comment on the same line, use TABs.
+accessibility.disableTTS=Đã tắt văn bản thành giọng nói
+accessibility.enableTTS=Đã bật văn bản thành giọng nói
+item.spawn_egg.entity.pa:fish_1.name=Trứng sinh Cá 1
+item.spawn_egg.entity.pa:crab.name=Trứng sinh Cua
+item.spawn_egg.entity.pa:fish_2.name=Trứng sinh Cá bướm
+item.spawn_egg.entity.pa:fish_3.name=Trứng sinh Cá 3
+item.spawn_egg.entity.pa:starfish.name=Trứng sinh Sao biển
+item.spawn_egg.entity.pa:shark.name=Trứng sinh Cá mập
+item.spawn_egg.entity.pa:megalodon.name=Trứng sinh Cá mập Megalodon
+item.spawn_egg.entity.pa:octopus_red.name=Trứng sinh Bạch tuộc đỏ
+item.spawn_egg.entity.pa:octopus.name=Trứng sinh Bạch tuộc
+item.spawn_egg.entity.pa:hammerhead_shark.name=Trứng sinh Cá mập đầu búa
+item.spawn_egg.entity.pa:piranha.name=Trứng sinh Cá Piranha
+item.spawn_egg.entity.pa:stingray.name=Trứng sinh Cá đuối
+item.spawn_egg.entity.pa:fishleon.name=Trứng sinh Cá sư tử
+item.spawn_egg.entity.pa:swordfish.name=Trứng sinh Cá kiếm
+item.spawn_egg.entity.pa:jellyfish_1.name=Sứa 1
+item.spawn_egg.entity.pa:jellyfish_2.name=Sứa 2
+item.spawn_egg.entity.pa:jellyfish_3.name=Sứa 3
+item.spawn_egg.entity.pa:shark_2.name=Trứng sinh Cá mập 2
+item.spawn_egg.entity.pa:whale.name=Trứng sinh Cá voi
+item.spawn_egg.entity.pa:cachalote.name=Trứng sinh Cá nhà táng
+item.spawn_egg.entity.pa:shrimp.name=Trứng sinh Tôm
+
+item.spawn_egg.entity.pa:vulture.name=Trứng sinh Kền kền
+item.spawn_egg.entity.pa:eagle.name=Trứng sinh Đại bàng
+item.spawn_egg.entity.pa:phoenix.name=Trứng sinh Phượng hoàng
+item.spawn_egg.entity.pa:seagull.name=Trứng sinh Mòng biển
+item.spawn_egg.entity.pa:villager_with_player_model.name=Trứng sinh NPC
+
+entity.pa:vulture.name=Kền kền
+entity.pa:eagle.name=Đại bàng
+entity.pa:phoenix.name=Phượng hoàng
+entity.pa:seagull.name=Mòng biển
+entity.pa:villager_with_player_model.name=NPC
+
+entity.lamborghini:gallardo_yellow.name=Lamborghini Gallardo Vàng
+item.spawn_egg.entity.lamborghini:gallardo_yellow.name=Lamborghini Gallardo Vàng
+
+entity.lamborghini:gallardo_red.name=Lamborghini Gallardo Đỏ
+item.spawn_egg.entity.lamborghini:gallardo_red.name=Lamborghini Gallardo Đỏ
+
+entity.lamborghini:gallardo_blue.name=Lamborghini Gallardo Xanh dương
+item.spawn_egg.entity.lamborghini:gallardo_blue.name=Lamborghini Gallardo Xanh dương
+
+entity.lamborghini:gallardo_green.name=Lamborghini Gallardo Xanh lá
+item.spawn_egg.entity.lamborghini:gallardo_green.name=Lamborghini Gallardo Xanh lá
+
+entity.lamborghini:gallardo_black.name=Lamborghini Gallardo Đen
+item.spawn_egg.entity.lamborghini:gallardo_black.name=Lamborghini Gallardo Đen
+
+entity.lamborghini:gallardo_white.name=Lamborghini Gallardo Trắng
+item.spawn_egg.entity.lamborghini:gallardo_white.name=Lamborghini Gallardo Trắng
+
+entity.lamborghini:gallardo_orange.name=Lamborghini Gallardo Cam
+item.spawn_egg.entity.lamborghini:gallardo_orange.name=Lamborghini Gallardo Cam
+
+entity.lamborghini:gallardo_purple.name=Lamborghini Gallardo Tím
+item.spawn_egg.entity.lamborghini:gallardo_purple.name=Lamborghini Gallardo Tím
+
+entity.lamborghini:gallardo_cyan.name=Lamborghini Gallardo Lục lam
+item.spawn_egg.entity.lamborghini:gallardo_cyan.name=Lamborghini Gallardo Lục lam
+
+##Items
+
+item.compound.salt.name=Ngà voi
+item.compound.sodiumoxide.name=Phô mai thối
+
+##Spawn Eggs
+
+item.spawn_egg.entity.animal:bear.name=Trứng sinh Gấu
+item.spawn_egg.entity.animal:buffalo.name=Trứng sinh Trâu rừng
+item.spawn_egg.entity.animal:camel.name=Trứng sinh Lạc đà
+item.spawn_egg.entity.animal:duck.name=Trứng sinh Vịt
+item.spawn_egg.entity.animal:penguin.name=Trứng sinh Chim cánh cụt
+item.spawn_egg.entity.animal:steve.name=Trứng sinh Steve (NPC)
+item.spawn_egg.entity.animal:alex.name=Trứng sinh Alex (NPC)
+item.spawn_egg.entity.animal:lion.name=Trứng sinh Sư tử
+item.spawn_egg.entity.animal:hamster.name=Trứng sinh Chuột Hamster
+item.spawn_egg.entity.animal:hippo.name=Trứng sinh Hà mã
+item.spawn_egg.entity.animal:chameleon.name=Trứng sinh Tắc kè hoa
+item.spawn_egg.entity.animal:mouse.name=Trứng sinh Chuột
+item.spawn_egg.entity.animal:deer.name=Trứng sinh Nai
+item.spawn_egg.entity.animal:elephant.name=Trứng sinh Voi
+item.spawn_egg.entity.animal:frog.name=Trứng sinh Ếch
+item.spawn_egg.entity.animal:bumblebee.name=Trứng sinh Ong bắp cày
+item.spawn_egg.entity.animal:tortoise.name=Trứng sinh Rùa cạn
+item.spawn_egg.entity.animal:frozen_beast.name=Trứng sinh Quái thú băng giá
+item.spawn_egg.entity.animal:crocodile.name=Trứng sinh Cá sấu
+item.spawn_egg.entity.animal:zushroom.name=Trứng sinh Bò nấm biến dị
+item.spawn_egg.entity.animal:starfish.name=Trứng sinh Sao biển
+item.spawn_egg.entity.animal:panther.name=Trứng sinh Báo đen
+item.spawn_egg.entity.animal:brown_mooshroom.name=Trứng sinh Bò nấm nâu
+item.spawn_egg.entity.mooshroom.name=Trứng sinh Bò nấm đỏ
+item.spawn_egg.entity.animal:emerged.name=Trứng sinh Kẻ trỗi dậy
+item.spawn_egg.entity.animal:corrupted_skeleton.name=Trứng sinh Bộ xương tha hóa
+item.spawn_egg.entity.animal:welter.name=Trứng sinh Welter
+item.spawn_egg.entity.animal:npc.name=Trứng sinh NPC
+item.spawn_egg.entity.animal:npc_scientist.name=Trứng sinh NPC Nhà khoa học
+item.spawn_egg.entity.animal:nether_creeper.name=Trứng sinh Creeper Địa ngục
+item.spawn_egg.entity.animal:flea.name=Trứng sinh Bọ chét
+item.spawn_egg.entity.animal:bird.name=Trứng sinh Chim
+item.spawn_egg.entity.animal:tiger.name=Trứng sinh Hổ
+item.spawn_egg.entity.animal:ender_creeper.name=Trứng sinh Creeper Ender
+item.spawn_egg.entity.animal:ender_skeleton.name=Trứng sinh Bộ xương Ender
+
+##Entities
+
+entity.animal:bear.name=Gấu
+entity.animal:buffalo.name=Trâu rừng
+entity.animal:camel.name=Lạc đà
+entity.animal:duck.name=Vịt
+entity.animal:penguin.name=Chim cánh cụt
+entity.animal:steve.name=Steve
+entity.animal:alex.name=Alex
+entity.animal:lion.name=Sư tử
+entity.animal:hamster.name=Chuột Hamster
+entity.animal:hippo.name=Hà mã
+entity.animal:chameleon.name=Tắc kè hoa
+entity.animal:mouse.name=Chuột
+entity.animal:deer.name=Nai
+entity.animal:elephant.name=Voi
+entity.animal:frog.name=Ếch
+entity.animal:bumblebee.name=Ong bắp cày
+entity.animal:tortoise.name=Rùa cạn
+entity.animal:frozen_beast.name=Quái thú băng giá
+entity.animal:crocodile.name=Cá sấu
+entity.animal:zushroom.name=Bò nấm biến dị
+entity.animal:starfish.name=Sao biển
+entity.animal:panther.name=Báo đen
+entity.animal:brown_mooshroom.name=Bò nấm nâu
+entity.mooshroom.name=Bò nấm đỏ
+entity.animal:emerged.name=Kẻ trỗi dậy
+entity.animal:corrupted_skeleton.name=Bộ xương tha hóa
+entity.animal:welter.name=Welter
+entity.animal:npc.name=NPC
+entity.animal:npc_scientist.name=Nhà khoa học
+entity.animal:nether_creeper.name=Creeper Địa ngục
+entity.animal:flea.name=Bọ chét
+entity.animal:bird.name=Chim
+entity.animal:tiger.name=Hổ
+entity.animal:ender_creeper.name=Creeper Ender
+entity.animal:ender_skeleton.name=Bộ xương Ender
+
+##new furni
+action.hint.exit.cat=Bây giờ bạn có thể xoay nó	#
+action.hint.exit.unknown=Bây giờ bạn có thể xoay nó	#
+action.interact.rotar=Xoay	#
+action.interact.patitas=Mở#
+action.interact.conducir=Lặn	#
+action.interact.sit = Ngồi	#
+
+entity.unknown.name=Kho PA
+item.spawn_egg.entity.pa:sillagamer.name=PA-Ghế Gaming nhiều màu
+item.spawn_egg.entity.pa:pc.name=PA-Máy tính Gaming
+item.spawn_egg.entity.pa:estufa.name=PA-Bếp nấu
+item.spawn_egg.entity.pa:nevera.name=PA-Tủ lạnh
+item.spawn_egg.entity.pa:lavadero.name=PA-Khu giặt đồ
+item.spawn_egg.entity.pa:pacman.name=PA-Máy điện tử thùng Pacman
+item.spawn_egg.entity.pa:tivi.name=PA-Tivi
+item.spawn_egg.entity.pa:retrete.name=PA-Bồn cầu
+item.spawn_egg.entity.pa:regadera.name=PA-Bình tưới nước
+item.spawn_egg.entity.pa:christmas_tree.name=PA-Cây Giáng sinh
+item.spawn_egg.entity.pa:piano.name=PA-Đàn Piano
+item.spawn_egg.entity.pa:closet.name=PA-Tủ quần áo
+item.spawn_egg.entity.pa:banca.name=PA-Ghế công viên
+item.spawn_egg.entity.pa:bench.name=PA-Ghế dài
+item.spawn_egg.entity.pa:billar.name=PA-Bàn Bida
+item.spawn_egg.entity.pa:fuente.name=PA-Đài phun nước
+item.spawn_egg.entity.pa:tumbanormal.name=PA-Mộ thường
+item.spawn_egg.entity.pa:tumbacruz.name=PA-Mộ thánh giá
+item.spawn_egg.entity.pa:tumbacreeper.name=PA-Mộ Creeper
+item.spawn_egg.entity.pa:banera.name=PA-Bồn tắm
+item.spawn_egg.entity.pa:robertcup.name=PA-Cúp Robert
+item.spawn_egg.entity.pa:maxcup.name=PA-Cúp Max
+item.spawn_egg.entity.pa:columpio.name=PA-Xích đu
+item.spawn_egg.entity.pa:futbolito.name=PA-Bàn Bi lắc
+item.spawn_egg.entity.pa:laptop.name=PA-Máy tính xách tay
+item.spawn_egg.entity.pa:pcdos.name=PA-Máy tính để bàn
+item.spawn_egg.entity.pa:lavavo.name=PA-Bồn rửa mặt
+item.spawn_egg.entity.pa:ventilador.name=PA-Quạt trần
+item.spawn_egg.entity.pa:mpeluches.name=PA-Máy gắp thú bông
+
+item.spawn_egg.entity.pa:pizza.name=PA-Bánh Pizza
+item.spawn_egg.entity.pa:satanic.name=PA-Nghi lễ Satan
+item.spawn_egg.entity.pa:brinca.name=PA-Bạt nhún Trampoline
+item.spawn_egg.entity.pa:micro.name=PA-Lò vi sóng
+item.spawn_egg.entity.pa:resbaladilla.name=PA-Cầu trượt
+item.spawn_egg.entity.pa:armchairs.name=PA-Ghế bành
+item.spawn_egg.entity.pa:lamparacolores.name=PA-Đèn màu
+item.spawn_egg.entity.pa:saltapicina.name=PA-Ván nhảy hồ bơi
+item.spawn_egg.entity.pa:big_table.name=PA-Bàn lớn
+item.spawn_egg.entity.pa:small_table.name=PA-Bàn nhỏ
+item.spawn_egg.entity.pa:chair.name=PA-Ghế
+item.spawn_egg.entity.pa:sombrilla.name=PA-Ô che nắng nhiều màu
+item.spawn_egg.entity.pa:sillaplaya.name=PA-Ghế bãi biển
+item.spawn_egg.entity.pa:humanos.name=PA-Con người
+item.spawn_egg.entity.pa:auto.name=PA-Xe hơi nhiều màu
+item.spawn_egg.entity.pa:mchiclesg.name=PA-Máy bán kẹo cao su lớn
+item.spawn_egg.entity.pa:mchiclesc.name=PA-Máy bán kẹo cao su nhỏ
+item.spawn_egg.entity.pa:patitas.name=PA-Rương thú cưng
+item.spawn_egg.entity.pa:drone.name=PA-Flycam (Drone)
+item.spawn_egg.entity.pa:colorful_gifts.name=PA-Hộp quà màu sắc
+item.spawn_egg.entity.pa:mueblestv.name=PA-Kệ Tivi
+item.spawn_egg.entity.pa:chimenea.name=PA-Lò sưởi

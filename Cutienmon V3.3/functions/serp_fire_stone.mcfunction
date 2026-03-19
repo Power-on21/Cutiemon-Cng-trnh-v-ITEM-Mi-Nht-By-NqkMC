@@ -1,0 +1,1 @@
+give @s serp:fire_stone

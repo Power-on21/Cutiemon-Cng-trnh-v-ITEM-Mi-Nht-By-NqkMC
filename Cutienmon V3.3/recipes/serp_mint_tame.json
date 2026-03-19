@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_tame_a87452e4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:red_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:pink_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_tame",
+      "count": 1
+    }
+  }
+}

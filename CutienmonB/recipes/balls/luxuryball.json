@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:luxuryball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "oie",
+      " a "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_black"},
+      "e":{"item":"serp:apricorn_red"},
+      "o":{"item":"serp:apricorn_yellow"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:luxuryball","count":4}
+  }
+}

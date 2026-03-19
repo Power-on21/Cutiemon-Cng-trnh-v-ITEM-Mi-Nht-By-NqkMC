@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_affable_acab9e79"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:red_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_affable",
+      "count": 1
+    }
+  }
+}

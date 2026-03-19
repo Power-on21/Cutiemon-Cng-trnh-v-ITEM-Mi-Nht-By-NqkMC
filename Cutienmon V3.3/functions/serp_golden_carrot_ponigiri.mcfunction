@@ -1,0 +1,1 @@
+give @s serp:golden_carrot_ponigiri

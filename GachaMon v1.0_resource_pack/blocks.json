@@ -1,0 +1,87 @@
+{
+  "serp:gacha_machine_black": {
+    "textures": "serp_gacha_machine_black",
+    "sound": "metal"
+  },
+  "serp:gacha_machine": {
+    "textures": "serp_gacha_machine",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_light_gray": {
+    "textures": "serp_gacha_machine_light_gray",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_blue": {
+    "textures": "serp_gacha_machine_blue",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_cyan": {
+    "textures": "serp_gacha_machine_cyan",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_gray": {
+    "textures": "serp_gacha_machine_gray",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_brown": {
+    "textures": "serp_gacha_machine_brown",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_lime": {
+    "textures": "serp_gacha_machine_lime",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_green": {
+    "textures": "serp_gacha_machine_green",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_light_blue": {
+    "textures": "serp_gacha_machine_light_blue",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_orange": {
+    "textures": "serp_gacha_machine_orange",
+    "sound": "metal"
+  },
+  "serp:megagacha_machine": {
+    "textures": "serp_megagacha_machine",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_white": {
+    "textures": "serp_gacha_machine_white",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_purple": {
+    "textures": "serp_gacha_machine_purple",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_red": {
+    "textures": "serp_gacha_machine_red",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_yellow": {
+    "textures": "serp_gacha_machine_yellow",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_magenta": {
+    "textures": "serp_gacha_machine_magenta",
+    "sound": "metal"
+  },
+  "serp:gacha_machine_pink": {
+    "textures": "serp_gacha_machine_pink",
+    "sound": "metal"
+  },
+  "serp:wildgacha_machine": {
+    "textures": "serp_wildgacha_machine",
+    "sound": "metal"
+  },
+  "serp:megagacha_machine_black": {
+    "textures": "serp_megagacha_machine_black",
+    "sound": "metal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

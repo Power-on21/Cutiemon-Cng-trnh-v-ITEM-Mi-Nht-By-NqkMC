@@ -1,0 +1,1 @@
+give @s gacha:masterball_capsule

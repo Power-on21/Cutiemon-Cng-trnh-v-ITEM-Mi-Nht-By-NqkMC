@@ -1,0 +1,124 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "serp:pink_mint_seeds",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "pa:growth": {
+          "values": {
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:collision_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.0
+      },
+      "minecraft:geometry": "geometry.serp_pink_mint_seeds",
+      "minecraft:loot": "loot_tables/blocks/serp_pink_mint_seeds.json",
+      "minecraft:map_color": "#F658E9",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "serp_pink_mint_seeds_stage_0",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "farmland"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:friction": 0.4,
+      "minecraft:light_emission": 0,
+      "minecraft:selection_box": {
+        "origin": [
+          -8.0,
+          0.0,
+          -8.0
+        ],
+        "size": [
+          16.0,
+          16.0,
+          16.0
+        ]
+      },
+      "minecraft:custom_components": [
+        "serp_pink_mint_seeds:trigger"
+      ],
+      "tag:wood": {},
+      "tag:minecraft:crop": {}
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('pa:growth') < 1",
+        "components": {
+          "minecraft:loot": "loot_tables/blocks/serp_pink_mint_seeds.json"
+        }
+      },
+      {
+        "condition": "q.block_state('pa:growth') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "serp_pink_mint_seeds_stage_0",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/blocks/serp_pink_mint_seeds_stage_0.json"
+        }
+      },
+      {
+        "condition": "q.block_state('pa:growth') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "serp_pink_mint_seeds_stage_1",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/blocks/serp_pink_mint_seeds_stage_1.json"
+        }
+      },
+      {
+        "condition": "q.block_state('pa:growth') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "serp_pink_mint_seeds_stage_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:loot": "loot_tables/blocks/serp_pink_mint_seeds_stage_2.json"
+        }
+      }
+    ],
+    "events": {}
+  }
+}

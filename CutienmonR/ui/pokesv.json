@@ -1,0 +1,46 @@
+{
+  "namespace":"pokesv",
+  "cii":{"type":"custom","renderer":"inventory_item_renderer","size":[32,32]},
+  "main":{"type":"panel","size":["318px","318px"],
+    "controls":[
+{"main_bg":{"type":"image","size":["394px","394px"],"bindings":[{"binding_type":"view","source_property_name":"('textures/ui/pokedrock/'+(#title_text-'serp.main.'-'.list'-'.grid'))","target_property_name":"#texture"}],"texture":"#texture"}},
+{"grids@common.scrolling_panel":{"anchor_to":"top_left","anchor_from":"top_left","$show_background":false,"size":[210,170],"offset":[54,81],"$scrolling_content":"pokesv.grids","$scroll_size":[5,"100%-4px"],"$scrolling_pane_size":["100%+3px","100%-2px"],"$scrolling_pane_offset":[2,0],"$scroll_bar_right_padding_size":[0,0]}},
+{"sprite@stacks":{"offset":[-38,122],"enabled":false,"$bn":"pokesv.sprite"}},
+{"types@stacks2":{"offset":[-8,200],"enabled":false,"$bn":"pokesv.gwb"}}
+    ]
+  },
+	"team":{"type":"panel","size":["218px","120px"],"anchor_from":"bottom_right","anchor_to":"bottom_right",
+    "controls":[
+{"micro_bg":{"type":"image","texture":"textures/ui/pokedrock/battle"}},
+{"body":{"type":"label","offset":["6px","-32px"],"color":"$main_header_text_color","font_scale_factor":0.85,"size":["192px","default"],"text":"#form_text"}},
+{"tmb":{"type":"grid","offset":["-5px","62px"],"anchor_from":"top_right","anchor_to":"top_right","grid_dimensions":[2,2],"size":["200px","100%c"],"grid_item_template":"pokesv.bb","grid_fill_direction":"horizontal","grid_rescaling_type":"horizontal","collection_name":"form_buttons","bindings":[{"binding_name":"#form_button_length","binding_name_override":"#maximum_grid_items"}]}},
+{"mechanic@stacks":{"offset":["-14px","72px"],"layer":5,"$bn":"pokesv.gwb"}},
+{"compass@cii":{"anchor_from":"top_right","anchor_to":"top_right","offset":[-32,-32],"property_bag":{"#item_id_aux":22609920}}},
+{"clock@cii":{"anchor_from":"top_right","anchor_to":"top_right","offset":[0,-32],"property_bag":{"#item_id_aux":22740992}}}
+
+    ]
+  },
+  "bb@ba":{"size":["96px","24px"],"$la":"#form_button_text","$tzi":0.7,"$toff":["9px","4px"],"$pzi":["64px","20px"],"$izi":["90%","90%"],"$ioff":["-36px",0],"$default_button_texture":"textures/ui/buttons/battle_default","$hover_button_texture":"textures/ui/buttons/battle_hover","$locked_button_texture":"textures/ui/xp_nub","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"view","source_property_name":"(($la-'sprite'-'mechanic'-'type'-''-'')=$la)","target_property_name":"#visible"}]},
+  "gb@ba":{"size":["40px","40px"],"$la":"#form_button_text","$tzi":0.54,"$toff":["3px","26px"],"$izi":["70%","70%"],"$ioff":[0,-4],"$default_button_texture":"textures/ui/buttons/generic_white_border","$hover_button_texture":"textures/ui/buttons/generic_black_border","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"view","source_property_name":"(($la-'sprite'-'mechanic'-'type'-''-'')=$la)","target_property_name":"#visible"}]},
+  "gwb@ba":{"size":["25px","25px"],"$la":"#form_button_text","$tzi":0,"$toff":[0,0],"$izi":["90%","90%"],"$ioff":[0,0],"$default_button_texture":"textures/ui/buttons/generic_white_border","$hover_button_texture":"textures/ui/buttons/generic_black_border","$locked_button_texture":"textures/ui/xp_nub","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"view","source_property_name":"(not(($la-'mechanic'-'type'-'type')=$la))","target_property_name":"#visible"}]},
+  "pokes@ba":{"size":["124px","32px"],"$te":"t","$la":"#form_button_text","$la2":"(#form_button_text-('%.6s'*#form_button_text)-'.locked')","$tzi":0.9,"$toff":["8px","2px"],"$izi":["120%","120%"],"$ioff":["-80px",0],"$default_button_texture":"textures/ui/buttons/pokedata_default","$hover_button_texture":"textures/ui/buttons/pokedata_hover","$locked_button_texture":"textures/ui/buttons/battle_bar","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_name":"$la","binding_type":"view","source_property_name":"(($la-'.locked')=$la)","target_property_name":"#enabled"},{"binding_type":"view","source_property_name":"(not(($la-''-'')=$la))","target_property_name":"#visible"}]},
+  "sprite@ba":{"size":["88px","88px"],"$la":"#form_button_text","$tzi":0,"$toff":[0,0],"$izi":["90%","90%"],"$ioff":[0,0],"$locked_button_texture":"textures/ui/buttons/icon_bg","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"view","source_property_name":"(not(($la-'sprite')=$la))","target_property_name":"#visible"}]},
+  "ba":{"type":"panel","size":["100%","100%"],"$la":"","$la2":"$la","$toff":"","$ioff":"","$tzi":"","$pzi":["100%","100%"],"$izi":"","$te":"f",
+    "controls":[
+{"teamb":{"type":"image","texture":"#texture","size":[32,32],"offset":[-80,0],"visible":"($te='t')","bindings":[{"binding_type":"collection","binding_collection_name":"form_buttons","binding_name":"$la"},{"binding_type":"view","source_property_name":"('textures/ui/status/'+(('%.6s'*$la)-'§zb'-' '))","target_property_name":"#texture"}]}},
+{"form_button@common_buttons.light_text_button":{"$pressed_button_name":"button.form_button_click","bindings":[{"binding_name":"$la","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"collection_details","binding_collection_name":"form_buttons"}]}},
+{"label":{"type":"label","layer":12,"size":"$pzi","offset":"$toff","text_alignment":"left_middle","text":"#text","font_scale_factor":"$tzi","shadow":true,"bindings":[{"binding_name":"$la2","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_type":"view","source_property_name":"$la2","target_property_name":"#text"}]}},
+{"image":{"type":"image","layer":10,"size":"$izi","offset":"$ioff","bindings":[{"binding_name":"#form_button_texture","binding_name_override":"#texture","binding_type":"collection","binding_collection_name":"form_buttons"},{"binding_name":"#form_button_texture_file_system","binding_name_override":"#texture_file_system","binding_type":"collection","binding_collection_name":"form_buttons"}]}}
+    ]
+  },
+	"grids":{"type":"stack_panel","size":["100%","100%c"],
+    "controls":[
+{"body":{"type":"label","offset":["100px","2px"],"color":"$main_header_text_color","shadow":true,"size":["95%","default"],"anchor_from":"top_left","anchor_to":"top_left","text":"#form_text"}},
+{"padding":{"type":"panel","size":["100%",4]}},
+{"tmb":{"type":"grid","grid_dimensions":[2,2],"size":["100%","100%c"],"grid_item_template":"pokesv.bb","grid_fill_direction":"horizontal","grid_rescaling_type":"horizontal","collection_name":"form_buttons","bindings":[{"binding_type":"view","source_property_name":"(not(#title_text=(#title_text-'list')))","target_property_name":"#visible"},{"binding_name":"#form_button_length","binding_name_override":"#maximum_grid_items"}]}},
+{"tmg":{"type":"grid","grid_dimensions":[2,2],"size":["100%","100%c"],"grid_item_template":"pokesv.gb","grid_fill_direction":"horizontal","grid_rescaling_type":"horizontal","collection_name":"form_buttons","bindings":[{"binding_type":"view","source_property_name":"(not(#title_text=(#title_text-'grid')))","target_property_name":"#visible"},{"binding_name":"#form_button_length","binding_name_override":"#maximum_grid_items"}]}}
+	  ]
+  },
+  "stacks":{"type":"stack_panel","size":["100%","100%c"],"orientation":"vertical","anchor_from":"top_left","anchor_to":"top_left","$bn|default":"default_form.button","collection_name":"form_buttons","factory":{"name":"buttons","control_name":"$bn"},"bindings":[{"binding_name":"#form_button_length","binding_name_override":"#collection_length"}]},
+  "stacks2":{"type":"stack_panel","size":["100%","100%c"],"orientation":"horizontal","anchor_from":"top_left","anchor_to":"top_left","$bn|default":"default_form.button","collection_name":"form_buttons","factory":{"name":"buttons","control_name":"$bn"},"bindings":[{"binding_name":"#form_button_length","binding_name_override":"#collection_length"}]}
+}

@@ -1,0 +1,13 @@
+{
+  "format_version":2,
+  "header":{
+    "name":"§bcutie§3mon §e3D",
+    "description":"pack.description",
+    "uuid":"dd10638c-1f3e-4ed9-af5c-f4f94391eaef",
+    "version":[0,2,2],
+    "min_engine_version":[1,20,0]
+  },
+  "modules":[
+    {"description":"pack.description","type":"resources","uuid":"96bbfcf3-5472-4761-a0ee-afc4eec3e8c5","version":[1,0,0]}
+  ]
+}

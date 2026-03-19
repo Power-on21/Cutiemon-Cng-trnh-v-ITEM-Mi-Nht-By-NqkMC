@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Youtube: DrexMC",
+    "name": "COBERMON ITEM2 V2 Pre",
+    "uuid": "b4d0afdf-c134-43b6-b10a-183eb2ae79ed",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Youtube: DrexMC",
+      "type": "resources",
+      "uuid": "1eb53000-6b12-4634-9e21-4cb4d814c2e9",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "6e3ee3b0-c707-48ea-bde2-b1ddeaf63d9f",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format_version":"1.16.0",
+  "minecraft:entity":{
+    "description":{
+      "identifier":"serp:data",
+      "is_spawnable":false,
+      "is_summonable":true
+			},
+    "component_groups":{
+      "despawn":{"minecraft:instant_despawn":{}}
+    },
+    "components":{
+      "minecraft:type_family":{"family":["inanimated","data"]}
+    },
+    "events":{
+      "despawn":{"add":{"component_groups":["despawn"]}}
+    }
+  }
+}

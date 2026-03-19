@@ -1,0 +1,1 @@
+give @s serp:sun_stone_block

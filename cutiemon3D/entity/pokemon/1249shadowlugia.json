@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:p1249",
+      "materials": {
+        "default": "pokemon",
+        "aura": "aura"
+      },
+      "textures": {
+        "evo_aura": "textures/entity/aura/evolve",
+        "default": "textures/entity/normal/shadowlugia",
+        "default_s": "textures/entity/shiny/shadowlugia",
+        "mega1": "textures/entity/normal/shadowlugia",
+        "mega_s1": "textures/entity/shiny/shadowlugia",
+        "mega2": "textures/entity/normal/shadowlugia",
+        "mega_s2": "textures/entity/shiny/shadowlugia",
+        "gigamax": "textures/entity/normal/shadowlugia",
+        "gigamax_s": "textures/entity/shiny/shadowlugia"
+      },
+      "geometry": {
+        "default": "geometry.serpshadowlugia",
+        "mega1": "geometry.serpshadowlugia",
+        "mega2": "geometry.serpshadowlugia",
+        "gigamax": "geometry.serpshadowlugia"
+      },
+      "animations": {
+        "eyes_controller": "controller.animation.eyes",
+        "open": "animation.serpmob.open",
+        "close": "animation.serpmob.close",
+        "angry": "animation.serpmob.angry",
+        "fainted": "animation.serpmob.fainted",
+        "quiet": "animation.lugia.quiet",
+        "walk": "animation.lugia.walk",
+        "sit": "animation.lugia.sitting",
+        "main_controller": "controller.animation.pokemon_ground",
+        "effects_controller": "controller.animation.effects"
+      },
+      "particle_effects": {
+        "shiny": "serp:shiny"
+      },
+      "scripts": {
+        "scale": "q.life_time < 1 ? q.life_time * 1 : 1",
+        "animate": [
+          "effects_controller",
+          "main_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.pokemon",
+        "controller.render.aura"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

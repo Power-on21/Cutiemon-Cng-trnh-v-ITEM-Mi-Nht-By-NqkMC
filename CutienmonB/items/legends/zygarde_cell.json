@@ -1,0 +1,13 @@
+{
+  "format_version":"1.21.10",
+  "minecraft:item":{
+    "description":{
+      "identifier":"serp:zygarde_cell",
+	    "menu_category":{"category":"nature"}
+    },
+    "components":{
+      "minecraft:display_name":{"value":"item.serp:zygarde_cell.name"},
+	    "minecraft:icon":"zygarde_cell"
+    }
+  }
+}

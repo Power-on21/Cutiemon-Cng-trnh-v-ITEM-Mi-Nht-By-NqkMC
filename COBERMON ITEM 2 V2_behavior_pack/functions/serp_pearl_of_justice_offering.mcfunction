@@ -1,0 +1,1 @@
+give @s serp:pearl_of_justice_offering

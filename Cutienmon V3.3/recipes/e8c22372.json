@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_03062030"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "ABC",
+      "D  "
+    ],
+    "key": {
+      "A": {
+        "item": "serp:hearty_grans",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:slowpoke_tail",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:carrot",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:galarica_nuts",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:smoked_tail_curry",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+import "./custom/caramelos";
+import "./custom/caramelos2";
+import "./custom/main";
+import "./custom/rotomphone";
+import "./custom/rotomphone_black";
+import "./custom/rotomphone_blue";
+import "./custom/rotomphone_lime";
+import "./custom/rotomphone_pink";
+import "./custom/rotomphone_purple";
+import "./custom/rotomphone_red";
+import "./custom/rotomphone_white";
+import "./custom/rotomphone_yellow";
+import "./block_trigger";
+import "./item_trigger";
+import "./durability_manager";
+import "./music_discs_trigger";

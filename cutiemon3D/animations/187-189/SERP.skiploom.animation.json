@@ -1,0 +1,124 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.skiploom.quiet": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"skiploom": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [5, 0, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"leaves": {
+					"rotation": {
+						"0.0": [0, 15, 0],
+						"0.8": [0, -15, 0],
+						"1.6": [0, 15, 0]
+					}
+				},
+				"right_ear": {
+					"rotation": {
+						"0.0": [0, 0, -45],
+						"0.6": [0, 0, -35],
+						"1.6": [0, 0, -45]
+					}
+				},
+				"left_ear": {
+					"rotation": {
+						"0.0": [0, 0, 45],
+						"0.6": [0, 0, 35],
+						"1.6": [0, 0, 45]
+					}
+				}
+			}
+		},
+		"animation.skiploom.walk": {
+			"loop": true,
+			"animation_length": 1.2,
+			"bones": {
+				"root": {
+					"position": {
+						"0.0": [0, 2, 0],
+						"0.6": [0, 1, 0],
+						"1.2": [0, 2, 0]
+					}
+				},
+				"leaves": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.2": [0, 360, 0]
+					}
+				},
+				"arms": {
+					"rotation": {
+						"0.0": [25, 0, 0],
+						"0.4": [35, 0, 0],
+						"1.2": [25, 0, 0]
+					}
+				},
+				"legs": {
+					"rotation": {
+						"0.0": [60, 0, 0],
+						"0.8": [40, 0, 0],
+						"1.2": [60, 0, 0]
+					}
+				},
+				"right_ear": {
+					"rotation": {
+						"0.0": [0, 0, -35],
+						"0.8": [0, 0, -45],
+						"1.2": [0, 0, -35]
+					}
+				},
+				"left_ear": {
+					"rotation": {
+						"0.0": [0, 0, 35],
+						"0.8": [0, 0, 45],
+						"1.2": [0, 0, 35]
+					}
+				}
+			}
+		},
+		"animation.skiploom.sitting": {
+			"loop": true,
+			"bones": {
+				"legs": {
+					"position": [0, 0, -3]
+				},
+				"right_ear": {
+					"rotation": [0, 0, -45]
+				},
+				"left_ear": {
+					"rotation": [0, 0, 45]
+				}
+			}
+		},
+		"animation.skiploom.attack": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [0, 1, 0]
+				},
+				"skiploom": {
+					"rotation": [15, 0, 0]
+				},
+				"arms": {
+					"rotation": [-45, 0, 0]
+				},
+				"legs": {
+					"rotation": [30, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"right_ear": {
+					"rotation": [0, 0, 30]
+				},
+				"left_ear": {
+					"rotation": [0, 0, -30]
+				}
+			}
+		}
+	}
+}

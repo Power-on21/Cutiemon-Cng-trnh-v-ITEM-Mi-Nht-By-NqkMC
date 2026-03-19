@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "cosmicdust_offering_857b6a3b"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:purple_wool",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:pearl_of_justice_offering",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:amethyst_shard",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:star_candy",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:dialga_shrine",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:cosmicdust_offering",
+      "count": 1
+    }
+  }
+}

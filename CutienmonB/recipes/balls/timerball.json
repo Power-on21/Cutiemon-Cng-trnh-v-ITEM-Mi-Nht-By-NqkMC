@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:timerball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "oio",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_red"},
+      "e":{"item":"serp:apricorn_black"},
+      "o":{"item":"serp:apricorn_white"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:timerball","count":4}
+  }
+}

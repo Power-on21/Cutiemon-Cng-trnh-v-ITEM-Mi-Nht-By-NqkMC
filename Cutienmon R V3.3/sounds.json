@@ -1,0 +1,22 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "serp:cultivator": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.no": "mob.villager.no",
+          "haggle.yes": "mob.villager.yes",
+          "hurt": "mob.villager.hit"
+        }
+      }
+    }
+  }
+}

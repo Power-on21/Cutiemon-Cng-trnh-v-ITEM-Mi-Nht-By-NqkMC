@@ -1,0 +1,1 @@
+give @s serp:dusk_stone_block

@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.spiritomb.smoke": {
+			"loop": true,
+			"bones": {
+				"smoke": {
+					"rotation": [0, 0, "-Math.round(q.anim_time*180)"],
+					"scale": ["1+(Math.cos(q.anim_time*360)*0.1)", "1+(Math.sin(q.anim_time*360)*0.1)", 1]
+				},
+				"souls": {
+					"rotation": [0, 0, "Math.round(q.anim_time*60)"],
+					"scale": [1, "1+(Math.sin(q.anim_time*320)*-0.1)", 1]
+				}
+			}
+		},
+		"animation.spiritomb.walk": {
+			"loop": true,
+			"bones": {
+				"spiritomb": {
+					"position": [0, "0.5+(Math.cos(q.anim_time*360)*0.5)", 0]
+				},
+				"body": {
+					"rotation": ["-Math.cos(q.anim_time*180)*10", 0, "Math.sin(q.anim_time*180)*10"]
+				}
+			}
+		},
+		"animation.spiritomb.sitting": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -1.5, 0],
+					"scale": [1, 0.8, 1]
+				},
+				"head": {
+					"position": [0, -1.5, 0]
+				}
+			}
+		},
+		"animation.spiritomb.attack": {
+			"animation_length": 0.8,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [-22.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": [0, 0, 0]
+					},
+					"scale": {
+						"0.3": {
+							"pre": [1, 1, 1],
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": {
+							"post": [1, 1.3, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.spiritomb.defeated": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.8,
+			"bones": {
+				"spiritomb": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [0, -720, 0]
+					}
+				},
+				"body": {
+					"rotation": [0, 0, "-15+(Math.cos(q.anim_time*960)*25)"]
+				},
+				"head": {
+					"rotation": [0, "Math.round(q.anim_time*240)", 0],
+					"scale": {
+						"0.0": {
+							"post": [1, 1, 1],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [0.5, 0, 0.5],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": [0, 1, 0]
+					}
+				}
+			}
+		},
+		"animation.spiritomb.quiet": {
+			"loop": true,
+			"bones": {
+				"tomb": {
+					"rotation": ["math.sin(query.anim_time*90*1.5)*2", 0, "math.cos(query.anim_time*90*1.5)*2"]
+				},
+				"stem": {
+					"rotation": ["-15+math.cos(query.anim_time*90*1.5)*5", "math.sin(query.anim_time*90*1.5)*5", 0]
+				},
+				"spirit": {
+					"rotation": [0, "math.cos(query.anim_time*90*1.5)*-2", 0]
+				},
+				"face": {
+					"scale": "1+math.sin(query.anim_time*90*1.5)*0.05"
+				},
+				"back": {
+					"rotation": [0, 0, "-(query.anim_time)*40"],
+					"scale": "1+math.sin(query.anim_time*90*1.5)*0.075"
+				},
+				"orbs": {
+					"rotation": [0, 0, "(query.anim_time)*80"]
+				},
+				"mouth_open": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}

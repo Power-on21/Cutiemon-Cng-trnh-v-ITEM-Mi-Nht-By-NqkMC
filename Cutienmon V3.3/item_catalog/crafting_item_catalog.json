@@ -1,0 +1,321 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "equipment",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "serp:absolite",
+              "name": "pa:itemGroup.name.megaPiedras"
+            },
+            "items": [
+              "serp:absolite",
+              "serp:aerodactylite",
+              "serp:alakazite",
+              "serp:ampharosite",
+              "serp:banettite",
+              "serp:beedrillite",
+              "serp:blastoisinite",
+              "serp:blazikenite",
+              "serp:blue_prism",
+              "serp:charizardite_x",
+              "serp:charizardite_y",
+              "serp:galladite",
+              "serp:garchompite",
+              "serp:gardevoirite",
+              "serp:gengarite",
+              "serp:green_prism",
+              "serp:greninjite",
+              "serp:gyaradosite",
+              "serp:heracronite",
+              "serp:kangaskhanite",
+              "serp:key_shard",
+              "serp:key_stone",
+              "serp:lucarionite",
+              "serp:mewtwonite_x",
+              "serp:mewtwonite_y",
+              "serp:pidgeotite",
+              "serp:raw_absolite",
+              "serp:raw_aerodactylite",
+              "serp:raw_alakazite",
+              "serp:raw_ampharosite",
+              "serp:raw_banettite",
+              "serp:raw_beedrillite",
+              "serp:raw_blastoisinite",
+              "serp:raw_blazikenite",
+              "serp:raw_blue_prism",
+              "serp:raw_charizardite_x",
+              "serp:raw_charizardite_y",
+              "serp:raw_galladite",
+              "serp:raw_garchompite",
+              "serp:raw_gardevoirite",
+              "serp:raw_gengarite",
+              "serp:raw_green_prism",
+              "serp:raw_greninjite",
+              "serp:raw_gyaradosite",
+              "serp:raw_heracronite",
+              "serp:raw_kangaskhanite",
+              "serp:raw_lucarionite",
+              "serp:raw_mewtwonite_x",
+              "serp:raw_mewtwonite_y",
+              "serp:raw_pidgeotite",
+              "serp:raw_red_prism",
+              "serp:raw_sablenite",
+              "serp:raw_salamencite",
+              "serp:raw_sceptilite",
+              "serp:raw_scizorite",
+              "serp:raw_slowbronite",
+              "serp:raw_steelixite",
+              "serp:raw_swampertite",
+              "serp:raw_venusaurite",
+              "serp:red_prism",
+              "serp:sablenite",
+              "serp:salamencite",
+              "serp:sceptilite",
+              "serp:scizorite",
+              "serp:slowbronite",
+              "serp:steelixite",
+              "serp:swampertite",
+              "serp:venusaurite"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:beetroot_ponigiri",
+              "name": "pa:itemGroup.name.ponigiris"
+            },
+            "items": [
+              "serp:beetroot_ponigiri",
+              "serp:berry_jam_ponigiri",
+              "serp:brown_mushroom_ponigiri",
+              "serp:carrot_ponigiri",
+              "serp:dried_kelp_ponigiri",
+              "serp:egg_ponigiri",
+              "serp:golden_carrot_ponigiri",
+              "serp:poisonous_potato_ponigiri",
+              "serp:ponigiri",
+              "serp:potato_ponigiri",
+              "serp:pumpkin_ponigiri",
+              "serp:raw_beef_ponigiri",
+              "serp:raw_chicken_ponigiri",
+              "serp:raw_cod_ponigiri",
+              "serp:raw_mutton_ponigiri",
+              "serp:raw_porkchop_ponigiri",
+              "serp:raw_rabbit_ponigiri",
+              "serp:red_mushroom_ponigiri",
+              "serp:rotten_flesh_ponigiri",
+              "serp:salmon_ponigiri",
+              "serp:slowpoke_tail_ponigiri"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:dynamax_band",
+              "name": "pa:itemGroup.name.§cmaximuñequeras"
+            },
+            "items": [
+              "serp:dynamax_band",
+              "serp:dynamax_band_black",
+              "serp:dynamax_band_blue",
+              "serp:dynamax_band_lime",
+              "serp:dynamax_band_pink",
+              "serp:dynamax_band_purple",
+              "serp:dynamax_band_red",
+              "serp:dynamax_band_white",
+              "serp:dynamax_band_yellow"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:mega_ring",
+              "name": "pa:itemGroup.name.§dmegaAros"
+            },
+            "items": [
+              "serp:mega_ring",
+              "serp:mega_ring_blue",
+              "serp:mega_ring_glasses",
+              "serp:mega_ring_lime",
+              "serp:mega_ring_pink",
+              "serp:mega_ring_purple",
+              "serp:mega_ring_red",
+              "serp:mega_ring_white",
+              "serp:mega_ring_yellow"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:rotomphone",
+              "name": "pa:itemGroup.name.§6telefonosRotom"
+            },
+            "items": [
+              "serp:rotomphone",
+              "serp:rotomphone_black",
+              "serp:rotomphone_blue",
+              "serp:rotomphone_lime",
+              "serp:rotomphone_pink",
+              "serp:rotomphone_purple",
+              "serp:rotomphone_red",
+              "serp:rotomphone_white",
+              "serp:rotomphone_yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "serp:black_cooking_pot_item",
+              "name": "pa:itemGroup.name.ollas"
+            },
+            "items": [
+              "serp:black_cooking_pot_item",
+              "serp:blue_cooking_pot_item",
+              "serp:lime_cooking_pot_item",
+              "serp:pink_cooking_pot_item",
+              "serp:red_cooking_pot_item",
+              "serp:white_cooking_pot_item",
+              "serp:yellow_cooking_pot_item"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:black_edible_dye",
+              "name": "pa:itemGroup.name.tintesComestibles"
+            },
+            "items": [
+              "serp:black_edible_dye",
+              "serp:blue_edible_dye",
+              "serp:brown_edible_dye",
+              "serp:cyan_edible_dye",
+              "serp:gray_edible_dye",
+              "serp:green_edible_dye",
+              "serp:light_blue_edible_dye",
+              "serp:light_gray_edible_dye",
+              "serp:lime_edible_dye",
+              "serp:magenta_edible_dye",
+              "serp:orange_edible_dye",
+              "serp:pink_edible_dye",
+              "serp:purple_edible_dye",
+              "serp:red_edible_dye",
+              "serp:white_edible_dye",
+              "serp:yellow_edible_dye"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:common_ticket",
+              "name": "pa:itemGroup.name.tickets"
+            },
+            "items": [
+              "serp:common_ticket",
+              "serp:epic_ticket",
+              "serp:rare_ticket",
+              "serp:uncommon_ticket"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:dynamax_candy",
+              "name": "pa:itemGroup.name.§ccaramelosDinamax"
+            },
+            "items": [
+              "serp:dynamax_candy",
+              "serp:dynamax_candy_l",
+              "serp:dynamax_candy_m",
+              "serp:dynamax_candy_xl"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:rare_candy",
+              "name": "pa:itemGroup.name.§9caramelosRaros"
+            },
+            "items": [
+              "serp:rare_candy",
+              "serp:rare_candy_l",
+              "serp:rare_candy_m",
+              "serp:rare_candy_max",
+              "serp:rare_candy_s",
+              "serp:rare_candy_xl",
+              "serp:rare_candy_xs"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "nature",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "serp:blue_mint_leaf",
+              "name": "pa:itemGroup.name.§ahojasDeMentas"
+            },
+            "items": [
+              "serp:blue_mint_leaf",
+              "serp:cyan_mint_leaf",
+              "serp:green_mint_leaf",
+              "serp:pink_mint_leaf",
+              "serp:red_mint_leaf",
+              "serp:white_mint_leaf"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:dawn_stone",
+              "name": "pa:itemGroup.name.piedrasEvolutivas"
+            },
+            "items": [
+              "serp:dawn_stone",
+              "serp:dusk_stone",
+              "serp:fire_stone",
+              "serp:ice_stone",
+              "serp:leaf_stone",
+              "serp:moon_stone",
+              "serp:shiny_stone",
+              "serp:sun_stone",
+              "serp:thunder_stone",
+              "serp:water_stone"
+            ]
+          },
+          {
+            "group_identifier": {
+              "icon": "serp:mint_active",
+              "name": "pa:itemGroup.name.§amentas"
+            },
+            "items": [
+              "serp:mint_active",
+              "serp:mint_affable",
+              "serp:mint_agitated",
+              "serp:mint_bold",
+              "serp:mint_cautious",
+              "serp:mint_chereful",
+              "serp:mint_crazy",
+              "serp:mint_daring",
+              "serp:mint_docile",
+              "serp:mint_firm",
+              "serp:mint_gross",
+              "serp:mint_kind",
+              "serp:mint_loose",
+              "serp:mint_mischievous",
+              "serp:mint_modest",
+              "serp:mint_naive",
+              "serp:mint_placid",
+              "serp:mint_rare",
+              "serp:mint_scared",
+              "serp:mint_serene",
+              "serp:mint_serious",
+              "serp:mint_strong",
+              "serp:mint_sullen",
+              "serp:mint_tame",
+              "serp:mint_timid"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "box_treat_offering_acaff6c8"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCD",
+      "EEE"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:apicot_berry",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:payapa_berry",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:box_offering",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:haban_berry",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:wepear_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:box_treat_offering",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_7ddcd18a"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_mewtwonite_y",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:mewtwonite_y",
+      "count": 1
+    }
+  }
+}

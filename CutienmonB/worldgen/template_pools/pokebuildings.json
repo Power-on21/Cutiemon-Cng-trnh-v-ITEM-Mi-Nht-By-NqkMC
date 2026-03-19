@@ -1,0 +1,13 @@
+{
+  "format_version":"1.21.20",
+  "minecraft:template_pool":{
+    "description":{
+      "identifier":"serp:pokebuildings"
+    },
+    "elements":[
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokegym","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"game_corner","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokelab","processors":"serp:hider"}}
+    ]
+  }
+}

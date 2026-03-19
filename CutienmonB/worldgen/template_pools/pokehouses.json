@@ -1,0 +1,16 @@
+{
+  "format_version":"1.21.20",
+  "minecraft:template_pool":{
+    "description":{
+      "identifier":"serp:pokehouses"
+    },
+    "elements":[
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"player_house","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokehouse1","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokehouse2","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokehouse3","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokelamp","processors":"serp:hider"}},
+{"weight":1,"element":{"element_type":"minecraft:single_pool_element","location":"pokecrops","processors":"serp:hider"}}
+    ]
+  }
+}

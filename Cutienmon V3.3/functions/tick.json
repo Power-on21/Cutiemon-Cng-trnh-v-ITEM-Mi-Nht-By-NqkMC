@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "serp_gold_helmet_effect",
+    "serp_old_red_helmet_effect",
+    "serp_wishing_shard_drill_effect",
+    "init"
+  ]
+}

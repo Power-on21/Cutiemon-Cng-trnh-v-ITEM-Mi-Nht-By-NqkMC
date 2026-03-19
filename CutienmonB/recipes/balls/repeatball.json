@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:repeatball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " o ",
+      "aia",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_red"},
+      "e":{"item":"serp:apricorn_yellow"},
+      "o":{"item":"serp:apricorn_black"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:repeatball","count":4}
+  }
+}

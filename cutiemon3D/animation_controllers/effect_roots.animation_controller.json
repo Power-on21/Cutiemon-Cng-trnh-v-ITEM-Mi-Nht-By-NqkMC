@@ -1,0 +1,301 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.char_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "tail_flame",
+							"locator": "tail"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.firehorse_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "head_fire",
+							"locator": "head"
+						},
+						{
+							"effect": "heads_fire",
+							"locator": "head"
+						},
+						{
+							"effect": "neck_fire",
+							"locator": "neck"
+						},
+						{
+							"effect": "necks_fire",
+							"locator": "neck"
+						},
+						{
+							"effect": "body_fire",
+							"locator": "body"
+						},
+						{
+							"effect": "bodys_fire",
+							"locator": "body"
+						},
+						{
+							"effect": "tail_fire",
+							"locator": "tail"
+						},
+						{
+							"effect": "tails_fire",
+							"locator": "tail"
+						},
+						{
+							"effect": "leg_fire",
+							"locator": "leg1"
+						},
+						{
+							"effect": "legs_fire",
+							"locator": "leg1"
+						},
+						{
+							"effect": "leg_fire",
+							"locator": "leg2"
+						},
+						{
+							"effect": "legs_fire",
+							"locator": "leg2"
+						},
+						{
+							"effect": "leg_fire",
+							"locator": "leg3"
+						},
+						{
+							"effect": "legs_fire",
+							"locator": "leg3"
+						},
+						{
+							"effect": "leg_fire",
+							"locator": "leg4"
+						},
+						{
+							"effect": "legs_fire",
+							"locator": "leg4"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.gastly_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "gastly_smoke",
+							"locator": "smoke"
+						},
+						{
+							"effect": "gastly_s_smoke",
+							"locator": "smoke"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.cynda_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "fire",
+							"locator": "flames"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.quilava_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "head_fire",
+							"locator": "head"
+						},
+						{
+							"effect": "back_fire",
+							"locator": "back"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.chimchar_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "flame",
+							"locator": "flame"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.litwick_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "flame",
+							"locator": "fire"
+						},
+						{
+							"effect": "flames",
+							"locator": "fire"
+						},
+						{
+							"effect": "wax",
+							"locator": "wax"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.lampent_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "flame",
+							"locator": "flame"
+						},
+						{
+							"effect": "flames",
+							"locator": "flame"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.chandelure_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "head_flame",
+							"locator": "head"
+						},
+						{
+							"effect": "head_flames",
+							"locator": "head"
+						},
+						{
+							"effect": "arm_flame",
+							"locator": "flame1"
+						},
+						{
+							"effect": "arm_flames",
+							"locator": "flame1"
+						},
+						{
+							"effect": "arm_flame",
+							"locator": "flame2"
+						},
+						{
+							"effect": "arm_flames",
+							"locator": "flame2"
+						},
+						{
+							"effect": "arm_flame",
+							"locator": "flame3"
+						},
+						{
+							"effect": "arm_flames",
+							"locator": "flame3"
+						},
+						{
+							"effect": "arm_flame",
+							"locator": "flame4"
+						},
+						{
+							"effect": "arm_flames",
+							"locator": "flame4"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.skeledirge_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "flame",
+							"locator": "flame1"
+						},
+						{
+							"effect": "flame",
+							"locator": "flame2"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		},
+		"controller.animation.greavard_effects": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "flame",
+							"locator": "flame"
+						},
+						{
+							"effect": "shiny"
+						}
+					],
+					"animations": ["eyes_controller"]
+				}
+			}
+		}
+	}
+}

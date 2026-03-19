@@ -1,0 +1,1 @@
+give @s serp:black_cooking_pot_item

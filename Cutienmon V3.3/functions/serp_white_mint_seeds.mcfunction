@@ -1,0 +1,1 @@
+give @s serp:white_mint_seeds

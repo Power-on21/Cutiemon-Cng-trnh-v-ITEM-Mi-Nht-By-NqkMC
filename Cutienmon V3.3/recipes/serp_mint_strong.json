@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_strong_1218cc98"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:pink_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:green_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_strong",
+      "count": 1
+    }
+  }
+}

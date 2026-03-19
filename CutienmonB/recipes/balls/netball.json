@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:netball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " o "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_cyan"},
+      "e":{"item":"serp:apricorn_black"},
+      "o":{"item":"serp:apricorn_white"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:netball","count":4}
+  }
+}

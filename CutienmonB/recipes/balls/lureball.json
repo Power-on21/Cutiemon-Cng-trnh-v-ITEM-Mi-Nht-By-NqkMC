@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:lureball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aio",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_blue"},
+      "e":{"item":"serp:apricorn_red"},
+      "o":{"item":"serp:apricorn_green"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:lureball","count":4}
+  }
+}

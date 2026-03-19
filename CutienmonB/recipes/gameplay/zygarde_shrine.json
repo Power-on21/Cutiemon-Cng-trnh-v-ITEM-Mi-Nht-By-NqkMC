@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:zygarde_shrine"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      "ddd",
+      "scs",
+      "ddd"
+    ],
+    "key":{
+      "d":{"item":"minecraft:iron_block"},
+      "c":{"item":"serp:zygarde_cell"},
+      "s":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"po:zygarde_shrine"}
+  }
+}

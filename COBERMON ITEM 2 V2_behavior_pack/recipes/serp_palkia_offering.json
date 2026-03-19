@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "palkia_offering_cd761cea"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:palkia_offering1",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:compass",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:palkia_offering2",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:palkia_offering",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:apricorn_pink

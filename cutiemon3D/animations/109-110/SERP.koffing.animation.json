@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.koffing.direction": {
+			"loop": true,
+			"bones": {
+				"koffing": {
+					"rotation": ["query.vertical_speed * -3.0", 0, "-math.max(-20,math.min(20,query.yaw_speed))"]
+				}
+			}
+		},
+		"animation.koffing.health_bar": {
+			"loop": true,
+			"bones": {
+				"health_hover": {
+					"rotation": ["q.camera_rotation(0)", "q.camera_rotation(1)-q.body_y_rotation", 0],
+					"position": [0, 23, 0],
+					"scale": "query.is_in_ui?0:1.5"
+				},
+				"bar_green": {
+					"scale": ["query.health/query.max_health*1", 1, 1]
+				},
+				"bar_black": {
+					"scale": ["(1)+(query.health/query.max_health*-1)", 1, 1]
+				}
+			}
+		},
+		"animation.koffing.quiet": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [
+						"math.sin(q.anim_time*90*5)*1+math.sin(q.anim_time*90*3)*2",
+						"math.sin(q.anim_time*90*1)*2",
+						"math.sin(q.anim_time*90*5+180)*1+math.sin(q.anim_time*90*3)*2"
+					],
+					"position": [0, "math.sin(q.anim_time*90*1)*0.5+math.sin(q.anim_time*90*2)*1", 0]
+				}
+			}
+		},
+		"animation.koffing.walk": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["15+math.sin(q.anim_time*90*3*2)*2", "math.sin(q.anim_time*90*1)*2", "math.sin(q.anim_time*90*5+180)*1+math.sin(q.anim_time*90*3)*2"],
+					"position": [
+						0,
+						"math.sin(q.anim_time*90*1*1.5)*0.5/2+math.sin(q.anim_time*90*2*1.5)*1/2+math.sin(q.anim_time*90*4*1.5+90)*2/2",
+						"math.sin(q.anim_time*90*4*1.5)*1/2"
+					]
+				}
+			}
+		},
+		"animation.koffing.sitting": {
+			"loop": true,
+			"animation_length": 0.625,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -0.1],
+						"0.625": [0, 0, -0.1]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -0.1],
+						"0.625": [0, 0, -0.1]
+					}
+				}
+			}
+		},
+		"animation.koffing.attack": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["15+math.sin(q.anim_time*90*3*2)*2", "math.sin(q.anim_time*90*1)*2", "math.sin(q.anim_time*90*5+180)*1+math.sin(q.anim_time*90*3)*2"],
+					"position": [
+						0,
+						"math.sin(q.anim_time*90*1*1.5)*0.5/2+math.sin(q.anim_time*90*2*1.5)*1/2+math.sin(q.anim_time*90*4*1.5+90)*2/2",
+						"math.sin(q.anim_time*90*4*1.5)*1/2"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+"format_version":"1.16.0",
+  "minecraft:entity":{
+    "description":{"identifier":"serp:attack","is_spawnable":false,"is_summonable":true,"runtime_identifier":"minecraft:arrow","properties":{"serp:attack":{"client_sync":true,"range":[-5000,5000],"type":"int","default":0},"serp:time":{"range":[-1,150],"type":"int","default":-1}}},
+    "components":{
+      "minecraft:type_family":{"family":["inanimated","player"]},
+      "minecraft:collision_box":{"width":0.65,"height":1},
+      "minecraft:physics":{},
+      "minecraft:transformation":{"into":"serp:despawn","delay":2}
+    },
+    "component_groups":{
+      "serp:projectile":{"minecraft:timer":{"time":0.1,"time_down_event":{"event":"serp:timedown"}},"minecraft:projectile":{"on_hit":{"impact_damage":{"damage":0,"knockback":false}},"liquid_inertia":1,"gravity":0}},
+      "serp:hit":{"minecraft:is_saddled":{},"minecraft:health":{"value":1},"minecraft:damage_sensor":{"triggers":[{"on_damage":{"filters":{"test":"has_damage","value":"fatal"}},"deals_damage":false}]},"minecraft:transformation":{"into":"serp:despawn","delay":1}}
+    },
+    "events":{
+      "minecraft:entity_spawned":{"add":{"component_groups":["serp:projectile"]}},
+      "serp:hit":{"remove":{"component_groups":["serp:projectile"]},"add":{"component_groups":["serp:hit"]}},
+      "serp:timedown":{"set_property":{"serp:time":"q.property('serp:time')-1"},"trigger":{"filters":{"test":"int_property","domain":"serp:time","operator":"<=","value":0},"event":"serp:hit"}}
+    }
+  }
+}

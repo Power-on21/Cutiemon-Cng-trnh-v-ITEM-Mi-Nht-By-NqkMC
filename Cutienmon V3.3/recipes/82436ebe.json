@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_fca776b7"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AB",
+      " C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:white_dye",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:moomoo_milk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:white_edible_dye",
+      "count": 1
+    }
+  }
+}

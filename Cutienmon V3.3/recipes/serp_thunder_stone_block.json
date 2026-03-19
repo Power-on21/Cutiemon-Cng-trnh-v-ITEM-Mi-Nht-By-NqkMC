@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "thunder_stone_block_a6aa5831"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:thunder_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:thunder_stone_block",
+      "count": 1
+    }
+  }
+}

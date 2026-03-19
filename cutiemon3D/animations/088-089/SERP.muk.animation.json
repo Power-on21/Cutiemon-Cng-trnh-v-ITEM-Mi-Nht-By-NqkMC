@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.muk.quiet": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": {
+						"0.0": [45, 0, -15.5],
+						"0.5": [44.56145, 7.05302, -22.60708],
+						"1.0": [45, 0, -15.5]
+					}
+				},
+				"arm_right2": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [0, 0, 15.5],
+						"0.5": [0, 0, 25.5],
+						"1.0": [0, 0, 15.5]
+					}
+				},
+				"arm_left3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_left": {
+					"rotation": [45, 0, 0]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.9, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.muk.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": {
+						"0.0": [45, 0, -15.5],
+						"0.5": [44.56145, 7.05302, -22.60708],
+						"1.0": [45, 0, -15.5]
+					}
+				},
+				"arm_right2": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [0, 0, 15.5],
+						"0.5": [0, 0, 25.5],
+						"1.0": [0, 0, 15.5]
+					}
+				},
+				"arm_left3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_left": {
+					"rotation": [45, 0, 0]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.9, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.muk.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": {
+						"0.0": [45, 0, -15.5],
+						"0.5": [44.56145, 7.05302, -22.60708],
+						"1.0": [45, 0, -15.5]
+					}
+				},
+				"arm_right2": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_right": {
+					"rotation": [22.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [0, 0, 15.5],
+						"0.5": [0, 0, 25.5],
+						"1.0": [0, 0, 15.5]
+					}
+				},
+				"arm_left3": {
+					"rotation": [22.5, 0, 0]
+				},
+				"hand_left": {
+					"rotation": [45, 0, 0]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.9, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

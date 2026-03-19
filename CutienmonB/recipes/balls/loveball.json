@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:loveball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " a "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_pink"},
+      "e":{"item":"serp:apricorn_white"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:loveball","count":4}
+  }
+}

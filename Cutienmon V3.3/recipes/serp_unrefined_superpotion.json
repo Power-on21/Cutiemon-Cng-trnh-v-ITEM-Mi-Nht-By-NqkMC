@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unrefined_superpotion_fb9391a7"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      " A ",
+      "BCD",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "serp:razz_berry",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:pinap_berry",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:enigma_berry",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:golden_carrot",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:unrefined_potion",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:unrefined_superpotion",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:moon_stone_block

@@ -1,0 +1,22 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:fastball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " o "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_yellow"},
+      "e":{"item":"serp:apricorn_orange"},
+      "o":{"item":"serp:apricorn_white"},
+      "b":{"item":"minecraft:stone_button"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:fastball","count":4}
+  }
+}

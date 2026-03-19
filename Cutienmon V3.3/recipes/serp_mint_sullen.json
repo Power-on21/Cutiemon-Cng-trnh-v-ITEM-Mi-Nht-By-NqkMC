@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_sullen_7f0af174"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:blue_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_sullen",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "water_stone_block_b2623b73"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:water_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:water_stone_block",
+      "count": 1
+    }
+  }
+}

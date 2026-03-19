@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "youtube drexmc",
+    "name": "COBERMON ITEM2 V2 Pre",
+    "uuid": "6e3ee3b0-c707-48ea-bde2-b1ddeaf63d9f",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "description": "youtube drexmc",
+      "type": "data",
+      "uuid": "33098ac2-1c42-421f-a799-2416d0c4f2b4",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "033de773-3975-4236-bb99-a480f64a0f5f",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b4d0afdf-c134-43b6-b10a-183eb2ae79ed",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "version": "1.19.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "1.3.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ]
+}

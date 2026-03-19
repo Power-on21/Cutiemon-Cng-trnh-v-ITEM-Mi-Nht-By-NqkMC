@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "raikou_treat_offering_2a102fa9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EEE"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:salac_berry",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:petaya_berry",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:wacan_berry",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:box_treat_offering",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:nanab_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:raikou_treat_offering",
+      "count": 1
+    }
+  }
+}

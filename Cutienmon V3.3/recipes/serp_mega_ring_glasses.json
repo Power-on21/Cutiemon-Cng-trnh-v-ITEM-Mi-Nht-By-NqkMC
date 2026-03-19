@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mega_ring_glasses_7e0bcd61"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      "D D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_nugget",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:black_glasses",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:key_stone",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:light_blue_stained_glass_pane",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mega_ring_glasses",
+      "count": 1
+    }
+  }
+}

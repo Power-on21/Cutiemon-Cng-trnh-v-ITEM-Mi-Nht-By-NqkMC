@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Este es un complemento el cual añadirá mas cosas al addon serp pokedrock. by SVNewer",
+    "name": "Cutienmon V3.3",
+    "uuid": "b033443b-31c7-4212-83bc-97dcf479d830",
+    "version": [0, 1, 4],
+    "min_engine_version": [1, 21, 90]
+  },
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["MCRED"],
+    "generated_with": {
+      "MAM": ["3.6.4"]
+    },
+    "url": "https://addonsmaker.com/"
+  },
+  "modules": [
+    {
+      "description": "Este es un complemento el cual añadirá mas cosas al addon serp pokedrock. by SVNewer",
+      "type": "data",
+      "uuid": "bcae6513-3a41-4a44-91fd-bb2ca0f096d6",
+      "version": [0, 1, 4]
+    },
+    {
+      "type": "script",
+      "uuid": "bd072f5a-c37c-4bc5-8d81-2b852a0db194",
+      "version": [0, 1, 4],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "01065385-5407-4f3a-b7e2-64c55f44aebf",
+      "version": [0, 1, 4]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.2.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

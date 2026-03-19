@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "serp:groudon_shrine_model",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "textures": {
+        "default": "textures/entity/groudon_shrine"
+      },
+      "geometry": {
+        "default": "geometry.groudon_shrine"
+      }
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["groudon_shrine"] },
+      "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+      "minecraft:push_through": 1,
+      "minecraft:physics": false,
+      "minecraft:health": { "value": 999999, "max": 999999 }
+    }
+  }
+}

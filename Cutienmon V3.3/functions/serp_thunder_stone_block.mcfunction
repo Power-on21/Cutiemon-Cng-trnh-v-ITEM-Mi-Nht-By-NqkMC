@@ -1,0 +1,1 @@
+give @s serp:thunder_stone_block

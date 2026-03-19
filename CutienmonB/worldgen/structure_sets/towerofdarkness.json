@@ -1,0 +1,12 @@
+{
+  "format_version":"1.21.20",
+  "minecraft:structure_set":{
+    "description":{
+      "identifier":"serp:towerofdarkness"
+    },
+    "placement":{"type":"minecraft:random_spread","salt":39281563,"spacing":42,"separation":10,"spread_type":"linear"},
+    "structures":[
+{"weight":1,"structure":"serp:towerofdarkness"}
+    ]
+  }
+}

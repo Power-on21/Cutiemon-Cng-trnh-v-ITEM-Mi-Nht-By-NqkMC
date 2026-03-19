@@ -1,0 +1,47 @@
+    {
+    "format_version": 2,
+    "header": {
+        "description": "Cutienmon",
+        "name": "Cutienmon Structure Bp",
+        "uuid": "bc2b15ca-cdeb-4db0-a0f1-4594d6f60b8a",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 19, 70]
+          },
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["MCRED"]
+    },
+    "modules": [
+        {
+        "description": "Bo Việt Hoá",
+        "type": "data",
+        "uuid": "8ced0ffd-daef-4c22-95b0-e42d5a6cecc7",
+        "version": [0, 0, 1]
+        },
+        {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d4aa0398-9a96-4b0e-bb64-2ba359dd1311",
+      "entry": "scripts/Main.js",
+      "version": [0, 1, 0]
+    }
+    ],
+    "dependencies": [
+      {
+      "uuid": "f570b7d2-8e47-4ce6-b922-73edbd3de729",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:geode_feature": {
+    "description": {
+      "identifier": "serp:mega_geode"
+    },
+    "filler": "minecraft:air",
+    "inner_layer": "serp:anistarite_crystal",
+    "alternate_inner_layer": "serp:key_shard_ore",
+    "middle_layer": "serp:hard_anistarite_crystal",
+    "outer_layer": "minecraft:smooth_basalt",
+    "inner_placements": [
+      {
+        "name": "serp:green_prism_ore"
+      },
+      {
+        "name": "serp:blue_prism_ore"
+      },
+      {
+        "name": "serp:red_prism_ore"
+      },
+      {
+        "name": "serp:steelixite_ore"
+      },
+      {
+        "name": "serp:alakazite_ore"
+      },
+      {
+        "name": "serp:absolite_ore"
+      },
+      {
+        "name": "serp:venusaurite_ore"
+      },
+      {
+        "name": "serp:swamperite_ore"
+      },
+      {
+        "name": "serp:slowbronite_ore"
+      },
+      {
+        "name": "serp:scizorite_ore"
+      },
+      {
+        "name": "serp:sceptilite_ore"
+      },
+      {
+        "name": "serp:salamancite_ore"
+      },
+      {
+        "name": "serp:sablenite_ore"
+      },
+      {
+        "name": "serp:pidgeotite_ore"
+      },
+      {
+        "name": "serp:mewtwonite_y_ore"
+      },
+      {
+        "name": "serp:mewtwonite_x_ore"
+      },
+      {
+        "name": "serp:lucarionite_ore"
+      },
+      {
+        "name": "serp:kangaskhanite_ore"
+      },
+      {
+        "name": "serp:heracronite_ore"
+      },
+      {
+        "name": "serp:gyaradosite_ore"
+      },
+      {
+        "name": "serp:gengarite_ore"
+      },
+      {
+        "name": "serp:gardevoirite_ore"
+      },
+      {
+        "name": "serp:garchompite_ore"
+      },
+      {
+        "name": "serp:galladite_ore"
+      },
+      {
+        "name": "serp:charizardite_y_ore"
+      },
+      {
+        "name": "serp:charizardite_x_ore"
+      },
+      {
+        "name": "serp:blazikenite_ore"
+      },
+      {
+        "name": "serp:blastoisinite_ore"
+      },
+      {
+        "name": "serp:beedrillite_ore"
+      },
+      {
+        "name": "serp:banettite_ore"
+      },
+      {
+        "name": "serp:ampharosite_ore"
+      },
+      {
+        "name": "serp:greninjite_ore"
+      },
+      {
+        "name": "serp:aerodactylite_ore"
+      }
+    ],
+    "min_outer_wall_distance": 2,
+    "max_outer_wall_distance": 7,
+    "min_distribution_points": 3,
+    "max_distribution_points": 4,
+    "min_point_offset": 0,
+    "max_point_offset": 2,
+    "max_radius": 7,
+    "crack_point_offset": 2,
+    "generate_crack_chance": 0.95,
+    "base_crack_size": 1,
+    "noise_multiplier": 0.025,
+    "use_potential_placements_chance": 0.35,
+    "use_alternate_layer0_chance": 0.083,
+    "placements_require_layer0_alternate": true,
+    "invalid_blocks_threshold": 64
+  }
+}

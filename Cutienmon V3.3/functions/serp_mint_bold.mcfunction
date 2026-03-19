@@ -1,0 +1,1 @@
+give @s serp:mint_bold

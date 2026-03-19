@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_0021bbbb"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AAA",
+      "B  ",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:hearty_grans",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:dried_kelp",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:dried_kelp_ponigiri",
+      "count": 3
+    }
+  }
+}

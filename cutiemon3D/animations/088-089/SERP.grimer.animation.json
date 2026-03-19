@@ -1,0 +1,124 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.grimer.quiet": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": [9.00717, -20.70481, -24.14867]
+				},
+				"arm_right2": {
+					"rotation": [-22.5, -55, 22.5]
+				},
+				"finger_right_index": {
+					"rotation": [0, -22.5, -22.5]
+				},
+				"finger_right_ring": {
+					"rotation": [0, 22.5, -22.5]
+				},
+				"arm_left": {
+					"rotation": [9.00717, 20.70481, 24.14867]
+				},
+				"arm_left2": {
+					"rotation": [-22.5, 55, -22.5]
+				},
+				"finger_left_index": {
+					"rotation": [0, 22.5, 22.5]
+				},
+				"finger_left_ring": {
+					"rotation": [0, -22.5, 22.5]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.92, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.grimer.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": [9.00717, -20.70481, -24.14867]
+				},
+				"arm_right2": {
+					"rotation": [-22.5, -55, 22.5]
+				},
+				"finger_right_index": {
+					"rotation": [0, -22.5, -22.5]
+				},
+				"finger_right_ring": {
+					"rotation": [0, 22.5, -22.5]
+				},
+				"arm_left": {
+					"rotation": [9.00717, 20.70481, 24.14867]
+				},
+				"arm_left2": {
+					"rotation": [-22.5, 55, -22.5]
+				},
+				"finger_left_index": {
+					"rotation": [0, 22.5, 22.5]
+				},
+				"finger_left_ring": {
+					"rotation": [0, -22.5, 22.5]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.92, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.grimer.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"arm_right": {
+					"rotation": {
+						"0.0": [8.59281, 11.43267, -19.22541],
+						"0.5": [9.16623, -23.17345, -24.57428],
+						"1.0": [8.59281, 11.43267, -19.22541]
+					}
+				},
+				"arm_right2": {
+					"rotation": [-22.5, -55, 22.5]
+				},
+				"finger_right_index": {
+					"rotation": [0, -22.5, -22.5]
+				},
+				"finger_right_ring": {
+					"rotation": [0, 22.5, -22.5]
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [9.00717, 20.70481, 24.14867],
+						"0.5": [9.85609, -31.18033, 15.80108],
+						"1.0": [9.00717, 20.70481, 24.14867]
+					}
+				},
+				"arm_left2": {
+					"rotation": [-22.5, 55, -22.5]
+				},
+				"finger_left_index": {
+					"rotation": [0, 22.5, 22.5]
+				},
+				"finger_left_ring": {
+					"rotation": [0, -22.5, 22.5]
+				},
+				"torso2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": [1, 0.92, 1],
+						"1.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "serp:groudon_shrine"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "groudon_shrine",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:loot": "loot_tables/poke_ore/main.json"
+    },
+    "events": {
+      "minecraft:on_placed": {
+        "run_command": {
+          "command": [
+            "summon serp:groudon_shrine_model ~~~"
+          ]
+        }
+      }
+    }
+  }
+}

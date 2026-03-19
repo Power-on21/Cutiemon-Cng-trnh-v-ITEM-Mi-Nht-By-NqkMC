@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "campfire",
+      "soul_campfire"
+    ],
+    "output": {
+      "item": "serp:super_potion",
+      "data": 0
+    },
+    "input": {
+      "item": "serp:unrefined_superpotion",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_96a9d18f"
+    }
+  }
+}

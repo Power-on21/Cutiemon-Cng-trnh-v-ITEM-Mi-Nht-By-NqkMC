@@ -1,0 +1,1 @@
+give @s serp:ampharosite_ore

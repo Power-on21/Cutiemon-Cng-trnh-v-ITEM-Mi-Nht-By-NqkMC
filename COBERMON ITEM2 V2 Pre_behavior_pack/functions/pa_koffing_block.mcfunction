@@ -1,0 +1,1 @@
+give @s pa:koffing_block

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_gross_a18f9448"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:blue_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:cyan_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_gross",
+      "count": 1
+    }
+  }
+}

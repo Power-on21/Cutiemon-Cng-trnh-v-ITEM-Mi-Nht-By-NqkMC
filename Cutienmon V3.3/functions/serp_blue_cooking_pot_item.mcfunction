@@ -1,0 +1,1 @@
+give @s serp:blue_cooking_pot_item

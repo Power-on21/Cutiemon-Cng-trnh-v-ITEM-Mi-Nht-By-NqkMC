@@ -1,0 +1,11 @@
+{
+  "po:gilded_chest": {
+    "textures": "po_gilded_chest",
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

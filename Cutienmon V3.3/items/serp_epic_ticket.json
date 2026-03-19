@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "serp:epic_ticket",
+      "menu_category": {
+        "category": "items",
+        "group": "pa:itemGroup.name.tickets"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": true,
+      "minecraft:use_modifiers": {
+        "movement_modifier": 1,
+        "use_duration": 0
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:icon": "serp:epic_ticket",
+      "minecraft:display_name": {
+        "value": "Ticket Epico"
+      },
+      "tag:minecraft:transform_materials": {},
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transform_materials"
+        ]
+      },
+      "minecraft:custom_components": [
+        "serp_epic_ticket:trigger"
+      ]
+    }
+  }
+}

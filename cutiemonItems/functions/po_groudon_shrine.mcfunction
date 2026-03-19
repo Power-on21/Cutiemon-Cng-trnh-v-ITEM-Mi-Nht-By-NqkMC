@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:groudon_offering,quantity=1..}] run function groudonn
+execute unless entity @p[hasitem={item=serp:groudon_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Groudon Offering!"}]}

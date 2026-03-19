@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:diveball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "oio",
+      " o "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_white"},
+      "o":{"item":"serp:apricorn_blue"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:diveball","count":4}
+  }
+}

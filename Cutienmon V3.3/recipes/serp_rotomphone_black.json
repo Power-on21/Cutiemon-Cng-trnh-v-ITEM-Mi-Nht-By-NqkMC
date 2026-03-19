@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "rotomphone_black_da3d0008"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:rotomphone",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:black_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:rotomphone_black",
+      "count": 1
+    }
+  }
+}

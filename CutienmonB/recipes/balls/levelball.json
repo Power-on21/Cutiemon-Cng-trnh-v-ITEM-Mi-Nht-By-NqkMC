@@ -1,0 +1,22 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:levelball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " o ",
+      "aix",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_yellow"},
+      "e":{"item":"serp:apricorn_red"},
+      "o":{"item":"serp:apricorn_black"},
+      "x":{"item":"serp:apricorn_pink"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:levelball","count":4}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_e13e7e6c"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AAB",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "serp:hearty_grans",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:honey_bottle",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:pumpkin_seeds",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:pewter_crunchies",
+      "count": 2
+    }
+  }
+}

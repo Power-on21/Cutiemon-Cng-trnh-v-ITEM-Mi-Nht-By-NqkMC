@@ -1,0 +1,1 @@
+give @s serp:red_cooking_pot

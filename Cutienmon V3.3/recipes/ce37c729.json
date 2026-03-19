@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_86c5f96b"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_greninjite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:greninjite",
+      "count": 1
+    }
+  }
+}

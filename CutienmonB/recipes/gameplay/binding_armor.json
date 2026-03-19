@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:binding_armor"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      " d ",
+      " f ",
+      " g "
+    ],
+    "key":{
+      "d":{"item":"serp:steel_gem"},
+      "f":{"item":"minecraft:netherite_upgrade_smithing_template"},
+      "g":{"item":"minecraft:iron_chestplate"}
+    },
+    "result":{"item":"serp:binding_armor"}
+  }
+}

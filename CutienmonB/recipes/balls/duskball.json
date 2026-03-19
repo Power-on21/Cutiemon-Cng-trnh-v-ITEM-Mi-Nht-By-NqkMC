@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:duskball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "eie",
+      " a "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_black"},
+      "e":{"item":"serp:apricorn_green"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:duskball","count":4}
+  }
+}

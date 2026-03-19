@@ -1,0 +1,11 @@
+{
+  "po:groudon_shrine": {
+    "textures": "po_groudon_shrine",
+    "sound": "normal"
+  },
+  "format_version": [
+    1,
+    1,
+    0
+  ]
+}

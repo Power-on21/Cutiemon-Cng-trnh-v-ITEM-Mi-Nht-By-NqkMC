@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "sun_stone_block_ec20d816"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:sun_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:sun_stone_block",
+      "count": 1
+    }
+  }
+}

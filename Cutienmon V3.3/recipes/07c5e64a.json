@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_b781719a"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_alakazite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:alakazite",
+      "count": 1
+    }
+  }
+}

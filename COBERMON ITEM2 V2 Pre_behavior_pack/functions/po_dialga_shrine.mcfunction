@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:dialga_offering,quantity=1..}] run function dialga
+execute unless entity @p[hasitem={item=serp:dialga_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Dialga Offering!"}]}

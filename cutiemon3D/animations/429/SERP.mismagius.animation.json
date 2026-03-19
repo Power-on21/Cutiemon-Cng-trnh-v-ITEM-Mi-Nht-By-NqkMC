@@ -1,0 +1,299 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mismagius.quiet": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"mismagius": {
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.8": [0, 0, 0],
+						"1.6": [0, 1, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.8": [0, -0.5, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"hat": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [5, 0, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"body": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.8": [1, 0.9, 1],
+						"1.6": [1, 1, 1]
+					}
+				},
+				"arms": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.9": [-35, 0, 0],
+						"1.6": [-45, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": [0, 0, 10],
+						"0.8": [0, 0, 25],
+						"1.6": [0, 0, 10]
+					}
+				},
+				"right_hand": {
+					"rotation": {
+						"0.0": [-25, 0, 0],
+						"0.6": [15, 0, 0],
+						"1.6": [-25, 0, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": [0, 0, -10],
+						"0.8": [0, 0, -25],
+						"1.6": [0, 0, -10]
+					}
+				},
+				"left_hand": {
+					"rotation": {
+						"0.0": [-25, 0, 0],
+						"0.6": [15, 0, 0],
+						"1.6": [-25, 0, 0]
+					}
+				},
+				"arm_right": {
+					"rotation": [77.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [82.5, 0, 0]
+				}
+			}
+		},
+		"animation.mismagius.walk": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"mismagius": {
+					"position": {
+						"0.0": [0, 14, 0],
+						"0.4": [0, 13, 0],
+						"0.8": [0, 14, 0]
+					}
+				},
+				"head": {
+					"position": [0, 1, -2]
+				},
+				"hat": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [5, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [10, 0, 0],
+						"0.8": [10, 0, 0]
+					},
+					"position": [0, -12, 0]
+				},
+				"body2": {
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.4": [35, 0, 0],
+						"0.8": [30, 0, 0]
+					},
+					"position": [0, 1, 0]
+				},
+				"arms": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [10, 0, 0],
+						"0.8": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -11, 2],
+						"0.8": [0, -11, 2]
+					}
+				},
+				"right_arm": {
+					"rotation": [0, 0, 10]
+				},
+				"right_hand": {
+					"rotation": {
+						"0.0": [20, 0, 0],
+						"0.3": [-10, 0, 0],
+						"0.8": [20, 0, 0]
+					}
+				},
+				"left_arm": {
+					"rotation": [0, 0, -10]
+				},
+				"left_hand": {
+					"rotation": {
+						"0.0": [20, 0, 0],
+						"0.3": [-10, 0, 0],
+						"0.8": [20, 0, 0]
+					}
+				},
+				"dress": {
+					"rotation": [27.5, 0, 0]
+				},
+				"arm_right": {
+					"rotation": {
+						"0.0": [75, 0, 0],
+						"0.4": [67.5, 0, 0],
+						"0.8": [75, 0, 0]
+					}
+				},
+				"arm_right2": {
+					"rotation": [7.5, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [15, 0, 0]
+				},
+				"arm_right4": {
+					"rotation": [20, 0, 0]
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [75, 0, 0],
+						"0.4": [70, 0, 0],
+						"0.8": [75, 0, 0]
+					}
+				},
+				"arm_left3": {
+					"rotation": [20, 0, 0]
+				},
+				"arm_left4": {
+					"rotation": [17.5, 0, 0]
+				}
+			}
+		},
+		"animation.mismagius.sitting": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, -4, 0]
+				},
+				"hat": {
+					"rotation": [12.5, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"body": {
+					"position": [0, -9, 0]
+				},
+				"body2": {
+					"position": [0, 1, 0],
+					"scale": [1, 0.5, 1]
+				},
+				"arms": {
+					"rotation": [-30, 0, 0],
+					"position": [0, -5, 0]
+				},
+				"right_arm": {
+					"rotation": [0, 0, 25],
+					"position": [1, 0, 0]
+				},
+				"right_hand": {
+					"rotation": [-45, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [0, 0, -25],
+					"position": [-1, 0, 0]
+				},
+				"left_hand": {
+					"rotation": [-45, 0, 0]
+				},
+				"arm_right": {
+					"rotation": [40, 0, 0]
+				},
+				"arm_right2": {
+					"rotation": [-15, 0, 0]
+				},
+				"arm_right3": {
+					"rotation": [-22.5, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [42.5, 0, 0]
+				},
+				"arm_left2": {
+					"rotation": [-12.5, 0, 0]
+				},
+				"arm_left3": {
+					"rotation": [-25, 0, 0]
+				}
+			}
+		},
+		"animation.mismagius.attack": {
+			"loop": true,
+			"bones": {
+				"hat": {
+					"rotation": [35, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"body2": {
+					"rotation": [-25, 0, 0],
+					"position": [0, 1, 0]
+				},
+				"arms": {
+					"position": [0, 3, 0]
+				},
+				"right_arm": {
+					"rotation": [-120, 35, -45]
+				},
+				"right_hand": {
+					"rotation": [35, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [-120, -35, 45]
+				},
+				"left_hand": {
+					"rotation": [35, 0, 0]
+				}
+			}
+		},
+		"animation.mismagius.attack2": {
+			"loop": true,
+			"bones": {
+				"body2": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0.5, 0]
+				},
+				"arms": {
+					"position": [0, 1, 2]
+				},
+				"right_arm": {
+					"rotation": [-135, 15, -15]
+				},
+				"right_hand": {
+					"rotation": [-25, 0, 0]
+				},
+				"left_arm": {
+					"rotation": [-135, -15, 15]
+				},
+				"left_hand": {
+					"rotation": [-25, 0, 0]
+				}
+			}
+		},
+		"animation.mismagius.direction": {
+			"loop": true,
+			"bones": {
+				"mismagius": {
+					"rotation": [0, 0, "-math.max(-20,math.min(20,query.yaw_speed))"]
+				},
+				"root": {
+					"rotation": ["query.vertical_speed * -4.0", 0, 0]
+				}
+			}
+		}
+	}
+}

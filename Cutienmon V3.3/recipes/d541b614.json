@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_8d5c1249"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AAB",
+      "C  "
+    ],
+    "key": {
+      "A": {
+        "item": "serp:hearty_grans",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:dried_kelp",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:magma_cream",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:magma_cookie",
+      "count": 4
+    }
+  }
+}

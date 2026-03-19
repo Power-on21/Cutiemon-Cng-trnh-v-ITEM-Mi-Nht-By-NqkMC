@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_e3c48e0b"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AB",
+      " C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:pink_dye",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:moomoo_milk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:pink_edible_dye",
+      "count": 1
+    }
+  }
+}

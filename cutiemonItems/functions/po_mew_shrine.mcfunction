@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:mew_offering,quantity=1..}] run function meww
+execute unless entity @p[hasitem={item=serp:mew_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Mew Offering!"}]}

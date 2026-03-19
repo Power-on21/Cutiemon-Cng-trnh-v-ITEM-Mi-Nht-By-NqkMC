@@ -1,0 +1,1 @@
+give @s serp:blue_edible_dye

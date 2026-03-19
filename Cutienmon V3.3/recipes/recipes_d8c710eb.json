@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "serp:hyper_potion",
+      "data": 0
+    },
+    "input": {
+      "item": "serp:unrefined_hyperpotion",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_d8c710eb"
+    }
+  }
+}

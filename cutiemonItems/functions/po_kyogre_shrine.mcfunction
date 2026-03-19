@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:kyogre_offering,quantity=1..}] run function kyogre
+execute unless entity @p[hasitem={item=serp:kyogre_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี Kyogre Offering!"}]}

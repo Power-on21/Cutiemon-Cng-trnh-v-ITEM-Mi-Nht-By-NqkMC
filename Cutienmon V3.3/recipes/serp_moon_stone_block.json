@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moon_stone_block_d1a86892"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:moon_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:moon_stone_block",
+      "count": 1
+    }
+  }
+}

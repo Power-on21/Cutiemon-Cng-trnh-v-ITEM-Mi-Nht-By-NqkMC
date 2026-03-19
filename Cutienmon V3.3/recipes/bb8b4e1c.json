@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_660cbad1"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_banettite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:banettite",
+      "count": 1
+    }
+  }
+}

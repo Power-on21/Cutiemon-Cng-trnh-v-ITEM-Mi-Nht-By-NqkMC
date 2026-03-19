@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_3a9d0631"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_gardevoirite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:gardevoirite",
+      "count": 1
+    }
+  }
+}

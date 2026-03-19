@@ -1,0 +1,1 @@
+give @s serp:leaf_stone

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_8b1e2aab"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "serp:rare_candy_l",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:sugar_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:rare_candy_xl",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.serppc_box.icon": {
+			"loop": true,
+			"bones": {
+				"icon": {
+					"rotation": ["q.camera_rotation(0)", "q.camera_rotation(1)-q.body_y_rotation", 0]
+				}
+			}
+		},
+		"animation.serppc_box.sleep": {
+			"loop": true,
+			"bones": {
+				"up": {
+					"position": [0, -10, 0]
+				}
+			}
+		},
+		"animation.serppc_box.wake": {
+			"animation_length": 0.3,
+			"bones": {
+				"bone": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"0.3": [0, 0, -1.1]
+					}
+				}
+			}
+		}
+	}
+}

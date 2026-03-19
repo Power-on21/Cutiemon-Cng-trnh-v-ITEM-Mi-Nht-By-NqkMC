@@ -1,0 +1,70 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Hãy Chơi Vui Vẻ nha :(( by DrexMC/By Cobblemon",
+    "name": "COBERMON ITEM 2 V2",
+    "uuid": "22d1ef99-e490-48c4-8194-1ec83936396d",
+    "version": [
+      1,
+      21,
+      90
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Hãy Chơi Vui Vẻ nha :(( by DrexMC/By Cobblemon",
+      "type": "data",
+      "uuid": "93288cb2-9872-4abc-9457-462b3634e1d7",
+      "version": [
+        1,
+        21,
+        90
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "62ffdb75-a4c9-4584-916d-72ea630805d8",
+      "version": [
+        1,
+        21,
+        90
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5ecb0ec8-bdcb-431a-bf0c-bbde1d5ef9aa",
+      "version": [
+        1,
+        21,
+        90
+      ]
+    },
+    {
+      "version": "2.4.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "2.0.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "DrexMC/By Cobblemon"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.6.6"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

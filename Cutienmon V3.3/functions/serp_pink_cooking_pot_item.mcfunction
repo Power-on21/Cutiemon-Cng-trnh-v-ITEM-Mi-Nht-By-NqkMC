@@ -1,0 +1,1 @@
+give @s serp:pink_cooking_pot_item

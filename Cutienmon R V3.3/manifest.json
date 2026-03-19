@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Este es un complemento el cual añadirá mas cosas al addon serp pokedrock. by SVNewer",
+    "name": "Cutienmon V3.3 RB",
+    "uuid": "01065385-5407-4f3a-b7e2-64c55f44aebf",
+    "version": [
+      0,
+      1,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "description": "Este es un complemento el cual añadirá mas cosas al addon serp pokedrock. by SVNewer",
+      "type": "resources",
+      "uuid": "edb44054-bb20-4adc-8a9e-2198da956582",
+      "version": [
+        0,
+        1,
+        4
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b033443b-31c7-4212-83bc-97dcf479d830",
+      "version": [
+        0,
+        1,
+        4
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "SVNewer"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.6.4"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

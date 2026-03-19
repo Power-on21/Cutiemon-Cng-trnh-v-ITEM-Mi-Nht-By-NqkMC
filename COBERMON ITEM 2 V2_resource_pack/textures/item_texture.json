@@ -1,0 +1,174 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_camel": {
+      "textures": "textures/items/egg_camel"
+    },
+    "egg_lion": {
+      "textures": "textures/items/egg_lion"
+    },
+    "egg_penguin": {
+      "textures": "textures/items/egg_penguin"
+    },
+    "egg_tiger": {
+      "textures": "textures/items/egg_tiger"
+    },
+    "egg_elephant": {
+      "textures": "textures/items/egg_elephant"
+    },
+    "egg_deer": {
+      "textures": "textures/items/egg_deer"
+    },
+    "egg_panther": {
+      "textures": "textures/items/egg_panther"
+    },
+    "egg_frog": {
+      "textures": "textures/items/egg_frog"
+    },
+    "egg_crocodile": {
+      "textures": "textures/items/egg_crocodile"
+    },
+    "egg_mouse": {
+      "textures": "textures/items/egg_mouse"
+    },
+    "gallardo": {
+      "textures": "textures/items/gallardo"
+    },
+    "bench": {
+      "textures": "textures/items/bench"
+    },
+    "christmas_tree": {
+      "textures": "textures/items/christmas_tree"
+    },
+    "tivi": {
+      "textures": "textures/items/tivi"
+    },
+    "closet": {
+      "textures": "textures/items/closet"
+    },
+    "laptop": {
+      "textures": "textures/items/laptop"
+    },
+    "piano": {
+      "textures": "textures/items/piano"
+    },
+    "armchairs": {
+      "textures": "textures/items/armchairs"
+    },
+    "chair": {
+      "textures": "textures/items/chair"
+    },
+    "big_table": {
+      "textures": "textures/items/big_table"
+    },
+    "small_table": {
+      "textures": "textures/items/small_table"
+    },
+    "drone": {
+      "textures": "textures/items/drone"
+    },
+    "colorful_gifts": {
+      "textures": "textures/items/colorful_gifts"
+    },
+    "serp:blue_feather_offering": {
+      "textures": "textures/items/pamobile/serp_blue_feather_offering"
+    },
+    "serp:box_offering": {
+      "textures": "textures/items/pamobile/serp_box_offering"
+    },
+    "serp:box_treat_offering": {
+      "textures": "textures/items/pamobile/serp_box_treat_offering"
+    },
+    "serp:apicot_berry": {
+      "textures": "textures/items/pamobile/serp_apicot_berry"
+    },
+    "serp:dialga_offering1": {
+      "textures": "textures/items/pamobile/serp_dialga_offering1"
+    },
+    "serp:cosmicdust_offering": {
+      "textures": "textures/items/pamobile/serp_cosmicdust_offering"
+    },
+    "serp:dialga_offering": {
+      "textures": "textures/items/pamobile/serp_dialga_offering"
+    },
+    "serp:dialga_offering2": {
+      "textures": "textures/items/pamobile/serp_dialga_offering2"
+    },
+    "serp:ganlon_berry": {
+      "textures": "textures/items/pamobile/serp_ganlon_berry"
+    },
+    "serp:ideals_offering": {
+      "textures": "textures/items/pamobile/serp_ideals_offering"
+    },
+    "serp:lansat_berry": {
+      "textures": "textures/items/pamobile/serp_lansat_berry"
+    },
+    "serp:haban_berry": {
+      "textures": "textures/items/pamobile/serp_haban_berry"
+    },
+    "serp:occa_berry": {
+      "textures": "textures/items/pamobile/serp_occa_berry"
+    },
+    "serp:liechi_berry": {
+      "textures": "textures/items/pamobile/serp_liechi_berry"
+    },
+    "serp:entei_treat_offering": {
+      "textures": "textures/items/pamobile/serp_entei_treat_offering"
+    },
+    "serp:passho_berry": {
+      "textures": "textures/items/pamobile/serp_passho_berry"
+    },
+    "serp:palkia_offering2": {
+      "textures": "textures/items/pamobile/serp_palkia_offering2"
+    },
+    "serp:pearl_of_justice_offering": {
+      "textures": "textures/items/pamobile/serp_pearl_of_justice_offering"
+    },
+    "serp:payapa_berry": {
+      "textures": "textures/items/pamobile/serp_payapa_berry"
+    },
+    "serp:petaya_berry": {
+      "textures": "textures/items/pamobile/serp_petaya_berry"
+    },
+    "serp:raikou_treat_offering": {
+      "textures": "textures/items/pamobile/serp_raikou_treat_offering"
+    },
+    "serp:palkia_offering": {
+      "textures": "textures/items/pamobile/serp_palkia_offering"
+    },
+    "serp:palkia_offering1": {
+      "textures": "textures/items/pamobile/serp_palkia_offering1"
+    },
+    "serp:red_feather_offering": {
+      "textures": "textures/items/pamobile/serp_red_feather_offering"
+    },
+    "serp:salac_berry": {
+      "textures": "textures/items/pamobile/serp_salac_berry"
+    },
+    "serp:struth_offering": {
+      "textures": "textures/items/pamobile/serp_struth_offering"
+    },
+    "serp:star_candy": {
+      "textures": "textures/items/pamobile/serp_star_candy"
+    },
+    "serp:suicune_treat_offering": {
+      "textures": "textures/items/pamobile/serp_suicune_treat_offering"
+    },
+    "serp:wacan_berry": {
+      "textures": "textures/items/pamobile/serp_wacan_berry"
+    },
+    "serp:wepear_berry": {
+      "textures": "textures/items/pamobile/serp_wepear_berry"
+    },
+    "serp:reshiram_offering1": {
+      "textures": "textures/items/pamobile/serp_reshiram_offering1"
+    },
+    "serp:zekrom_offering1": {
+      "textures": "textures/items/pamobile/serp_zekrom_offering1"
+    },
+    "serp:yellow_feather_offering": {
+      "textures": "textures/items/pamobile/serp_yellow_feather_offering"
+    }
+  }
+}

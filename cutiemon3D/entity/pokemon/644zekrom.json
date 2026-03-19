@@ -1,0 +1,59 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:p644",
+      "materials": {
+        "default": "pokemon",
+        "aura": "aura"
+      },
+      "textures": {
+        "evo_aura": "textures/entity/aura/evolve",
+        "default": "textures/entity/normal/zekrom",
+        "default_s": "textures/entity/shiny/zekrom",
+        "mega1": "textures/entity/normal/zekrom",
+        "mega_s1": "textures/entity/shiny/zekrom",
+        "mega2": "textures/entity/normal/zekrom",
+        "mega_s2": "textures/entity/shiny/zekrom",
+        "gigamax": "textures/entity/normal/zekrom",
+        "gigamax_s": "textures/entity/shiny/zekrom"
+      },
+      "geometry": {
+        "default": "geometry.serpzekrom",
+        "mega1": "geometry.serpzekrom",
+        "mega2": "geometry.serpzekrom",
+        "gigamax": "geometry.serpzekrom"
+      },
+      "animations": {
+        "eyes_controller": "controller.animation.eyes",
+        "open": "animation.serpmob.open",
+        "close": "animation.serpmob.close",
+        "angry": "animation.serpmob.angry",
+        "fainted": "animation.serpmob.fainted",
+        "quiet": "animation.zekrom.quiet",
+        "walk": "animation.zekrom.walk",
+        "sit": "animation.zekrom.sitting",
+        "attack": "animation.zekrom.attack",
+        "attack2": "animation.zekrom.attack2",
+        "defeated": "animation.zekrom.defeated",
+        "main_controller": "controller.animation.pokemon_ground",
+        "effects_controller": "controller.animation.effects"
+      },
+      "particle_effects": {
+        "shiny": "serp:shiny"
+      },
+      "scripts": {
+        "scale": "q.life_time < 1 ? q.life_time * 1 : 1",
+        "animate": [
+          "effects_controller",
+          "main_controller"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.pokemon",
+        "controller.render.aura"
+      ],
+      "enable_attachables": true
+    }
+  }
+}

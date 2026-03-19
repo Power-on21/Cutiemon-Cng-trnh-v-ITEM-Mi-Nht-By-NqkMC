@@ -1,0 +1,1 @@
+give @s serp:raw_charizardite_y

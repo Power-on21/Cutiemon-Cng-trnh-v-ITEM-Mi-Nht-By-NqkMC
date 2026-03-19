@@ -1,0 +1,108 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "serp_gacha_machine_black": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_black"
+      ]
+    },
+    "serp_gacha_machine": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine"
+      ]
+    },
+    "serp_gacha_machine_light_gray": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_light_gray"
+      ]
+    },
+    "serp_gacha_machine_blue": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_blue"
+      ]
+    },
+    "serp_gacha_machine_cyan": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_cyan"
+      ]
+    },
+    "serp_gacha_machine_lime": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_lime"
+      ]
+    },
+    "serp_gacha_machine_gray": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_gray"
+      ]
+    },
+    "serp_gacha_machine_brown": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_brown"
+      ]
+    },
+    "serp_gacha_machine_light_blue": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_light_blue"
+      ]
+    },
+    "serp_gacha_machine_green": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_green"
+      ]
+    },
+    "serp_gacha_machine_orange": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_orange"
+      ]
+    },
+    "serp_megagacha_machine": {
+      "textures": [
+        "textures/blocks/serp_megagacha_machine"
+      ]
+    },
+    "serp_gacha_machine_white": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_white"
+      ]
+    },
+    "serp_gacha_machine_magenta": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_magenta"
+      ]
+    },
+    "serp_gacha_machine_purple": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_purple"
+      ]
+    },
+    "serp_gacha_machine_red": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_red"
+      ]
+    },
+    "serp_gacha_machine_yellow": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_yellow"
+      ]
+    },
+    "serp_gacha_machine_pink": {
+      "textures": [
+        "textures/blocks/serp_gacha_machine_pink"
+      ]
+    },
+    "serp_wildgacha_machine": {
+      "textures": [
+        "textures/blocks/serp_wildgacha_machine"
+      ]
+    },
+    "serp_megagacha_machine_black": {
+      "textures": [
+        "textures/blocks/serp_megagacha_machine_black"
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hoppip.quiet": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"hoppip": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [5, 0, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"arms": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [10, 0, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"leaves": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"1.0": [0, 0, 0],
+						"1.6": [-10, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hoppip.walk": {
+			"loop": true,
+			"animation_length": 1.2,
+			"bones": {
+				"hoppip": {
+					"rotation": {
+						"0.0": [0, 0, -5],
+						"0.3": [0, 0, 0],
+						"0.6": [0, 0, 5],
+						"0.9": [0, 0, 0],
+						"1.2": [0, 0, -5]
+					}
+				},
+				"arms": {
+					"rotation": [35, 0, 0]
+				},
+				"root": {
+					"position": {
+						"0.0": [0, 2, 0],
+						"0.3": [0, 1, 0],
+						"0.6": [0, 2, 0],
+						"0.9": [0, 1, 0],
+						"1.2": [0, 2, 0]
+					}
+				},
+				"legs": {
+					"rotation": {
+						"0.0": [65, 0, 0],
+						"0.2": [45, 0, 0],
+						"0.6": [65, 0, 0],
+						"0.8": [45, 0, 0],
+						"1.2": [65, 0, 0]
+					},
+					"position": [0, 0, -1]
+				},
+				"leaves": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.2": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"animation.hoppip.sitting": {
+			"loop": true,
+			"bones": {
+				"hoppip": {
+					"position": [0, -0.5, 0]
+				},
+				"arms": {
+					"rotation": [-15, 0, 0]
+				},
+				"legs": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"leaves": {
+					"rotation": [-45, 0, 0]
+				}
+			}
+		},
+		"animation.hoppip.attack": {
+			"loop": true,
+			"bones": {
+				"arms": {
+					"rotation": [-50, 0, 0]
+				},
+				"root": {
+					"position": [0, 1, 0]
+				},
+				"legs": {
+					"rotation": [25, 0, 0],
+					"position": [0, 0, -3]
+				},
+				"leaves": {
+					"rotation": [45, -10, -10]
+				}
+			}
+		}
+	}
+}

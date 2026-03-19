@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_e8027942"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_sceptilite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:sceptilite",
+      "count": 1
+    }
+  }
+}

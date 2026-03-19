@@ -1,0 +1,22 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:prison_bottle"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      " d ",
+      "hsh",
+      " e "
+    ],
+    "key":{
+      "d":{"item":"serp:psychic_gem"},
+      "s":{"item":"minecraft:glass_bottle"},
+      "h":{"item":"minecraft:amethyst_cluster"},
+      "e":{"item":"minecraft:obsidian"}
+    },
+    "result":{"item":"serp:prison_bottle"}
+  }
+}

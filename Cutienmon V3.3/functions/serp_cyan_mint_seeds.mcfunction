@@ -1,0 +1,1 @@
+give @s serp:cyan_mint_seeds

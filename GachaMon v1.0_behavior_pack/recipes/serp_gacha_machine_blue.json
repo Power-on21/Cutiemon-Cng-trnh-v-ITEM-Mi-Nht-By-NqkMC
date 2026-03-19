@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gacha_machine_blue_3c196d35"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:gacha_machine",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:blue_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:gacha_machine_blue",
+      "count": 1
+    }
+  }
+}

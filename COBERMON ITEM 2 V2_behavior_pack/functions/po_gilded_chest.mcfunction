@@ -1,0 +1,1 @@
+give @s po:gilded_chest

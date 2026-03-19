@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:ultraball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_yellow"},
+      "e":{"item":"serp:apricorn_black"},
+      "i":{"item":"minecraft:gold_ingot"}
+    },
+    "result":{"item":"serp:ultraball","count":4}
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:smoked_tail_curry

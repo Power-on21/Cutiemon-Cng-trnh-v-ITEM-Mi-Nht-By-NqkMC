@@ -1,0 +1,1 @@
+say galarica | hearty | planta | 

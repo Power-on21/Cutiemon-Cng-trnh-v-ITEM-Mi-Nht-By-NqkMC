@@ -1,0 +1,1 @@
+give @s serp:entei_treat_offering

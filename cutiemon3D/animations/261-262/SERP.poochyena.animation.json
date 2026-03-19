@@ -1,0 +1,352 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.poochyena.quiet": {
+			"loop": true,
+			"animation_length": 1.2,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7": [0, -1, 0],
+						"1.2": [0, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7": [5, 0, 0],
+						"1.2": [0, 0, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [15, 35, -25],
+						"0.5": [55, 25, -5],
+						"1.2": [15, 35, -25]
+					},
+					"position": {
+						"0.0": [2, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.2": [2, 0, 0]
+					}
+				},
+				"right_front_leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.6": [0, 0, -5],
+						"1.2": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.6": [-0.5, 0, 0],
+						"1.2": [0, 0, 0]
+					}
+				},
+				"left_front_leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.6": [0, 0, 5],
+						"1.2": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.6": [0.5, 0, 0],
+						"1.2": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.poochyena.walk": {
+			"loop": true,
+			"animation_length": 0.7,
+			"bones": {
+				"poochyena": {
+					"rotation": {
+						"0.0": [-5, 0, 0],
+						"0.3": [10, 0, 0],
+						"0.6": [-5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.3": [0, 1, 0],
+						"0.6": [0, 0, 0]
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, -2, 0],
+						"0.6": [0, 0, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [35, 0, 0],
+						"0.4": [75, 0, 0],
+						"0.6": [35, 0, 0]
+					}
+				},
+				"front_legs": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.2": [30, 0, 0],
+						"0.6": [-45, 0, 0]
+					}
+				},
+				"back_legs": {
+					"rotation": {
+						"0.0": [35, 0, 0],
+						"0.4": [-35, 0, 0],
+						"0.6": [35, 0, 0]
+					}
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-65, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"shoulder_left": {
+					"rotation": {
+						"0.0": [-57.5, 0, 0],
+						"0.3": [0, 0, 0],
+						"0.7": [-57.5, 0, 0]
+					}
+				},
+				"arm_left": {
+					"rotation": {
+						"0.0": [7.5, 0, 0],
+						"0.7": [7.5, 0, 0]
+					}
+				},
+				"frontpaw_left": {
+					"rotation": {
+						"0.0": [35, 0, 0],
+						"0.7": [35, 0, 0]
+					}
+				},
+				"shoulder_right": {
+					"rotation": {
+						"0.0": [-52.5, 0, 0],
+						"0.3": [0, 0, 0],
+						"0.7": [-52.5, 0, 0]
+					}
+				},
+				"arm_right": {
+					"rotation": {
+						"0.0": [5, 0, 0],
+						"0.7": [5, 0, 0]
+					}
+				},
+				"frontpaw_right": {
+					"rotation": {
+						"0.0": [40, 0, 0],
+						"0.7": [40, 0, 0]
+					}
+				},
+				"leg_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-37.5, 0, 0],
+						"0.5": [-15, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"ankle_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-22.5, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"paw_left": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [27.5, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"leg_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-37.5, 0, 0],
+						"0.5": [-7.5, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"ankle_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [-25, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				},
+				"paw_right": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [20, 0, 0],
+						"0.7": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.poochyena.sitting": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"position": [0, 1, 2]
+				},
+				"body": {
+					"rotation": [-45, 0, 0],
+					"position": [0, -2, 0]
+				},
+				"tail": {
+					"rotation": [99.73561, 30, 35.26439],
+					"position": [0, -2, 0]
+				},
+				"back_legs": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -4.5, 0.5]
+				},
+				"back_right_leg": {
+					"rotation": [0, 0, 10]
+				},
+				"back_left_leg": {
+					"rotation": [0, 0, -10]
+				},
+				"neck": {
+					"rotation": [47.5, 0, 0]
+				},
+				"tail2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -20, 5],
+						"0.5": [0, 12.5, 5],
+						"0.75": [0, -27.5, 5],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"shoulder_left": {
+					"rotation": [35, 0, 0]
+				},
+				"shoulder_right": {
+					"rotation": [47.5, 0, 0]
+				},
+				"leg_left": {
+					"rotation": [-34.81608, -14.90835, -20.30179]
+				},
+				"leg_right": {
+					"rotation": [-34.50269, 21.63471, 28.20867]
+				}
+			}
+		},
+		"animation.poochyena.jump": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 1, 0]
+				},
+				"body": {
+					"rotation": [-15, 0, 0]
+				},
+				"tail": {
+					"rotation": [80, 0, 0],
+					"position": [0, -1, 1]
+				},
+				"front_legs": {
+					"rotation": [-65, 0, 0]
+				},
+				"back_legs": {
+					"rotation": [40, 0, 0],
+					"position": [0, -1, 0]
+				}
+			}
+		},
+		"animation.poochyena.attack": {
+			"loop": true,
+			"animation_length": 7.9583,
+			"bones": {
+				"head": {
+					"rotation": [-15, 0, 0],
+					"position": [0, 0, -1]
+				},
+				"body": {
+					"rotation": [15, 0, 0]
+				},
+				"tail": {
+					"rotation": [15, 55, -25],
+					"position": [2, -2, 0]
+				},
+				"front_legs": {
+					"rotation": [-45, 0, 0],
+					"position": [0, -1, 0]
+				},
+				"neck": {
+					"rotation": [12.5, 0, 0]
+				}
+			}
+		},
+		"animation.poochyena.swimming": {
+			"loop": true,
+			"animation_length": 0.6,
+			"bones": {
+				"poochyena": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.3": [0, 1, 0],
+						"0.6": [0, 0, 0]
+					}
+				},
+				"head": {
+					"position": [0, 2, 2]
+				},
+				"body": {
+					"rotation": [-45, 0, 0]
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, -20],
+						"0.3": [0, 0, 20],
+						"0.6": [0, 0, -20]
+					},
+					"position": [0, -1, 0]
+				},
+				"front_legs": {
+					"rotation": {
+						"0.0": [-45, 0, 0],
+						"0.2": [-15, 0, 0],
+						"0.6": [-45, 0, 0]
+					},
+					"position": [0, 2, 0]
+				},
+				"back_legs": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [-30, 0, 0],
+						"0.6": [0, 0, 0]
+					},
+					"position": [0, -3, -2]
+				}
+			}
+		},
+		"animation.poochyena.health_bar": {
+			"loop": true,
+			"bones": {
+				"health_hover": {
+					"rotation": ["q.camera_rotation(0)", "q.camera_rotation(1)-q.body_y_rotation", 0],
+					"position": [0, 25, 0],
+					"scale": "query.is_in_ui?0:1.5"
+				},
+				"bar_green": {
+					"scale": ["query.health/query.max_health*1", 1, 1]
+				},
+				"bar_black": {
+					"scale": ["(1)+(query.health/query.max_health*-1)", 1, 1]
+				}
+			}
+		}
+	}
+}

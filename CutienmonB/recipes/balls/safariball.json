@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:safariball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aia",
+      " o "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_green"},
+      "e":{"item":"serp:apricorn_yellow"},
+      "o":{"item":"serp:apricorn_white"},
+      "i":{"item":"minecraft:copper_ingot"}
+    },
+    "result":{"item":"serp:safariball","count":4}
+  }
+}

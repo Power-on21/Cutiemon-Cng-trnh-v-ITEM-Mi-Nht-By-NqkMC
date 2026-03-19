@@ -1,0 +1,1 @@
+give @s serp:steelixite_ore

@@ -1,0 +1,119 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.serpshuppet.new": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"rotation": [0, 0, -10]
+				},
+				"head": {
+					"rotation": [-3.25489, 10.68992, 9.25768],
+					"position": [0, -1, -4]
+				},
+				"body": {
+					"rotation": [25, 0, 0]
+				}
+			}
+		},
+		"animation.shuppet.quiet": {
+			"loop": true,
+			"animation_length": 1.6,
+			"bones": {
+				"shuppet": {
+					"position": [0, "math.sin(q.anim_time*450)*1", 0]
+				},
+				"body": {
+					"rotation": {
+						"0.0": {
+							"post": [-15, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [0, 0, 15],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": {
+							"post": [15, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.2": {
+							"post": [0, 0, -15],
+							"lerp_mode": "catmullrom"
+						},
+						"1.6": {
+							"post": [-15, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": [1, "1+(math.sin(q.anim_time*450)*0.1)", 1]
+				}
+			}
+		},
+		"animation.shuppet.walk": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"position": [0, "1+(math.sin(q.anim_time*450)*1)", 0]
+				},
+				"body": {
+					"rotation": [45, "math.sin(q.anim_time*225)*15", 0],
+					"scale": [1, "1+(math.sin(q.anim_time*450)*0.1)", 1]
+				}
+			}
+		},
+		"animation.shuppet.sitting": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"position": [0, -3, 0]
+				},
+				"body": {
+					"scale": [1, 0.6, 1]
+				}
+			}
+		},
+		"animation.shuppet.attack": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 0, -1]
+				},
+				"body": {
+					"rotation": [-20, 0, 0]
+				}
+			}
+		},
+		"animation.shuppet.attack2": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"position": [0, 2, 0]
+				},
+				"body": {
+					"scale": [1, 1.3, 1]
+				}
+			}
+		},
+		"animation.shuppet.defeated": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"position": [0, -5, 0]
+				},
+				"body": {
+					"position": [0, -1, 0],
+					"scale": [1.4, 0.2, 1.4]
+				}
+			}
+		},
+		"animation.shuppet.direction": {
+			"loop": true,
+			"bones": {
+				"shuppet": {
+					"rotation": [ "query.vertical_speed * -3.0", 0, "-math.max(-20,math.min(20,query.yaw_speed))"]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "custom_sound.capsule_pop2": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/custom_sound/capsule_pop2"
+    ]
+  },
+  "custom_sound.capsule_pop": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/custom_sound/capsule_pop"
+    ]
+  },
+  "custom_sound.capsule_pop3": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/custom_sound/capsule_pop3"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:gray_edible_dye

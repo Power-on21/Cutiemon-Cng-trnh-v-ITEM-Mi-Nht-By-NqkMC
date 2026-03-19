@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:palkia_offering,quantity=1..}] run function palkia
+execute unless entity @p[hasitem={item=serp:palkia_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี palkia Offering!"}]}

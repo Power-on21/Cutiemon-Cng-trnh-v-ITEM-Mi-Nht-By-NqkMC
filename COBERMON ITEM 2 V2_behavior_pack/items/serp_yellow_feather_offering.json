@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "serp:yellow_feather_offering",
+      "menu_category": {
+        "category": "nature"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": false,
+      "minecraft:icon": "serp:yellow_feather_offering",
+      "minecraft:allow_off_hand": false,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:transformable_items"
+        ]
+      },
+      "minecraft:cooldown": {
+        "category": "yellow_feather_offering_cooldown",
+        "duration": 0.5,
+        "type": "use"
+      }
+    }
+  }
+}

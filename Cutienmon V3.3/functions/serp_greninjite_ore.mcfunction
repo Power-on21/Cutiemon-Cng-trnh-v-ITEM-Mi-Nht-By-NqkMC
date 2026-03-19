@@ -1,0 +1,1 @@
+give @s serp:greninjite_ore

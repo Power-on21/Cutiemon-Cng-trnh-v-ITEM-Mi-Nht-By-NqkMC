@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Vượt link để ủng hộ Nqk :)) by NqkMC",
+        "name": "Cutiemon Công trình ITEM V3 Mới Nhất",
+        "uuid": "81400ba4-db75-4fc5-adcf-cc3f650d2523",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 19, 70]
+    },
+    "modules": [
+        {
+            "description": "Vượt link để ủng hộ Nqk :)) by NqkMC",
+            "type": "resources",
+            "uuid": "7d6851e2-078a-418c-8f96-0078cfaaf731",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+      {
+      "uuid": "0a877362-75f6-4254-9f0f-eac45c0027ee",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "shiny_stone_block_e32c1368"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:shiny_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:shiny_stone_block",
+      "count": 1
+    }
+  }
+}

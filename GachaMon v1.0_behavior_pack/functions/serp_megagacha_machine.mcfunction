@@ -1,0 +1,1 @@
+give @s serp:megagacha_machine

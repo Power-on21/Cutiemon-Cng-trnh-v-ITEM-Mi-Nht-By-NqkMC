@@ -1,0 +1,103 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.serpskiploom",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 3, 0]
+				},
+				{
+					"name": "skiploom",
+					"parent": "root",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{"origin": [-3.5, 1, -3.5], "size": [7, 5, 7], "uv": [0, 9]},
+						{"origin": [-0.75, 1, 3.5], "size": [1.5, 1.5, 2], "pivot": [0, 2.5, 3.5], "rotation": [-20, 0, 0], "uv": [0, 4]},
+						{"origin": [-4, 1.5, -3], "size": [1, 4, 6], "uv": [23, 16]},
+						{"origin": [3, 1.5, -3], "size": [1, 4, 6], "uv": [23, 16], "mirror": true},
+						{"origin": [-3, 1.5, -4], "size": [6, 4, 1], "uv": [25, 0]},
+						{"origin": [-3, 1.5, 3], "size": [6, 4, 1], "uv": [25, 0]},
+						{"origin": [-3, 0.5, -3], "size": [6, 1, 6], "uv": [0, 22]},
+						{"origin": [-3, 5.5, -3], "size": [6, 1, 6], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "leaves",
+					"parent": "skiploom",
+					"pivot": [0, 6, 0],
+					"cubes": [
+						{"origin": [-4, 6.6, -4], "size": [8, 0, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "right_ear",
+					"parent": "skiploom",
+					"pivot": [-3.5, 6, 0],
+					"cubes": [
+						{"origin": [-8.5, 6, -2.5], "size": [5, 0, 5], "uv": [17, 10]}
+					]
+				},
+				{
+					"name": "left_ear",
+					"parent": "skiploom",
+					"pivot": [3.5, 6, 0],
+					"cubes": [
+						{"origin": [3.5, 6, -2.5], "size": [5, 0, 5], "uv": [17, 10], "mirror": true}
+					]
+				},
+				{
+					"name": "arms",
+					"parent": "skiploom",
+					"pivot": [0, 2, -3],
+					"rotation": [35, 0, 0],
+					"cubes": [
+						{"origin": [-4, 1.5, -4.5], "size": [1, 1, 2], "pivot": [-3.5, 2, -3], "rotation": [0, 30, 0], "uv": [0, 0]},
+						{"origin": [3, 1.5, -4.5], "size": [1, 1, 2], "pivot": [3.5, 2, -3], "rotation": [0, -30, 0], "uv": [0, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "open_eyes",
+					"parent": "skiploom",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-2, 2.5, -4.1], "size": [4, 2, 0], "uv": [0, 30]}
+					]
+				},
+				{
+					"name": "closed_eyes",
+					"parent": "skiploom",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-2, 2.5, -4.1], "size": [4, 2, 0], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "angry_eyes",
+					"parent": "skiploom",
+					"pivot": [0, 2, 0],
+					"cubes": [
+						{"origin": [-2, 2.5, -4.1], "size": [4, 2, 0], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "root",
+					"pivot": [0, 1, 1],
+					"cubes": [
+						{"origin": [-3, 0, -1.5], "size": [2, 1, 3], "pivot": [-2, 0, 1], "rotation": [0, 25, 0], "uv": [22, 27]},
+						{"origin": [1, 0, -1.5], "size": [2, 1, 3], "pivot": [2, 0, 1], "rotation": [0, -25, 0], "uv": [22, 27], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

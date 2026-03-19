@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "megagacha_machine_black_83aefaf6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:megagacha_machine",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:black_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:megagacha_machine_black",
+      "count": 1
+    }
+  }
+}

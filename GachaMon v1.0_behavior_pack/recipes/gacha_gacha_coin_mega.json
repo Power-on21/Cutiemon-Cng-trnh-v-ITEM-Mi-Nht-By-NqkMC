@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gacha_coin_mega_30e44a6d"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "gacha:gacha_coin",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:netherite_scrap",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "gacha:gacha_coin_mega",
+      "count": 1
+    }
+  }
+}

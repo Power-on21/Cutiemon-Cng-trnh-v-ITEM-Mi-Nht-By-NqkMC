@@ -1,0 +1,22 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:moonball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " e ",
+      "aio",
+      " x "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_blue"},
+      "e":{"item":"serp:apricorn_yellow"},
+      "o":{"item":"serp:apricorn_black"},
+      "x":{"item":"serp:apricorn_white"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:moonball","count":4}
+  }
+}

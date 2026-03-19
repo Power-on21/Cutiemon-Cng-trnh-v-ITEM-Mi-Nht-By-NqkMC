@@ -1,0 +1,297 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.magneton.direction": {
+			"loop": true,
+			"bones": {
+				"magneton": {
+					"rotation": ["query.vertical_speed * -3.0", 0, "-math.max(-20,math.min(20,query.yaw_speed))"]
+				}
+			}
+		},
+		"animation.magneton.health_bar": {
+			"loop": true,
+			"bones": {
+				"health_hover": {
+					"rotation": ["q.camera_rotation(0)", "q.camera_rotation(1)-q.body_y_rotation", 0],
+					"position": [0, 26, 0],
+					"scale": "query.is_in_ui?0:1.5"
+				},
+				"bar_green": {
+					"scale": ["query.health/query.max_health*1", 1, 1]
+				},
+				"bar_black": {
+					"scale": ["(1)+(query.health/query.max_health*-1)", 1, 1]
+				}
+			}
+		},
+		"animation.magneton.sitting": {
+			"loop": true,
+			"bones": {
+				"magnet_left": {
+					"rotation": [0, 20, -30],
+					"position": [0, 1, 0]
+				},
+				"magnet_right": {
+					"rotation": [0, -20, 35],
+					"position": [0, 1, 0]
+				},
+				"body2": {
+					"rotation": [-5, 0, 135],
+					"position": [-4, 6, 0.5]
+				},
+				"nail_left_rotation2": {
+					"rotation": [0, 0, "q.anim_time * 90"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left2": {
+					"rotation": [0, 35, -40],
+					"position": [0, 1, 0]
+				},
+				"magnet_right2": {
+					"rotation": [0, 10, 25]
+				},
+				"body3": {
+					"rotation": [-5, 0, -135],
+					"position": [4, 6, 0.5]
+				},
+				"nail_right_rotation3": {
+					"rotation": [0, 0, "q.anim_time * -90"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left3": {
+					"rotation": [0, -10, -25]
+				},
+				"magnet_right3": {
+					"rotation": [0, -35, 40],
+					"position": [0, 1, 0]
+				},
+				"magnet_left_rotation": {
+					"rotation": ["math.sin(q.anim_time * 90) * 20", -35, 0],
+					"position": [0, 0, 0]
+				},
+				"magnet_right_rotation": {
+					"rotation": ["math.sin(q.anim_time * 90) * 20", 35, 0]
+				},
+				"magnet_left2_rotation": {
+					"rotation": ["0 - math.sin(q.anim_time * 90) * 20", 0, 0]
+				},
+				"magnet_right3_rotation": {
+					"rotation": ["0 - math.sin(q.anim_time * 90) * 20", 0, 0]
+				},
+				"nail_head": {
+					"rotation": [0, "q.anim_time * -90", 0]
+				},
+				"nail_left_rotation": {
+					"rotation": [0, 0, "q.anim_time * -90"]
+				},
+				"nail_right_rotation": {
+					"rotation": [0, 0, "q.anim_time * 90"]
+				},
+				"nail_head2": {
+					"rotation": [0, "q.anim_time * -90", 0]
+				},
+				"magnet_right2_rotation": {
+					"rotation": ["0 + math.sin(q.anim_time * 90) * 20", 0, 0]
+				},
+				"nail_head3": {
+					"rotation": [0, "q.anim_time * 90", 0]
+				},
+				"magnet_left3_rotation": {
+					"rotation": ["0 + math.sin(q.anim_time * 90) * 20", 0, 0]
+				},
+				"pupil": {
+					"position": [0, 0, 0.1]
+				},
+				"pupil_closed": {
+					"position": [0, 0, -0.1]
+				},
+				"pupil2": {
+					"position": [0, 0, 0.1]
+				},
+				"pupil_closed2": {
+					"position": [0, 0, -0.1]
+				},
+				"pupil3": {
+					"position": [0, 0, 0.1]
+				},
+				"pupil_closed3": {
+					"position": [0, 0, -0.1]
+				},
+				"allbodies": {
+					"rotation": [
+						"-15+math.sin((q.anim_time - 0.2) * 90) * 3",
+						"math.sin((q.anim_time - 0.5) * 90) * 3",
+						"Math.Sin(((q.anim_time + 0.4) * 90 * 0.5) * 1) * 2"
+					],
+					"position": ["Math.Sin((q.anim_time * 180 * 0.5) * 1) * 0", "Math.Sin((q.anim_time * 90 * 0.5) * 1) * 0", 0]
+				}
+			}
+		},
+		"animation.magneton.quiet": {
+			"loop": true,
+			"bones": {
+				"magnet_left": {
+					"rotation": [0, 20, -30],
+					"position": [0, 1, 0]
+				},
+				"magnet_right": {
+					"rotation": [0, -20, 35],
+					"position": [0, 1, 0]
+				},
+				"body2": {
+					"rotation": [-5, 0, 135],
+					"position": [-3, 6, 0.5]
+				},
+				"nail_left_rotation2": {
+					"rotation": [0, 0, "q.anim_time * 270"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left2": {
+					"rotation": [0, 35, -40],
+					"position": [0, 1, 0]
+				},
+				"magnet_right2": {
+					"rotation": [0, 10, 25]
+				},
+				"body3": {
+					"rotation": [-5, 0, -135],
+					"position": [3, 6, 0.5]
+				},
+				"nail_right_rotation3": {
+					"rotation": [0, 0, "q.anim_time * -270"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left3": {
+					"rotation": [0, -10, -25]
+				},
+				"magnet_right3": {
+					"rotation": [0, -35, 40],
+					"position": [0, 1, 0]
+				},
+				"magnet_left_rotation": {
+					"rotation": ["-15 + q.anim_time * - 270", 0, 0],
+					"position": [0, 0, 0]
+				},
+				"magnet_right_rotation": {
+					"rotation": ["-15 + q.anim_time * -270", 0, 0]
+				},
+				"magnet_left2_rotation": {
+					"rotation": ["-70 + q.anim_time * 270", 0, 0]
+				},
+				"magnet_right3_rotation": {
+					"rotation": ["110 + q.anim_time * 270", 0, 0]
+				},
+				"nail_head": {
+					"rotation": [0, "q.anim_time * -270 ", 0]
+				},
+				"nail_left_rotation": {
+					"rotation": [0, 0, "q.anim_time * -270"]
+				},
+				"nail_right_rotation": {
+					"rotation": [0, 0, "q.anim_time * 270"]
+				},
+				"nail_head2": {
+					"rotation": [0, "q.anim_time * -270 ", 0]
+				},
+				"magnet_right2_rotation": {
+					"rotation": ["150 + q.anim_time * - 270", -27.5, 0]
+				},
+				"nail_head3": {
+					"rotation": [0, "q.anim_time * 270 ", 0]
+				},
+				"magnet_left3_rotation": {
+					"rotation": ["150 + q.anim_time * - 270", 27.5, 0]
+				},
+				"allbodies": {
+					"rotation": [0, "0 - Math.Sin(((q.anim_time + 0.1) * 180 * 0.5) * 1) * 5", "Math.Sin(((q.anim_time + 0.4) * 180 * 0.5) * 1) * 5"],
+					"position": ["Math.Sin((q.anim_time * 180 * 0.5) * 1) * 1.5", "1+Math.Sin((q.anim_time * 90 * 0.5) * 1) * 1.5", 0]
+				},
+				"body": {
+					"position": [0, 5, 0]
+				}
+			}
+		},
+		"animation.magneton.walk": {
+			"loop": true,
+			"bones": {
+				"magnet_left": {
+					"rotation": [0, 20, -30],
+					"position": [0, 1, 0]
+				},
+				"magnet_right": {
+					"rotation": [0, -20, 35],
+					"position": [0, 1, 0]
+				},
+				"body2": {
+					"rotation": [-5, 0, 135],
+					"position": [-4, 6, 0.5]
+				},
+				"nail_left_rotation2": {
+					"rotation": [0, 0, "q.anim_time * 270"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left2": {
+					"rotation": [0, 35, -40],
+					"position": [0, 1, 0]
+				},
+				"magnet_right2": {
+					"rotation": [0, 10, 25]
+				},
+				"body3": {
+					"rotation": [-5, 0, -135],
+					"position": [4, 6, 0.5]
+				},
+				"nail_right_rotation3": {
+					"rotation": [0, 0, "q.anim_time * -270"],
+					"position": [0, 0, 0]
+				},
+				"magnet_left3": {
+					"rotation": [0, -10, -25]
+				},
+				"magnet_right3": {
+					"rotation": [0, -35, 40],
+					"position": [0, 1, 0]
+				},
+				"magnet_left_rotation": {
+					"rotation": ["-15 + q.anim_time * - 270", 0, 0],
+					"position": [0, 0, 0]
+				},
+				"magnet_right_rotation": {
+					"rotation": ["-15 + q.anim_time * -270", 0, 0]
+				},
+				"magnet_left2_rotation": {
+					"rotation": ["-70 + q.anim_time * 270", 0, 0]
+				},
+				"magnet_right3_rotation": {
+					"rotation": ["110 + q.anim_time * 270", 0, 0]
+				},
+				"nail_head": {
+					"rotation": [0, "q.anim_time * -270 ", 0]
+				},
+				"nail_left_rotation": {
+					"rotation": [0, 0, "q.anim_time * -270"]
+				},
+				"nail_right_rotation": {
+					"rotation": [0, 0, "q.anim_time * 270"]
+				},
+				"nail_head2": {
+					"rotation": [0, "q.anim_time * -270 ", 0]
+				},
+				"magnet_right2_rotation": {
+					"rotation": ["150 + q.anim_time * - 270", -27.5, 0]
+				},
+				"nail_head3": {
+					"rotation": [0, "q.anim_time * 270 ", 0]
+				},
+				"magnet_left3_rotation": {
+					"rotation": ["150 + q.anim_time * - 270", 27.5, 0]
+				},
+				"allbodies": {
+					"rotation": [15, "0 - Math.Sin(((q.anim_time + 0.1) * 180 * 0.5) * 1) * 5", "Math.Sin(((q.anim_time + 0.4) * 180 * 0.5) * 1) * 5"],
+					"position": ["Math.Sin((q.anim_time * 180 * 0.5) * 1) * 1.5", "1+Math.Sin((q.anim_time * 90 * 0.5) * 1) * 1.5", 0]
+				}
+			}
+		}
+	}
+}

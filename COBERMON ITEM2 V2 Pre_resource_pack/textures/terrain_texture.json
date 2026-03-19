@@ -1,0 +1,118 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "po_cosmicdust_shrine": {
+      "textures": [
+        "textures/blocks/po_cosmicdust_shrine"
+      ]
+    },
+    "po_suicune_shrine": {
+      "textures": [
+        "textures/blocks/po_suicune_shrine"
+      ]
+    },
+    "po_entei_shrine": {
+      "textures": [
+        "textures/blocks/po_entei_shrine"
+      ]
+    },
+    "po_palkia_shrine": {
+      "textures": [
+        "textures/blocks/po_palkia_shrine"
+      ]
+    },
+    "po_raikou_shrine": {
+      "textures": [
+        "textures/blocks/po_raikou_shrine"
+      ]
+    },
+    "po_dialga_shrine": {
+      "textures": [
+        "textures/blocks/po_dialga_shrine"
+      ]
+    },
+    "po_zekrom_shrine": {
+      "textures": [
+        "textures/blocks/po_zekrom_shrine"
+      ]
+    },
+    "po_reshiram_shrine": {
+      "textures": [
+        "textures/blocks/po_reshiram_shrine"
+      ]
+    },
+    "po_zygarde_cell": {
+      "textures": [
+        "textures/blocks/po_zygarde_cell"
+      ]
+    },
+    "po_zygarde_shrine": {
+      "textures": [
+        "textures/blocks/po_zygarde_shrine"
+      ]
+    },
+    "pa_bulbarsaur_block": {
+      "textures": [
+        "textures/blocks/pa_bulbarsaur_block"
+      ]
+    },
+    "pa_abra_block": {
+      "textures": [
+        "textures/blocks/pa_abra_block"
+      ]
+    },
+    "pa_charmander_block": {
+      "textures": [
+        "textures/blocks/pa_charmander_block"
+      ]
+    },
+    "pa_itemrocker": {
+      "textures": [
+        "textures/blocks/pa_itemrocker"
+      ]
+    },
+    "pa_geodude_block": {
+      "textures": [
+        "textures/blocks/pa_geodude_block"
+      ]
+    },
+    "pa_jigglypuf_block": {
+      "textures": [
+        "textures/blocks/pa_jigglypuf_block"
+      ]
+    },
+    "pa_koffing_block": {
+      "textures": [
+        "textures/blocks/pa_koffing_block"
+      ]
+    },
+    "pa_pidgey_block": {
+      "textures": [
+        "textures/blocks/pa_pidgey_block"
+      ]
+    },
+    "pa_riolu_bloc": {
+      "textures": [
+        "textures/blocks/pa_riolu_bloc"
+      ]
+    },
+    "pa_sandshrew_block": {
+      "textures": [
+        "textures/blocks/pa_sandshrew_block"
+      ]
+    },
+    "pa_squirtle_block": {
+      "textures": [
+        "textures/blocks/pa_squirtle_block"
+      ]
+    },
+    "pa_voltorb_block": {
+      "textures": [
+        "textures/blocks/pa_voltorb_block"
+      ]
+    }
+  }
+}

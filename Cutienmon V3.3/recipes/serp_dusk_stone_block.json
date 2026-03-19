@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dusk_stone_block_d3455239"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:dusk_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:dusk_stone_block",
+      "count": 1
+    }
+  }
+}

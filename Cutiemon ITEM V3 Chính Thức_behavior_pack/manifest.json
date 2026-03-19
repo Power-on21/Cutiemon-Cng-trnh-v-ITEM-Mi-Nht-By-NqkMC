@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "nhớ vượt link nhé :))) by Nqk MC",
+    "name": "Cobermon Cutiemon V3",
+    "uuid": "ae4d430d-1f88-4869-a62f-ac4fad238629",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "description": "nhớ vượt link nhé :))) by Nqk MC",
+      "type": "data",
+      "uuid": "eebe8a65-8385-40c8-99de-c14f6c15e522",
+      "version": [0, 0, 1]
+    },
+    {
+      "description": "Script Module for Hoopa Summon",
+      "type": "script",
+      "uuid": "7f8e9d0a-1b2c-3d4e-5f6a-7b8c9d0e1f2a",
+      "version": [0, 0, 1],
+      "entry": "scripts/hoopa_summon.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f2289f61-942c-417b-a304-69de72f530f4",
+      "version": [0, 0, 1]
+    },
+    {
+      "version": "1.13.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "1.3.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ],
+  "metadata": {
+    "authors": ["Nqk MC"],
+    "generated_with": {
+      "MAM": ["3.6.7"]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

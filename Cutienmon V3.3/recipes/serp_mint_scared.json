@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mint_scared_fa2a9511"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:pink_mint_leaf",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:blue_mint_leaf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mint_scared",
+      "count": 1
+    }
+  }
+}

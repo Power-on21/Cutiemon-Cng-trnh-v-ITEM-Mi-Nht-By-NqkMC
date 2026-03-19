@@ -1,0 +1,1 @@
+give @s serp:shiny_stone_block

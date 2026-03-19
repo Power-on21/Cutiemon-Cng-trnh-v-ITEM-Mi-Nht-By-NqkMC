@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ideals_offering_40a81ba9"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:pearl_of_justice_offering",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:zekrom_offering1",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:ideals_offering",
+      "count": 1
+    }
+  }
+}

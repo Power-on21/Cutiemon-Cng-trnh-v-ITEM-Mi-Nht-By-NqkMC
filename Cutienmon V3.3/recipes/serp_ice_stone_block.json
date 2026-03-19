@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ice_stone_block_6b0217ad"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:ice_stone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:ice_stone_block",
+      "count": 1
+    }
+  }
+}

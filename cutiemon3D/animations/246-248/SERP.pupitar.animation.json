@@ -1,0 +1,82 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pupitar.quiet": {
+			"loop": true,
+			"bones": {
+				"pupitar": {
+					"rotation": ["20+(Math.cos(q.anim_time*180)*5)", "Math.cos(q.anim_time*1800)*1", 0]
+				}
+			}
+		},
+		"animation.pupitar.walk": {
+			"loop": true,
+			"bones": {
+				"pupitar": {
+					"rotation": ["Math.cos(q.anim_time*360)*15", 0, 0],
+					"position": [0, "1+(Math.sin(q.anim_time*360)*1)", 0]
+				}
+			}
+		},
+		"animation.pupitar.sitting": {
+			"loop": true,
+			"bones": {
+				"pupitar": {
+					"position": [0, -2, 0],
+					"scale": [1, "1+(Math.cos(q.anim_time*90)*0.02)", 1]
+				}
+			}
+		},
+		"animation.pupitar.attack": {
+			"animation_length": 0.8,
+			"bones": {
+				"pupitar": {
+					"rotation": [0, "Math.round(q.anim_time*-900)", "Math.cos(q.anim_time*480)*15"]
+				}
+			}
+		},
+		"animation.pupitar.defeated": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.8,
+			"bones": {
+				"pupitar": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, -15],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2": {
+							"post": [20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [15, 0, 20],
+							"lerp_mode": "catmullrom"
+						},
+						"0.6": {
+							"post": [-15, 0, 10],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": [0, 0, 60]
+					},
+					"position": {
+						"0.2": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4": {
+							"post": [0, 5, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.6": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8": [-8, 1, 0]
+					}
+				}
+			}
+		}
+	}
+}

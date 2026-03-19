@@ -1,0 +1,43 @@
+    {
+    "format_version": 2,
+    "header": {
+        "description": "Vượt link để ủng hộ Nqk :)) by NqkMC",
+        "name": "Cutiemon Công trình ITEM V3 Mới Nhất",
+        "uuid": "0a877362-75f6-4254-9f0f-eac45c0027ee",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 19, 70]
+    },
+    "modules": [
+        {
+        "description": "Vượt link để ủng hộ Nqk :)) by NqkMC",
+        "type": "data",
+        "uuid": "a9e0a901-776f-4da2-981d-8a2b78ed35f4",
+        "version": [0, 0, 1]
+        },
+        {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "239b4181-eb3f-47ac-bc28-c48b989d1096",
+      "entry": "scripts/Main.js",
+      "version": [0, 1, 0]
+    }
+    ],
+    "dependencies": [
+      {
+      "uuid": "81400ba4-db75-4fc5-adcf-cc3f650d2523",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Vượt link để ủng hộ Nqk by NqkMC",
+    "name": "Cutiemon ITEM V3 Chính Thức",
+    "uuid": "c1454045-869e-4b74-9aae-e30c09403687",
+    "version": [
+      1,
+      21,
+      99
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "description": "Vượt link để ủng hộ Nqk by NqkMC",
+      "type": "resources",
+      "uuid": "1b1cb276-5f10-414a-8dc7-21ef5b8aab7c",
+      "version": [
+        1,
+        21,
+        99
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "fbfa1a25-6bc5-4ebe-a939-029f609d1c1e",
+      "version": [
+        1,
+        21,
+        99
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "NqkMC"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.6.8"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

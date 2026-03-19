@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:dreamball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " o ",
+      "aba",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_pink"},
+      "e":{"item":"serp:apricorn_blue"},
+      "o":{"item":"serp:apricorn_red"},
+      "b":{"item":"minecraft:diamond"}
+    },
+    "result":{"item":"serp:dreamball","count":4}
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Este complemento añade máquinas árcade llamadas gachapon, los cuales darán diferentes objetos del addon serp pokedrock. by SVNewer",
+    "name": "GachaMon v1.0",
+    "uuid": "ee6776eb-7322-4bcc-8f1f-33e92a560929",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      30
+    ]
+      },
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["MCRED"]
+  },
+  "modules": [
+    {
+      "description": "Este complemento añade máquinas árcade llamadas gachapon, los cuales darán diferentes objetos del addon serp pokedrock. by SVNewer",
+      "type": "data",
+      "uuid": "96fcc376-330f-4c1f-8cbd-89cf3ebe7198",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "7c1e3bf6-3c1c-46f7-913f-4f1ba55e8a90",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js",
+      "language": "javascript"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "904c5222-68db-4826-9117-089fe7d31122",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "version": "1.19.0",
+      "module_name": "@minecraft/server"
+    },
+    {
+      "version": "1.3.0",
+      "module_name": "@minecraft/server-ui"
+    }
+  ]
+}

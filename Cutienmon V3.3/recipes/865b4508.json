@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_48a91eda"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "ABC"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:hearty_grans",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:honey_bottle",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:potato",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:potato_mochi",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s pa:charmander_block

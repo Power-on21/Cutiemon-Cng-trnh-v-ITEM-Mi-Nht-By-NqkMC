@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Bo Việt Hoá",
+    "name": "Cutiemon Items RP Việt Hoá",
+    "uuid": "3b509f46-d3d7-4a47-8a66-dd18956578c8",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Bo Việt Hoá",
+      "type": "resources",
+      "uuid": "89b07c21-fd40-4b3b-9c5d-9d6581d5ae50",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "f85544dd-1341-4410-b9fd-1d3531eaa2d2",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

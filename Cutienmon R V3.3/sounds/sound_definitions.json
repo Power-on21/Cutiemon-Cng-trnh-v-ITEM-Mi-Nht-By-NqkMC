@@ -1,0 +1,26 @@
+{
+  "custom_sound.open_phone": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/custom_sound/open_phone"
+    ]
+  },
+  "custom_sound.close_phone": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/custom_sound/close_phone"
+    ]
+  },
+  "record.serp_catch_em_all": {
+    "category": "record",
+    "max_distance": 64,
+    "sounds": [
+      {
+        "load_on_low_memory": true,
+        "name": "sounds/records/serp_catch_em_all",
+        "stream": true,
+        "volume": 1
+      }
+    ]
+  }
+}

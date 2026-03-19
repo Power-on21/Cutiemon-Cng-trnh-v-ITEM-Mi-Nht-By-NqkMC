@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_25656e00"
+    },
+    "tags": [
+      "crafting_table",
+      "cooking_pot"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:light_blue_edible_dye",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:enigma_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:rare_candy",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version":"1.10.0",
+  "minecraft:client_entity":{
+    "description":{
+      "identifier":"serp:groudon_shrine",
+      "materials":{"default":"entity_emissive_alpha"},
+      "textures":{
+    "default":"textures/entity/groudon_shrine"
+      },
+      "geometry":{
+    "default":"geometry.groudon_shrine"
+      },
+      "animations":{
+    "persistent":"controller.animation.persistent_particle"
+      },
+      "particle_effects":{
+    "particle":"serp:hoopa_ring_emitter"
+      },
+      "scripts":{
+    "animate":["persistent"]
+      },
+      "render_controllers":["controller.render.groudon_shrine"]
+    }
+  }
+} 

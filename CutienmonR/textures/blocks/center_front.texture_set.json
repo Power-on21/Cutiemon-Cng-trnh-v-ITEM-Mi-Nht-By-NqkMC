@@ -1,0 +1,7 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:texture_set": {
+        "color": "center_front",
+        "metalness_emissive_roughness_subsurface": "center_front_mers"
+    }
+}

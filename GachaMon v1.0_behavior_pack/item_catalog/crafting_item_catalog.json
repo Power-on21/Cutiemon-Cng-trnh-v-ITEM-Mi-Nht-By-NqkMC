@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "icon": "serp:gacha_machine",
+              "name": "pa:itemGroup.name.egachapon"
+            },
+            "items": [
+              "serp:gacha_machine",
+              "serp:gacha_machine_black",
+              "serp:gacha_machine_blue",
+              "serp:gacha_machine_brown",
+              "serp:gacha_machine_cyan",
+              "serp:gacha_machine_gray",
+              "serp:gacha_machine_green",
+              "serp:gacha_machine_light_blue",
+              "serp:gacha_machine_light_gray",
+              "serp:gacha_machine_lime",
+              "serp:gacha_machine_magenta",
+              "serp:gacha_machine_orange",
+              "serp:gacha_machine_pink",
+              "serp:gacha_machine_purple",
+              "serp:gacha_machine_red",
+              "serp:gacha_machine_white",
+              "serp:gacha_machine_yellow",
+              "serp:megagacha_machine",
+              "serp:megagacha_machine_black",
+              "serp:wildgacha_machine"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

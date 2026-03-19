@@ -1,0 +1,147 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.purugly.new": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": [0, 15, 0]
+				},
+				"right_front_leg": {
+					"rotation": [0, 0, 10]
+				},
+				"right_back_leg": {
+					"rotation": [0, 15, 0]
+				},
+				"left_front_leg": {
+					"rotation": [0, 0, -10]
+				}
+			}
+		},
+		"animation.purugly.quiet": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"thigh_fr": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0.25, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"thigh_fl": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0.25, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"thigh_br": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0.25, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"thigh_bl": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0.25, 0],
+						"2.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.purugly.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"thigh_fr": {
+					"rotation": {
+						"0.0": [-25, 0, 0],
+						"0.25": [0, 0, 0],
+						"0.5": [25, 0, 0],
+						"0.75": [0, 0, 0],
+						"1.0": [-25, 0, 0]
+					}
+				},
+				"leg_fr": {
+					"rotation": {
+						"0.0": [15, 0, 0],
+						"0.5": [0, 0, 0],
+						"0.75": [-30, 0, 0],
+						"1.0": [15, 0, 0]
+					}
+				},
+				"thigh_fl": {
+					"rotation": {
+						"0.0": [25, 0, 0],
+						"0.25": [0, 0, 0],
+						"0.5": [-25, 0, 0],
+						"0.75": [0, 0, 0],
+						"1.0": [25, 0, 0]
+					}
+				},
+				"leg_fl": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-30, 0, 0],
+						"0.5": [15, 0, 0],
+						"0.75": [0, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"thigh_br": {
+					"rotation": {
+						"0.0": [35, 0, 0],
+						"0.5": [-35, 0, 0],
+						"1.0": [35, 0, 0]
+					}
+				},
+				"thigh_bl": {
+					"rotation": {
+						"0.0": [-35, 0, 0],
+						"0.5": [35, 0, 0],
+						"1.0": [-35, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.purugly.sitting": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"purugly": {
+					"position": [0, -4, 0]
+				},
+				"neck": {
+					"rotation": [20, 0, 0]
+				},
+				"eye_l": {
+					"position": [0, 0, 0.03]
+				},
+				"eyelid_l": {
+					"position": [0, 0, -0.04]
+				},
+				"eye_r": {
+					"position": [0, 0, 0.03]
+				},
+				"eyelid_r": {
+					"position": [0, 0, -0.04]
+				},
+				"thigh_fr": {
+					"rotation": [-60, 0, 0]
+				},
+				"thigh_fl": {
+					"rotation": [-60, 0, 0]
+				},
+				"thigh_br": {
+					"rotation": [65, 0, 0]
+				},
+				"thigh_bl": {
+					"rotation": [65, 0, 0]
+				}
+			}
+		}
+	}
+}

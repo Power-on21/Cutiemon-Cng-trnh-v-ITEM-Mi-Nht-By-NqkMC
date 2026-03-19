@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_d5233903"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "ABC",
+      "D  "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:apple",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:yellow_edible_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:candied_apple3",
+      "count": 1
+    }
+  }
+}

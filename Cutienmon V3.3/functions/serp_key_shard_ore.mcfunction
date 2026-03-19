@@ -1,0 +1,1 @@
+give @s serp:key_shard_ore

@@ -1,0 +1,1 @@
+give @s serp:palkia_offering2

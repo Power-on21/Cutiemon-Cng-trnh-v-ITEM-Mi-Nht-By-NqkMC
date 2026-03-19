@@ -1,0 +1,12 @@
+give @s pa:bulbarsaur_block
+give @s pa:abra_block
+give @s pa:charmander_block
+give @s pa:itemrocker
+give @s pa:geodude_block
+give @s pa:jigglypuf_block
+give @s pa:koffing_block
+give @s pa:pidgey_block
+give @s pa:riolu_bloc
+give @s pa:sandshrew_block
+give @s pa:squirtle_block
+give @s pa:voltorb_block

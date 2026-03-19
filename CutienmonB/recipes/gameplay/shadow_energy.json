@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:shadow_energy"
+    },
+    "tags":["crafting_table"],
+    "group":"mega",
+    "pattern":[
+      " d ",
+      " f ",
+      " g "
+    ],
+    "key":{
+      "d":{"item":"serp:dark_gem"},
+      "f":{"item":"minecraft:netherite_upgrade_smithing_template"},
+      "g":{"item":"minecraft:diamond"}
+    },
+    "result":{"item":"serp:shadow_energy"}
+  }
+}

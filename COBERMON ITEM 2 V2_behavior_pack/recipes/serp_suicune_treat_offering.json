@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "suicune_treat_offering_eb1cbba6"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EEE"
+    ],
+    "key": {
+      "A": {
+        "item": "serp:apicot_berry",
+        "data": 0
+      },
+      "B": {
+        "item": "serp:ganlon_berry",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:passho_berry",
+        "data": 0
+      },
+      "D": {
+        "item": "serp:box_treat_offering",
+        "data": 0
+      },
+      "E": {
+        "item": "serp:wepear_berry",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:suicune_treat_offering",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @s serp:orange_edible_dye

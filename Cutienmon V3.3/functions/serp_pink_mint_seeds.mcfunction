@@ -1,0 +1,1 @@
+give @s serp:pink_mint_seeds

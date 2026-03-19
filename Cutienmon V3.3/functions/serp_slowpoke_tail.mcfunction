@@ -1,0 +1,1 @@
+give @s serp:slowpoke_tail

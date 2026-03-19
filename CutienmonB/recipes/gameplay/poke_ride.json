@@ -1,0 +1,21 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+      "identifier":"serp:poke_ride"
+    },
+    "tags":["crafting_table"],
+    "group":"equipment",
+    "pattern":[
+      " b ",
+      " s ",
+      " d "
+    ],
+    "key":{
+      "d":{"item":"minecraft:emerald"},
+      "b":{"item":"minecraft:iron_ingot"},
+      "s":{"item":"minecraft:diamond"}
+    },
+    "result":{"item":"serp:poke_ride"}
+  }
+}

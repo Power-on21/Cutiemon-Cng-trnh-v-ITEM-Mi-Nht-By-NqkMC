@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "white_cooking_pot_item_504a1033"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "C C",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:glass_pane",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:apricorn_white",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:white_cooking_pot_item",
+      "count": 1
+    }
+  }
+}

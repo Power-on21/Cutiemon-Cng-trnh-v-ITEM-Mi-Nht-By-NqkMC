@@ -1,0 +1,1 @@
+give @s gacha:superball_capsule

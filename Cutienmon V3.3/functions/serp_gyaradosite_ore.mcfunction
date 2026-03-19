@@ -1,0 +1,1 @@
+give @s serp:gyaradosite_ore

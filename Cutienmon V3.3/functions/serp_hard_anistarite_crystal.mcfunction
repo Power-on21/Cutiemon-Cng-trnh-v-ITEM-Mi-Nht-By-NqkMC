@@ -1,0 +1,1 @@
+give @s serp:hard_anistarite_crystal

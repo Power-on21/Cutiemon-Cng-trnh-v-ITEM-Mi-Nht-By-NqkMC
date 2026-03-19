@@ -1,0 +1,51 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Hãy Chơi Vui Vẻ nha :(( by DrexMC/By Cobblemon",
+    "name": "COBERMON ITEM 2 V2",
+    "uuid": "5ecb0ec8-bdcb-431a-bf0c-bbde1d5ef9aa",
+    "version": [
+      1,
+      21,
+      90
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Hãy Chơi Vui Vẻ nha :(( by DrexMC/By Cobblemon",
+      "type": "resources",
+      "uuid": "8b57dc99-5149-47cb-810b-035e98f981c7",
+      "version": [
+        1,
+        21,
+        90
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "22d1ef99-e490-48c4-8194-1ec83936396d",
+      "version": [
+        1,
+        21,
+        90
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "DrexMC/By Cobblemon"
+    ],
+    "generated_with": {
+      "MAM": [
+        "3.6.6"
+      ]
+    },
+    "url": "https://addonsmaker.com/"
+  }
+}

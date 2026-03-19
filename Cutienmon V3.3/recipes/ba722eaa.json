@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_f2dc30d1"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_lucarionite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:lucarionite",
+      "count": 1
+    }
+  }
+}

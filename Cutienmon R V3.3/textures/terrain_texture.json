@@ -1,0 +1,383 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "serp_aerodactylite_ore": {
+      "textures": [
+        "textures/blocks/serp_aerodactylite_ore"
+      ]
+    },
+    "serp_absolite_ore": {
+      "textures": [
+        "textures/blocks/serp_absolite_ore"
+      ]
+    },
+    "serp_ampharosite_ore": {
+      "textures": [
+        "textures/blocks/serp_ampharosite_ore"
+      ]
+    },
+    "serp_anistarite_crystal": {
+      "textures": [
+        "textures/blocks/serp_anistarite_crystal"
+      ]
+    },
+    "serp_alakazite_ore": {
+      "textures": [
+        "textures/blocks/serp_alakazite_ore"
+      ]
+    },
+    "serp_banettite_ore": {
+      "textures": [
+        "textures/blocks/serp_banettite_ore"
+      ]
+    },
+    "serp_beedrillite_ore": {
+      "textures": [
+        "textures/blocks/serp_beedrillite_ore"
+      ]
+    },
+    "serp_black_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_black_cooking_pot"
+      ]
+    },
+    "serp_blue_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_blue_cooking_pot"
+      ]
+    },
+    "serp_blastoisinite_ore": {
+      "textures": [
+        "textures/blocks/serp_blastoisinite_ore"
+      ]
+    },
+    "serp_blazikenite_ore": {
+      "textures": [
+        "textures/blocks/serp_blazikenite_ore"
+      ]
+    },
+    "serp_blue_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_blue_mint_seeds_stage_0"
+      ]
+    },
+    "serp_blue_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_blue_mint_seeds_stage_1"
+      ]
+    },
+    "serp_blue_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_blue_mint_seeds_stage_2"
+      ]
+    },
+    "serp_blue_prism_ore": {
+      "textures": [
+        "textures/blocks/serp_blue_prism_ore"
+      ]
+    },
+    "serp_charizardite_x_ore": {
+      "textures": [
+        "textures/blocks/serp_charizardite_x_ore"
+      ]
+    },
+    "serp_charizardite_y_ore": {
+      "textures": [
+        "textures/blocks/serp_charizardite_y_ore"
+      ]
+    },
+    "serp_cyan_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_cyan_mint_seeds_stage_0"
+      ]
+    },
+    "serp_cyan_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_cyan_mint_seeds_stage_1"
+      ]
+    },
+    "serp_cyan_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_cyan_mint_seeds_stage_2"
+      ]
+    },
+    "serp_dusk_stone_block": {
+      "textures": [
+        "textures/blocks/serp_dusk_stone_block"
+      ]
+    },
+    "serp_dawn_stone_block": {
+      "textures": [
+        "textures/blocks/serp_dawn_stone_block"
+      ]
+    },
+    "serp_fire_stone_block": {
+      "textures": [
+        "textures/blocks/serp_fire_stone_block"
+      ]
+    },
+    "serp_galarica_nuts_bush": {
+      "textures": [
+        "textures/blocks/serp_galarica_nuts_bush"
+      ]
+    },
+    "serp_garchompite_ore": {
+      "textures": [
+        "textures/blocks/serp_garchompite_ore"
+      ]
+    },
+    "serp_galladite_ore": {
+      "textures": [
+        "textures/blocks/serp_galladite_ore"
+      ]
+    },
+    "serp_gardevoirite_ore": {
+      "textures": [
+        "textures/blocks/serp_gardevoirite_ore"
+      ]
+    },
+    "serp_gengarite_ore": {
+      "textures": [
+        "textures/blocks/serp_gengarite_ore"
+      ]
+    },
+    "serp_green_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_green_mint_seeds_stage_0"
+      ]
+    },
+    "serp_green_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_green_mint_seeds_stage_1"
+      ]
+    },
+    "serp_green_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_green_mint_seeds_stage_2"
+      ]
+    },
+    "serp_green_prism_ore": {
+      "textures": [
+        "textures/blocks/serp_green_prism_ore"
+      ]
+    },
+    "serp_gyaradosite_ore": {
+      "textures": [
+        "textures/blocks/serp_gyaradosite_ore"
+      ]
+    },
+    "serp_hard_anistarite_crystal": {
+      "textures": [
+        "textures/blocks/serp_hard_anistarite_crystal"
+      ]
+    },
+    "serp_greninjite_ore": {
+      "textures": [
+        "textures/blocks/serp_greninjite_ore"
+      ]
+    },
+    "serp_hearty_gran_grass": {
+      "textures": [
+        "textures/blocks/serp_hearty_gran_grass"
+      ]
+    },
+    "serp_heracronite_ore": {
+      "textures": [
+        "textures/blocks/serp_heracronite_ore"
+      ]
+    },
+    "serp_ice_stone_block": {
+      "textures": [
+        "textures/blocks/serp_ice_stone_block"
+      ]
+    },
+    "serp_kangaskhanite_ore": {
+      "textures": [
+        "textures/blocks/serp_kangaskhanite_ore"
+      ]
+    },
+    "serp_lime_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_lime_cooking_pot"
+      ]
+    },
+    "serp_leaf_stone_block": {
+      "textures": [
+        "textures/blocks/serp_leaf_stone_block"
+      ]
+    },
+    "serp_key_shard_ore": {
+      "textures": [
+        "textures/blocks/serp_key_shard_ore"
+      ]
+    },
+    "serp_loot": {
+      "textures": [
+        "textures/blocks/serp_loot"
+      ]
+    },
+    "serp_lucarionite_ore": {
+      "textures": [
+        "textures/blocks/serp_lucarionite_ore"
+      ]
+    },
+    "serp_mewtwonite_y_ore": {
+      "textures": [
+        "textures/blocks/serp_mewtwonite_y_ore"
+      ]
+    },
+    "serp_mewtwonite_x_ore": {
+      "textures": [
+        "textures/blocks/serp_mewtwonite_x_ore"
+      ]
+    },
+    "serp_mints_grass": {
+      "textures": [
+        "textures/blocks/serp_mints_grass"
+      ]
+    },
+    "serp_moon_stone_block": {
+      "textures": [
+        "textures/blocks/serp_moon_stone_block"
+      ]
+    },
+    "serp_pink_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_pink_cooking_pot"
+      ]
+    },
+    "serp_pidgeotite_ore": {
+      "textures": [
+        "textures/blocks/serp_pidgeotite_ore"
+      ]
+    },
+    "serp_pink_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_pink_mint_seeds_stage_0"
+      ]
+    },
+    "serp_pink_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_pink_mint_seeds_stage_1"
+      ]
+    },
+    "serp_pink_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_pink_mint_seeds_stage_2"
+      ]
+    },
+    "serp_red_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_red_cooking_pot"
+      ]
+    },
+    "serp_red_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_red_mint_seeds_stage_0"
+      ]
+    },
+    "serp_red_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_red_mint_seeds_stage_1"
+      ]
+    },
+    "serp_red_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_red_mint_seeds_stage_2"
+      ]
+    },
+    "serp_red_prism_ore": {
+      "textures": [
+        "textures/blocks/serp_red_prism_ore"
+      ]
+    },
+    "serp_sablenite_ore": {
+      "textures": [
+        "textures/blocks/serp_sablenite_ore"
+      ]
+    },
+    "serp_salamancite_ore": {
+      "textures": [
+        "textures/blocks/serp_salamancite_ore"
+      ]
+    },
+    "serp_scizorite_ore": {
+      "textures": [
+        "textures/blocks/serp_scizorite_ore"
+      ]
+    },
+    "serp_shiny_stone_block": {
+      "textures": [
+        "textures/blocks/serp_shiny_stone_block"
+      ]
+    },
+    "serp_sceptilite_ore": {
+      "textures": [
+        "textures/blocks/serp_sceptilite_ore"
+      ]
+    },
+    "serp_slowbronite_ore": {
+      "textures": [
+        "textures/blocks/serp_slowbronite_ore"
+      ]
+    },
+    "serp_steelixite_ore": {
+      "textures": [
+        "textures/blocks/serp_steelixite_ore"
+      ]
+    },
+    "serp_sun_stone_block": {
+      "textures": [
+        "textures/blocks/serp_sun_stone_block"
+      ]
+    },
+    "serp_swamperite_ore": {
+      "textures": [
+        "textures/blocks/serp_swamperite_ore"
+      ]
+    },
+    "serp_thunder_stone_block": {
+      "textures": [
+        "textures/blocks/serp_thunder_stone_block"
+      ]
+    },
+    "serp_venusaurite_ore": {
+      "textures": [
+        "textures/blocks/serp_venusaurite_ore"
+      ]
+    },
+    "serp_white_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_white_cooking_pot"
+      ]
+    },
+    "serp_water_stone_block": {
+      "textures": [
+        "textures/blocks/serp_water_stone_block"
+      ]
+    },
+    "serp_yellow_cooking_pot": {
+      "textures": [
+        "textures/blocks/serp_yellow_cooking_pot"
+      ]
+    },
+    "serp_white_mint_seeds_stage_0": {
+      "textures": [
+        "textures/blocks/serp_white_mint_seeds_stage_0"
+      ]
+    },
+    "serp_white_mint_seeds_stage_1": {
+      "textures": [
+        "textures/blocks/serp_white_mint_seeds_stage_1"
+      ]
+    },
+    "serp_white_mint_seeds_stage_2": {
+      "textures": [
+        "textures/blocks/serp_white_mint_seeds_stage_2"
+      ]
+    }
+  }
+}

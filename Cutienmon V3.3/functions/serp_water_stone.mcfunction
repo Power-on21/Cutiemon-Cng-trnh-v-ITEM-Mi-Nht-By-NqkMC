@@ -1,0 +1,1 @@
+give @s serp:water_stone

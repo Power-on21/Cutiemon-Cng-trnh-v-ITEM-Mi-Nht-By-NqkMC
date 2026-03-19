@@ -1,0 +1,2 @@
+execute if entity @p[hasitem={item=serp:cosmicdust_offering,quantity=1..}] run function cosmicdust
+execute unless entity @p[hasitem={item=serp:cosmicdust_offering,quantity=1..}] run tellraw @p {"rawtext":[{"text":"§cคุณไม่มี cosmicdust Offering!"}]}

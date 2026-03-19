@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_c34817c1"
+    },
+    "tags": [
+      "cooking_pot"
+    ],
+    "pattern": [
+      "AB",
+      " C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:lime_dye",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      "C": {
+        "item": "serp:moomoo_milk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:lime_edible_dye",
+      "count": 1
+    }
+  }
+}

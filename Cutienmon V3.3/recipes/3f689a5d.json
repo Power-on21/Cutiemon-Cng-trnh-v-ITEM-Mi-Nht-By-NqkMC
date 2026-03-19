@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_251c6a29"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:mega_ring",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:purple_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:mega_ring_purple",
+      "count": 1
+    }
+  }
+}

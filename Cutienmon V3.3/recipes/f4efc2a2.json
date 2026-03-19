@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_77ff5f2e"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_steelixite",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:steelixite",
+      "count": 1
+    }
+  }
+}

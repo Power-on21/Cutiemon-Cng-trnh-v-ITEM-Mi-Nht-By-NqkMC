@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "serp:berry_jam_ponigiri",
+      "menu_category": {
+        "category": "equipment",
+        "group": "pa:itemGroup.name.ponigiris"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:glint": false,
+      "minecraft:food": {
+        "saturation_modifier": 1.25,
+        "nutrition": 4,
+        "can_always_eat": false
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_food"
+        ]
+      },
+      "minecraft:allow_off_hand": false,
+      "minecraft:use_animation": "eat",
+      "minecraft:icon": "serp:berry_jam_ponigiri"
+    }
+  }
+}

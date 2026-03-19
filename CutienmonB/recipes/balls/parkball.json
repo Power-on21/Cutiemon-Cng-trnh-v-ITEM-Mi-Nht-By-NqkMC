@@ -1,0 +1,20 @@
+{
+  "format_version":"1.12",
+  "minecraft:recipe_shaped":{
+    "description":{
+    "identifier":"serp:parkball"
+    },
+    "tags":["crafting_table"],
+    "pattern":[
+      " a ",
+      "eie",
+      " e "
+    ],
+    "key":{
+      "a":{"item":"serp:apricorn_red"},
+      "e":{"item":"serp:apricorn_blue"},
+      "i":{"item":"minecraft:iron_ingot"}
+    },
+    "result":{"item":"serp:parkball","count":4}
+  }
+}

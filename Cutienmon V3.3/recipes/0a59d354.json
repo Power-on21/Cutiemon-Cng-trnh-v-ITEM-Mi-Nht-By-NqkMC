@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_52ef0360"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "serp:raw_charizardite_x",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "serp:charizardite_x",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "gacha_machine_cyan_6723b32f"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BC"
+    ],
+    "key": {
+      "B": {
+        "item": "serp:gacha_machine",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:cyan_dye",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "serp:gacha_machine_cyan",
+      "count": 1
+    }
+  }
+}

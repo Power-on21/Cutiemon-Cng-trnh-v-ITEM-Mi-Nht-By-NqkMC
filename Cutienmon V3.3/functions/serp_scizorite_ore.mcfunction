@@ -1,0 +1,1 @@
+give @s serp:scizorite_ore

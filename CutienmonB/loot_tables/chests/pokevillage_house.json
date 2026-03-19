@@ -1,0 +1,36 @@
+{
+  "type":"minecraft:chest",
+  "pools":[
+    {
+      "rolls":{"min":1,"max":3},
+      "entries":[
+{"type":"item","name":"minecraft:gold_nugget","functions":[{"function":"minecraft:set_count","count":{"min":1,"max":3}}]},
+{"type":"item","name":"minecraft:emerald","weight":2,"functions":[{"function":"minecraft:set_count","count":{"min":0,"max":2}}]}
+      ]
+    },
+    {
+      "rolls":{"min":1,"max":3},
+      "entries":[
+{"type":"item","name":"serp:pokeball","functions":[{"function":"minecraft:set_count","count":{"min":2,"max":3}}]},
+{"type":"item","name":"serp:greatball","functions":[{"function":"minecraft:set_count","count":{"min":1,"max":2}}]},
+{"type":"item","name":"serp:ultraball","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:potion","functions":[{"function":"minecraft:set_count","count":{"min":2,"max":3}}]},
+{"type":"item","name":"serp:super_potion","functions":[{"function":"minecraft:set_count","count":{"min":1,"max":2}}]},
+{"type":"item","name":"serp:hyper_potion","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:parkball"}
+      ]
+    },
+    {
+      "rolls":1,
+      "entries":[
+{"type":"item","name":"serp:pichu_plush","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:clefairy_plush","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:linking_cord","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:revive","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":2}}]},
+{"type":"item","name":"serp:max_revive","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]},
+{"type":"item","name":"serp:rare_candy","functions":[{"function":"minecraft:set_count","count":{"min":1,"max":3}}]},
+{"type":"item","name":"serp:dynamax_candy","functions":[{"function":"minecraft:set_count","count":{"min":0,"max":1}}]}
+      ]
+    }
+  ]
+}
